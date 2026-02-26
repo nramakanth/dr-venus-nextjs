@@ -69,7 +69,7 @@ export default function Hero() {
                                 <span className="text-secondary">Dermatology</span>{" "}
                                 Clinic
                             </h1>
-                            <p className="text-[15px] sm:text-base md:text-lg text-gray-600 max-w-xl leading-[1.7] font-sans">
+                            <p className="text-base md:text-lg text-gray-600 max-w-xl leading-[1.7] font-sans">
                                 Hyderabad&apos;s most trusted institute for clinical dermatology,
                                 hair restoration &amp; cosmetic treatments — backed by{" "}
                                 <strong className="text-primary font-semibold">17+ years</strong>{" "}
@@ -118,7 +118,7 @@ export default function Hero() {
                                     <Phone size={15} className="text-secondary" />
                                 </span>
                                 <span>
-                                    <span className="block text-[10px] uppercase tracking-[0.15em] text-gray-400 font-bold leading-none mb-0.5">
+                                    <span className="block text-[11px] uppercase tracking-[0.15em] text-gray-500 font-bold leading-none mb-0.5">
                                         Call Now
                                     </span>
                                     <span className="block text-sm text-primary font-semibold leading-tight">
@@ -129,21 +129,21 @@ export default function Hero() {
                         </div>
 
                         {/* Trust Stats */}
-                        <div className="flex items-center gap-5 sm:gap-8 pt-5 border-t border-gray-200/60 w-full max-w-md">
+                        <div className="flex flex-wrap items-center gap-y-5 gap-x-6 sm:gap-x-8 pt-6 border-t border-gray-200/80 w-full max-w-lg">
                             {[
-                                { icon: <Award size={18} />, value: "17+", label: "Years Exp." },
-                                { icon: <Users size={18} />, value: "25K+", label: "Patients" },
-                                { icon: <Star size={18} />, value: "4.9★", label: "Google Rating" },
+                                { icon: <Award size={20} />, value: "17+", label: "Years Exp." },
+                                { icon: <Users size={20} />, value: "25K+", label: "Patients" },
+                                { icon: <Star size={20} />, value: "4.9★", label: "Google Rating" },
                             ].map((stat, idx) => (
-                                <div key={idx} className="flex items-center gap-2.5 group">
-                                    <div className="w-9 h-9 rounded-lg bg-primary/[0.06] flex items-center justify-center text-primary group-hover:text-secondary transition-colors">
+                                <div key={idx} className="flex items-center gap-3 group">
+                                    <div className="w-10 h-10 rounded-xl bg-primary/[0.07] flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                                         {stat.icon}
                                     </div>
-                                    <div>
-                                        <p className="text-base font-serif text-primary font-bold leading-none">
+                                    <div className="flex flex-col">
+                                        <p className="text-lg font-serif text-primary font-bold leading-none">
                                             {stat.value}
                                         </p>
-                                        <p className="text-[9px] uppercase tracking-[0.12em] text-gray-400 font-bold mt-0.5">
+                                        <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.12em] text-gray-500 font-bold mt-1.5">
                                             {stat.label}
                                         </p>
                                     </div>
@@ -197,7 +197,7 @@ export default function Hero() {
                                     <div className="text-2xl md:text-3xl font-serif font-bold text-primary tracking-tight">
                                         {s.value}
                                     </div>
-                                    <div className="text-[9px] md:text-[10px] uppercase tracking-[0.15em] font-bold text-primary/50">
+                                    <div className="text-[10px] md:text-[11px] uppercase tracking-[0.15em] font-bold text-primary/60">
                                         {s.label}
                                     </div>
                                 </div>

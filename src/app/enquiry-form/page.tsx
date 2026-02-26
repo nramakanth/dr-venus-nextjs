@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import EnquiryFormSection from "@/components/EnquiryFormSection";
 
 export const metadata = {
     title: "Contact Us | Dr. Venus – Institute of Skin & Hair",
@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function ContactPage() {
     return (
-        <main className="pt-20">
-            {/* <ContactForm /> */}
+        <main>
+            <EnquiryFormSection />
         </main>
     );
 }

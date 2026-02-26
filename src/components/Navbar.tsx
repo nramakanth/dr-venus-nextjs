@@ -74,12 +74,12 @@ const navItems = [
         ]
     },
     {
-        name: "Contact Us",
-        href: "/contact",
+        name: "Enquiry",
+        href: "/enquiry-form",
         dropdown: [
-            { name: "Reach Out", href: "/appointment-form" },
-            { name: "Our Clinics", href: "/locations" },
-            { name: "FAQs", href: "/faq" },
+            { name: "Enquiry Form", href: "/enquiry-form" },
+            { name: "Appointment Form", href: "/appointment-form" },
+            { name: "Training Contact Form", href: "/training-contact-form" },
         ]
     },
 ];

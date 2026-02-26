@@ -156,7 +156,7 @@ export default function ServiceSidebar() {
                         {
                             title: "Facelift: The Ultimate Guide to Reversing Skin Age for Every Gender",
                             date: "Feb 03, 2025",
-                            image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=200",
+                            image: "/images/clinical-care.png",
                         },
                         {
                             title: "K-Beauty and Skin Lightening: Does It Work for Indian Women?",

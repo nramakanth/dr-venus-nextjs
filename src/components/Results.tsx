@@ -5,8 +5,8 @@ export default function Results() {
         <section className="py-24 px-6 bg-[#1f4d3a] text-white">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16 space-y-4">
-                    <h2 className="text-[10px] uppercase tracking-[0.3em] font-bold text-white/60 font-sans">Transformations</h2>
-                    <h3 className="text-4xl md:text-5xl font-serif">Real Results, Real People</h3>
+                    <h2 className="text-[11px] md:text-[12px] uppercase tracking-[0.4em] font-medium text-white/80 mb-3 font-sans">Transformations</h2>
+                    <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif text-white leading-tight">Real Results, Real People</h3>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

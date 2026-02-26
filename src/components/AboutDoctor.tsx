@@ -27,11 +27,11 @@ export default function AboutDoctor() {
                     <div className="w-full lg:w-[68%] space-y-6 md:space-y-8">
                         {/* 1) Subtle Label & Refined Heading */}
                         <div className="space-y-3">
-                            <div className="text-[11px] md:text-[12px] uppercase tracking-[0.3em] font-bold text-primary/80 flex items-center gap-2">
+                            <div className="text-[11px] md:text-[12px] uppercase tracking-[0.4em] font-medium text-primary/80 flex items-center gap-2 font-sans">
                                 <span className="w-6 h-px bg-primary/20"></span>
                                 Leadership Excellence
                             </div>
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-serif text-primary leading-tight">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary leading-tight">
                                 Award Winning <span className="italic">Dermatologist</span> in Hyderabad
                             </h2>
                         </div>
@@ -48,13 +48,17 @@ export default function AboutDoctor() {
                             <div className="space-y-4">
                                 <div>
                                     <h4 className="text-xl font-bold font-serif text-primary">Dr. Venu Kumari</h4>
-                                    <p className="text-[10px] uppercase tracking-widest text-primary/50 font-bold">Medical Director</p>
+                                    <p className="text-[11px] md:text-[12px] uppercase tracking-[0.2em] text-primary/60 font-bold">Medical Director</p>
                                 </div>
-                                <div className="space-y-3">
-                                    <p className="text-[13px] text-gray-400 font-medium">MBBS, MD – <span className="text-gray-600">Dermatology, Venereology & Leprosy</span></p>
-                                    <div className="flex flex-wrap gap-2">
+                                <div className="space-y-4">
+                                    <p className="text-sm md:text-base text-gray-500 font-medium leading-relaxed">
+                                        MBBS, MD – <span className="text-gray-800">Dermatology, Venereology & Leprosy</span>
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 md:gap-2.5">
                                         {["Trichologist", "Aesthetic Expert", "Dermatosurgeon", "Immunodermatologist", "Cosmetologist"].map(s => (
-                                            <span key={s} className="text-[9px] uppercase tracking-widest font-bold text-primary/80 bg-primary/10 px-2.5 py-1 rounded-md">{s}</span>
+                                            <span key={s} className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-primary bg-primary/[0.07] px-3 py-1.5 rounded-lg border border-primary/5 shadow-sm shadow-primary/[0.02]">
+                                                {s}
+                                            </span>
                                         ))}
                                     </div>
                                 </div>
@@ -63,18 +67,18 @@ export default function AboutDoctor() {
                             <div className="grid grid-cols-2 gap-x-8 gap-y-6 md:border-l md:border-primary/10 md:pl-10">
                                 <div>
                                     <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">17<span className="text-base text-primary/30 ml-0.5">+</span></div>
-                                    <p className="text-[9px] uppercase tracking-widest font-bold text-gray-700">Total Years Exp.</p>
+                                    <p className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-gray-600">Total Years Exp.</p>
                                 </div>
                                 <div>
                                     <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">11<span className="text-base text-primary/30 ml-0.5">+</span></div>
-                                    <p className="text-[9px] uppercase tracking-widest font-bold text-gray-700">As Specialist</p>
+                                    <p className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-gray-600">As Specialist</p>
                                 </div>
                                 <div className="col-span-2">
                                     <a href="tel:+917777977027" className="inline-flex items-center gap-3 text-primary group/phone">
                                         <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover/phone:bg-primary group-hover/phone:text-white transition-all duration-300">
                                             <Phone size={14} />
                                         </div>
-                                        <span className="text-[13px] font-bold tracking-tight">+91 77779 77027</span>
+                                        <span className="text-sm md:text-base font-bold tracking-tight group-hover/phone:text-primary transition-colors">+91 77779 77027</span>
                                     </a>
                                 </div>
                             </div>

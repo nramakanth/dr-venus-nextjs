@@ -6,25 +6,25 @@ import { Mail, Phone, Instagram, Facebook, Youtube, Linkedin, ArrowRight, MapPin
 
 const branches = [
     {
-        name: "Kondapur Branch",
-        title: "Aesthetics & Anti-Aging Center",
-        address: "3rd Floor, SSS SQUARE Building, Opp To Sarath City Capital Mall, Kondapur, Hyderabad, TS 500084.",
+        name: "Kondapur Branch:",
+        title: "Dr. Venus Institute of Aesthetics & Anti-Aging",
+        address: "3rd Floor, SSS SQUARE Building, Opp To Sarath City Capital Mall, Kondapur, HITECH City, Hyderabad, TS 500084.",
         phone: "+91 77779 77027",
-        mapUrl: "https://maps.google.com/?q=Dr.+Venus+Kondapur+SSS+Square+HITECH+City+Hyderabad",
+        mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.044629246169!2d78.3660392!3d17.4575779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9326b120dcbf%3A0xbc45f6945edefd1!2sDr.%20Venus!5e0!3m2!1sen!2sin!4v1772099728953!5m2!1sen!2sin",
     },
     {
-        name: "Chandanagar Branch",
-        title: "Skin & Hair Institute",
-        address: "Door No 104, 2nd Floor, above Khazana Jewellery, Gangaram, Chanda Nagar, Hyderabad, TS 500050.",
+        name: "Chandanagar Branch:",
+        title: "Dr. Venus Institute of Skin & Hair",
+        address: "Door No 104, 2nd Floor, above Khazana Jewellery, Gangaram, Engineers Enclave, Chanda Nagar, Hyderabad, TS 500050.",
         phone: "+91 77779 77027",
-        mapUrl: "https://maps.google.com/?q=Dr.+Venus+Chandanagar+Khazana+Jewellery+Hyderabad",
+        mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3805.27120966839!2d78.3337805!3d17.4945623!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92895dc3cf6b%3A0x296c1886e753d824!2sDr.%20Venus!5e0!3m2!1sen!2sin!4v1772101019959!5m2!1sen!2sin",
     },
     {
-        name: "Toli Chowki Branch",
-        title: "Dermatology & Laser Clinic",
-        address: "1st Floor, above Burger King, Galaxy, Deluxe Colony, Toli Chowki, Hyderabad, Telangana 500008.",
+        name: "Toli Chowki Branch:",
+        title: "Dr. Venus Institute of Skin, Hair, Lasers & Weight Loss",
+        address: "1st Floor, above Burger King, Galaxy, Deluxe Colony, Janaki Nagar Colony, Toli Chowki, Hyderabad, Telangana 500008.",
         phone: "+91 77779 77027",
-        mapUrl: "https://maps.google.com/?q=Dr.+Venus+Toli+Chowki+Burger+King+Hyderabad",
+        mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.190521995723!2d78.41127879999999!3d17.402642099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb973b12ff30fd%3A0x31d3b9c77159d038!2sDr.%20Venus!5e0!3m2!1sen!2sin!4v1772101059225!5m2!1sen!2sin",
         special: "New!"
     }
 ];
@@ -53,32 +53,47 @@ export default function Footer() {
                     <div className="max-w-7xl mx-auto px-6">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10">
                             {branches.map((branch, index) => (
-                                <div key={index} className="bg-[#143d2c] border border-white/10 p-7 rounded-[2rem] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 hover:-translate-y-3 group">
-                                    <div className="flex justify-between items-start mb-5">
-                                        <div className="space-y-1">
-                                            <p className="text-accent text-[10px] font-bold uppercase tracking-[0.2em]">{branch.name}</p>
-                                            <h3 className="font-serif text-lg leading-tight group-hover:text-accent transition-colors">{branch.title}</h3>
+                                <div key={index} className="bg-[#143d2c] border border-white/5 p-5 md:p-6 rounded-[1.5rem] shadow-[0_20px_40px_-12px_rgba(0,0,0,0.5)] transition-all duration-500  group flex flex-col h-full">
+                                    <div className="space-y-4 flex-grow">
+                                        <div className="flex justify-between items-start gap-3">
+                                            <h3 className="font-sans text-base md:text-lg font-extrabold text-white leading-tight">
+                                                {branch.title}
+                                            </h3>
+                                            {branch.special && (
+                                                <span className="bg-accent text-primary px-2 py-0.5 rounded-full text-[9px] font-bold uppercase shrink-0">
+                                                    {branch.special}
+                                                </span>
+                                            )}
                                         </div>
-                                        {branch.special && (
-                                            <span className="bg-accent text-primary px-2 py-0.5 rounded-full text-[9px] font-bold uppercase animate-pulse">{branch.special}</span>
-                                        )}
-                                    </div>
-                                    <p className="text-white/50 text-[11px] leading-relaxed mb-6 flex-grow">
-                                        {branch.address}
-                                    </p>
-                                    <div className="flex items-center justify-between border-t border-white/5 pt-5">
-                                        <a href={`tel:${branch.phone}`} className="flex items-center gap-2 text-[13px] font-bold hover:text-accent transition-colors">
-                                            <Phone size={13} className="text-accent" />
-                                            {branch.phone}
-                                        </a>
-                                        <a
-                                            href={branch.mapUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="flex items-center gap-1.5 text-[10px] font-bold text-accent italic group-hover:gap-2 transition-all"
-                                        >
-                                            View Map <ArrowRight size={11} />
-                                        </a>
+
+                                        <div className="space-y-3">
+                                            <p className="text-[#a3c9b8] text-[13px] md:text-sm font-semibold">
+                                                {branch.name}
+                                            </p>
+                                            <p className="text-white/60 text-[12px] md:text-[13px] leading-relaxed font-sans">
+                                                {branch.address}
+                                            </p>
+                                        </div>
+
+                                        <div className="flex justify-between items-center pt-4 border-t border-white/5 mt-auto">
+                                            <a
+                                                href={`tel:${branch.phone}`}
+                                                className="text-[#47c1f8] text-sm md:text-base font-bold hover:brightness-110 transition-all font-sans flex items-center gap-2"
+                                            >
+                                                <Phone size={14} className="opacity-70" />
+                                                {branch.phone}
+                                            </a>
+
+                                            <a
+                                                href={branch.mapUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="flex items-center gap-2 text-[12px] md:text-[13px] font-bold text-[#64c194] group/link hover:brightness-110 transition-all"
+                                            >
+                                                <Map size={14} className="opacity-70" />
+                                                <span className="group-hover/link:underline">View Map</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             ))}

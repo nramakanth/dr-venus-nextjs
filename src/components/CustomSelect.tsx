@@ -15,6 +15,7 @@ interface CustomSelectProps {
     value?: string;
     onChange: (name: string, value: string) => void;
     required?: boolean;
+    className?: string; // New prop for custom styling
 }
 
 export default function CustomSelect({
@@ -24,6 +25,7 @@ export default function CustomSelect({
     value = "",
     onChange,
     required = false,
+    className = "", // Default to empty
 }: CustomSelectProps) {
     const [open, setOpen] = useState(false);
     const ref = useRef<HTMLDivElement>(null);
@@ -80,13 +82,14 @@ export default function CustomSelect({
                 aria-haspopup="listbox"
                 aria-expanded={open}
                 className={`
-                    w-full px-5 py-4 bg-white border rounded-2xl text-left font-sans text-sm
+                    w-full bg-white border rounded-2xl text-left font-sans text-sm
                     flex items-center justify-between gap-2
                     transition-all duration-200 outline-none
                     ${open
                         ? "border-accent ring-2 ring-accent/20 shadow-sm"
                         : "border-primary/10 hover:border-primary/30"
                     }
+                    ${className} 
                 `}
             >
                 <span className={selected ? "text-primary font-medium" : "text-primary/60"}>

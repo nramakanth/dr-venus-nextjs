@@ -18,7 +18,7 @@ const treatments = [
     {
         title: "Hair Transplants",
         description: "Natural-looking results with DHT techniques.",
-        image: "https://images.unsplash.com/photo-1519781542704-957ee19f6e9b?auto=format&fit=crop&q=80&w=800",
+        image: "/images/hair-transplant.png",
         link: "/hair-transplant"
     },
       {
@@ -36,7 +36,7 @@ const treatments = [
     {
         title: "Laser Removal",
         description: "Silky smooth skin with safe laser technology.",
-        image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc206c?auto=format&fit=crop&q=80&w=800",
+        image: "/images/laser-removal.png",
         link: "/laser-hair-removal"
     },
     {
@@ -49,7 +49,7 @@ const treatments = [
 
 export default function Treatments() {
     return (
-        <section className="py-12 md:py-20 px-6 bg-white overflow-hidden">
+        <section className="py-12 md:py-16 px-6 bg-white overflow-hidden">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-8 md:mb-12">
                     <h2 className="text-[11px] md:text-[12px] uppercase tracking-[0.4em] font-medium text-primary/80 mb-3 font-sans">Our Expertise</h2>

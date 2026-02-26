@@ -206,6 +206,166 @@ export const allTreatments: Treatment[] = [
             These growths are caused by the <a href="https://en.wikipedia.org/wiki/Human_papillomavirus_infection" target="_blank" 
              rel="noopener noreferrer"class="text-blue-600 underline">Human Papillomavirus</a> (HPV) family of viruses.
         </p>
+        image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "wart-removal",
+        title: "Wart Removal",
+        category: "skin",
+        description: "Safe and painless removal of unwanted warts.",
+        content: "Warts are small, grain-like skin growths that can appear anywhere on the body. Our advanced removal techniques ensure minimal discomfort and no scarring, giving you smooth skin once again.",
+        image: "https://images.unsplash.com/photo-1596704017254-9b121068fb29?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "mole-removal",
+        title: "Mole Removal",
+        category: "skin",
+        description: "Professional mole removal for aesthetic and health reasons.",
+        content: "Whether it's for cosmetic reasons or health concerns, our specialists use precise methods to remove moles safely, ensuring the best possible aesthetic outcome.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "acne-scar-removal",
+        title: "Acne Scar Removal",
+        category: "skin",
+        description: "Smooth out your skin and regain your confidence.",
+        content: "Acne scars can be a lasting reminder of past breakouts. We offer various treatments like laser therapy and microneedling to significantly reduce the appearance of scars and improve skin texture.",
+        image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "laser-hair-removal",
+        title: "Laser Hair Removal",
+        category: "skin",
+        description: "Permanent reduction of unwanted hair for smooth skin.",
+        content: "Say goodbye to shaving and waxing. Our state-of-the-art laser technology provides a safe, effective, and long-term solution for unwanted hair on any part of the body.",
+        image: "/images/laser-removal.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "tattoo-removal",
+        title: "Tattoo Removal",
+        category: "skin",
+        description: "Advanced laser technology to fade unwanted tattoos.",
+        content: "Regretting a tattoo? Our advanced laser removal treatments can help fade or completely remove unwanted ink with minimal impact on the surrounding skin.",
+        image: "https://images.unsplash.com/photo-1504198453319-5ce911baf2ea?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "skin-lightening",
+        title: "Skin Lightening",
+        category: "skin",
+        description: "Brighten your complexion with safe and effective treatments.",
+        content: "Our skin lightening treatments focus on reducing uneven skin tone and hyperpigmentation, giving you a brighter and more radiant complexion safely.",
+        image: "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "pigmentation-treatment",
+        title: "Pigmentation Treatment",
+        category: "skin",
+        description: "Targeted solutions for dark spots and uneven skin tone.",
+        content: "Pigmentation can be caused by sun exposure, aging, or hormonal changes. We offer specialized treatments to target dark spots and restore an even, balanced skin tone.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+
+    // HAIR RESTORATION
+    {
+        slug: "hair-transplant",
+        title: "Hair Transplant",
+        category: "hair",
+        description: "Natural-looking hair restoration with DHT & FUE techniques.",
+        content: "Our hair transplant procedures use advanced Direct Hair Transplantation (DHT) and Follicular Unit Extraction (FUE) techniques to ensure the highest graft survival rate and a natural-looking hairline.",
+        image: "/images/hair-transplant.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "beard-hair-transplant",
+        title: "Beard Hair Transplant",
+        category: "hair",
+        description: "Get a fuller, more defined beard with precision grafting.",
+        content: "For men looking to achieve a thicker and more even beard, our specialized beard hair transplant uses facial hair grafting techniques to deliver natural results that match your existing facial hair density.",
+        image: "https://images.unsplash.com/photo-1599351431247-f132f82f23f9?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "moustache-hair-transplant",
+        title: "Moustache Hair Transplant",
+        category: "hair",
+        description: "Restore or enhance your moustache with precision.",
+        content: "Moustache transplants help in restoring density or filling in gaps caused by scarring or genetics. Our precision techniques ensure the transplanted hair grows in the correct direction for a natural look.",
+        image: "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "eyebrow-hair-transplant",
+        title: "Eyebrow Hair Transplant",
+        category: "hair",
+        description: "Perfectly shaped, fuller eyebrows that last a lifetime.",
+        content: "Eyebrow transplants are a permanent solution for thin or over-plucked eyebrows. We carefully select and transplant individual hair follicles to mimic the natural shape and density of beautiful brows.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+
+    // FACIAL AESTHETICS
+    {
+        slug: "anti-aging-treatment",
+        title: "Anti-Aging Treatment",
+        category: "facial",
+        description: "Turn back the clock with advanced anti-aging solutions.",
+        content: "Our anti-aging treatments combine medical-grade skincare with advanced technology to reduce fine lines, wrinkles, and age spots, leaving you with skin that looks and feels younger.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "anti-wrinkle-treatment",
+        title: "Anti-Wrinkle Treatment",
+        category: "facial",
+        description: "Smooth out fine lines and wrinkles for a refreshed look.",
+        content: "Targeting specific dynamic wrinkles, our treatments help relax the muscles that cause lines, giving you a smoother forehead, crow's feet, and frown lines.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "dermal-fillers",
+        title: "Dermal Fillers",
+        category: "facial",
+        description: "Restore volume and contour to your face.",
+        content: "Dermal fillers are used to add volume to sunken cheeks, smooth nasolabial folds, and enhance facial contours, providing an immediate lift and youthful appearance.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "lip-fillers",
+        title: "Lip Fillers",
+        category: "facial",
+        description: "Achieve fuller, perfectly shaped lips.",
+        content: "Our lip enhancement procedures focus on providing natural-looking volume and defining the lip borders, tailored to your unique facial structure.",
+        image: "https://images.unsplash.com/photo-1516394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "skin-lifting",
+        title: "Skin Lifting",
+        category: "facial",
+        description: "Non-surgical face lift for a contoured appearance.",
+        content: "Using the latest thread lift or HIFU technology, we provide non-surgical options to lift and tighten the skin, offering a more defined jawline and youthful neckline.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        slug: "facial-rejuvenation",
+        title: "Facial Rejuvenation",
+        category: "facial",
+        description: "Complete facial renewal for a glowing complexion.",
+        content: "Our facial rejuvenation treatments combine peels, lasers, and professional skincare to address multiple concerns simultaneously, resulting in a healthy, radiant glow.",
+        image: "/images/clinical-care.png",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
 
         <p class="mt-4">
             <a href="https://en.wikipedia.org/wiki/Wart" target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">

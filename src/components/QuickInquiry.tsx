@@ -1,37 +1,52 @@
 "use client";
 
-import React from "react";
-import { Users, Phone, ArrowRight, MessageSquare, Sparkles } from "lucide-react";
+import React, { useState } from "react";
+import { Users, Phone, ArrowRight, MessageSquare, Sparkles, ChevronDown } from "lucide-react";
+import CustomSelect from "./CustomSelect";
+
+const treatmentOptions = [
+    { value: "Skin", label: "Skin" },
+    { value: "Hair", label: "Hair" },
+    { value: "Facial Aesthetics", label: "Facial Aesthetics" },
+    { value: "Body", label: "Body" },
+    { value: "Other", label: "Other" },
+];
 
 export default function QuickInquiry() {
+    const [selectedTreatment, setSelectedTreatment] = useState("");
+
+    const handleSelectChange = (name: string, value: string) => {
+        setSelectedTreatment(value);
+    };
+
     return (
-        <section className="relative z-20 -mt-8 pb-12">
+        <section className="relative z-20 -mt-10 md:-mt-8 pb-14">
             <div className="max-w-[1400px] mx-auto px-5 sm:px-8 lg:px-10">
                 <div className="relative group">
                     {/* Ultra-slim glass container */}
-                    <div className="relative bg-white/95 backdrop-blur-xl border border-primary/5 rounded-2xl md:rounded-[1.5rem] p-1.5 md:p-2 shadow-[0_15px_40px_rgba(31,77,58,0.06)]">
-                        <div className="flex flex-col lg:flex-row items-center gap-3">
+                    <div className="relative bg-white border border-primary/10 rounded-2xl md:rounded-[1.75rem] p-2 md:p-2.5 shadow-[0_20px_50px_rgba(31,77,58,0.08)] backdrop-blur-md">
+                        <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-4">
 
-                            {/* Minimal Left Label - Compact */}
-                            <div className="lg:w-[15%] bg-primary rounded-[1rem] py-3 px-5 flex items-center justify-center lg:justify-start gap-3 shrink-0">
-                                <Sparkles size={14} className="text-secondary" />
-                                <span className="text-white font-serif font-bold text-sm tracking-wide whitespace-nowrap">
+                            {/* Left Label - Prominent on all screens */}
+                            <div className="lg:w-[15%] bg-primary rounded-xl md:rounded-[1.25rem] py-3.5 px-6 flex items-center justify-center lg:justify-start gap-3 shrink-0">
+                                <Sparkles size={16} className="text-secondary" />
+                                <span className="text-white font-serif font-bold text-sm md:text-base tracking-wide whitespace-nowrap">
                                     Quick Inquiry
                                 </span>
                             </div>
 
                             {/* Ultra-slim Horizontal Form */}
                             <div className="flex-1 w-full lg:px-2">
-                                <form className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-3">
+                                <form className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3.5">
 
                                     {/* Name */}
                                     <div className="relative">
                                         <input
                                             type="text"
                                             placeholder="Full Name"
-                                            className="w-full bg-gray-50/50 border border-gray-100 focus:border-primary/20 focus:bg-white rounded-xl px-4 py-2.5 text-[13px] outline-none transition-all placeholder:text-gray-400"
+                                            className="w-full bg-white border border-primary/20 focus:border-secondary focus:ring-1 focus:ring-secondary/20 rounded-xl px-4 py-3 text-sm text-primary font-medium outline-none transition-all placeholder:text-gray-400"
                                         />
-                                        <Users size={14} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-300" />
+                                        <Users size={15} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" />
                                     </div>
 
                                     {/* Phone */}
@@ -39,29 +54,30 @@ export default function QuickInquiry() {
                                         <input
                                             type="tel"
                                             placeholder="Phone Number"
-                                            className="w-full bg-gray-50/50 border border-gray-100 focus:border-primary/20 focus:bg-white rounded-xl px-4 py-2.5 text-[13px] outline-none transition-all placeholder:text-gray-400"
+                                            className="w-full bg-white border border-primary/20 focus:border-secondary focus:ring-1 focus:ring-secondary/20 rounded-xl px-4 py-3 text-sm text-primary font-medium outline-none transition-all placeholder:text-gray-400"
                                         />
-                                        <Phone size={14} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-300" />
+                                        <Phone size={15} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" />
                                     </div>
 
                                     {/* Service */}
                                     <div className="relative">
-                                        <select className="w-full bg-gray-50/50 border border-gray-100 focus:border-primary/20 focus:bg-white rounded-xl px-4 py-2.5 text-[13px] outline-none transition-all appearance-none cursor-pointer text-gray-500">
-                                            <option value="">Select Treatment</option>
-                                            <option value="skin">Skin Care</option>
-                                            <option value="hair">Hair restoration</option>
-                                            <option value="laser">Laser Therapy</option>
-                                        </select>
-                                        <MessageSquare size={14} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-300" />
+                                        <CustomSelect
+                                            name="treatment"
+                                            options={treatmentOptions}
+                                            value={selectedTreatment}
+                                            onChange={handleSelectChange}
+                                            placeholder="Select Service"
+                                            className="px-4 py-3 border-primary/20"
+                                        />
                                     </div>
 
                                     {/* Submit Button - Compact */}
                                     <button
                                         type="submit"
-                                        className="bg-primary text-white font-bold px-6 py-2.5 rounded-xl text-[13px] shadow-lg shadow-primary/10 hover:shadow-xl hover:bg-primary/95 transition-all flex items-center justify-center gap-2 group"
+                                        className="bg-secondary text-primary font-bold px-8 py-3 rounded-xl text-sm shadow-lg shadow-secondary/10 hover:shadow-xl hover:bg-secondary/90 transition-all flex items-center justify-center gap-2 group"
                                     >
                                         Get Call Back
-                                        <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                                        <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
                                     </button>
 
                                 </form>
@@ -70,18 +86,10 @@ export default function QuickInquiry() {
                     </div>
                 </div>
 
-                {/* Micro-trust indicators - More subtle */}
-                <div className="flex items-center justify-center gap-6 mt-4 opacity-50">
-                    <span className="text-[10px] font-bold text-primary uppercase tracking-widest flex items-center gap-1.5">
-                        <div className="w-1 h-1 rounded-full bg-secondary"></div>
-                        Privacy Protected
-                    </span>
-                    <span className="text-[10px] font-bold text-primary uppercase tracking-widest flex items-center gap-1.5">
-                        <div className="w-1 h-1 rounded-full bg-secondary"></div>
-                        FDA Approved
-                    </span>
-                </div>
+                {/* Micro-trust indicators */}
+
             </div>
         </section>
     );
 }
+

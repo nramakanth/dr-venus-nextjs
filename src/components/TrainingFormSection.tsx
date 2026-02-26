@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { MapPin, Phone, Mail, Clock, User, MessageSquare, ChevronRight, Map as MapIcon } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, User, MessageSquare, ChevronRight, GraduationCap, Briefcase, BookOpen } from "lucide-react";
 import CustomSelect from "./CustomSelect";
 
 const branches = [
@@ -34,39 +34,33 @@ const branches = [
     }
 ];
 
-export default function AppointmentFormSection() {
+export default function TrainingFormSection() {
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
         mobile: "",
         email: "",
-        service: "",
-        captchaInput: "",
+        qualification: "",
+        experience: "0",
+        course: "",
+        message: "",
     });
 
-    // Simple math CAPTCHA
-    const [captcha] = useState(() => {
-        const a = Math.floor(Math.random() * 9) + 1;
-        const b = Math.floor(Math.random() * 9) + 1;
-        return { a, b, answer: a + b };
-    });
-    const [captchaError, setCaptchaError] = useState(false);
+    const [isRobot, setIsRobot] = useState(false);
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
         setFormData(prev => ({ ...prev, [name]: value }));
-        if (name === "captchaInput") setCaptchaError(false);
     };
 
-    // Handler for CustomSelect (name + value directly)
     const handleSelectChange = (name: string, value: string) => {
         setFormData(prev => ({ ...prev, [name]: value }));
     };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        if (parseInt(formData.captchaInput) !== captcha.answer) {
-            setCaptchaError(true);
+        if (!isRobot) {
+            alert("Please verify you are not a robot.");
             return;
         }
 
@@ -74,21 +68,24 @@ export default function AppointmentFormSection() {
             const response = await fetch('/api/contact', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ ...formData, formType: 'appointment' }),
+                body: JSON.stringify({ ...formData, formType: 'training' }),
             });
 
             if (response.ok) {
-                console.log("Form Submitted:", formData);
-                alert("Thank you! We will contact you shortly.");
+                console.log("Training Form Submitted:", formData);
+                alert("Thank you for your interest! We will contact you shortly regarding the training programs.");
                 // Reset form
                 setFormData({
                     firstName: "",
                     lastName: "",
                     mobile: "",
                     email: "",
-                    service: "",
-                    captchaInput: "",
+                    qualification: "",
+                    experience: "0",
+                    course: "",
+                    message: "",
                 });
+                setIsRobot(false);
             } else {
                 throw new Error('Failed to submit');
             }
@@ -100,143 +97,180 @@ export default function AppointmentFormSection() {
 
     return (
         <section className="pt-32 bg-white overflow-hidden">
-
-            {/* ── Full-Width Header Band ── */}
             <div className="w-full bg-[#f0f4f2] border-b border-primary/5">
                 <div className="max-w-7xl mx-auto px-6 py-16 text-center">
-                    <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Reservation</span>
-                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">Book Your Appointment</h1>
+                    <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Medical Training</span>
+                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">Professional Training Contact</h1>
                     <div className="w-24 h-1 bg-accent mx-auto"></div>
                     <p className="mt-6 text-foreground/70 max-w-2xl mx-auto font-sans">
-                        Take the first step towards radiant skin and healthy hair. Our specialists are ready to guide you on your aesthetic journey.
+                        Join our advanced dermatology and cosmetology training programs. Please share your professional details below.
                     </p>
                 </div>
             </div>
 
             <div className="max-w-7xl mx-auto px-6 py-16">
-                {/* Main Grid: Form (left 7) + Addresses (right 5) */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-
-                    {/* ── LEFT COLUMN ── */}
-                    <div className="lg:col-span-7 flex flex-col gap-8">
-
-                        {/* Form Card */}
+                    {/* LEFT COLUMN: Form */}
+                    <div className="lg:col-span-7">
                         <div className="bg-primary-soft/30 p-8 md:p-12 rounded-[2.5rem] border border-primary/5 shadow-sm">
-                            <form onSubmit={handleSubmit} className="space-y-5">
-
-                                {/* Row 1: First Name + Last Name */}
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                                    <div className="space-y-2">
-                                        <label className="text-[11px] font-bold uppercase tracking-wider text-primary ml-1 flex items-center gap-2">
-                                            <User size={12} className="text-accent" /> First Name
+                            <form onSubmit={handleSubmit} className="space-y-4">
+                                {/* Row 1: Name */}
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="space-y-1.5">
+                                        <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                            <User size={12} className="text-accent" /> First Name <span className="text-red-500">*</span>
                                         </label>
                                         <input
                                             type="text" name="firstName" required
                                             placeholder="John"
-                                            className="w-full px-5 py-3 bg-white border border-primary/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans"
+                                            className="w-full px-4 py-2.5 bg-white border border-primary/20 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans text-sm"
                                             onChange={handleChange}
                                         />
                                     </div>
-                                    <div className="space-y-2">
-                                        <label className="text-[11px] font-bold uppercase tracking-wider text-primary ml-1 flex items-center gap-2">
-                                            <User size={12} className="text-accent" /> Last Name
+                                    <div className="space-y-1.5">
+                                        <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                            <User size={12} className="text-accent" /> Last Name <span className="text-red-500">*</span>
                                         </label>
                                         <input
                                             type="text" name="lastName" required
                                             placeholder="Doe"
-                                            className="w-full px-5 py-3 bg-white border border-primary/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans"
+                                            className="w-full px-4 py-2.5 bg-white border border-primary/20 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans text-sm"
                                             onChange={handleChange}
                                         />
                                     </div>
                                 </div>
 
-                                {/* Row 2: Mobile + Email */}
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                                    <div className="space-y-2">
-                                        <label className="text-[11px] font-bold uppercase tracking-wider text-primary ml-1 flex items-center gap-2">
-                                            <Phone size={12} className="text-accent" /> Mobile Number
+                                {/* Row 2: Contact Info */}
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="space-y-1.5">
+                                        <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                            <Phone size={12} className="text-accent" /> Mobile Number <span className="text-red-500">*</span>
                                         </label>
                                         <input
                                             type="tel" name="mobile" required
                                             placeholder="+91 77779 77027"
-                                            className="w-full px-5 py-3 bg-white border border-primary/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans"
+                                            className="w-full px-4 py-2.5 bg-white border border-primary/20 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans text-sm"
                                             onChange={handleChange}
                                         />
                                     </div>
-                                    <div className="space-y-2">
-                                        <label className="text-[11px] font-bold uppercase tracking-wider text-primary ml-1 flex items-center gap-2">
-                                            <Mail size={12} className="text-accent" /> Email Address
+                                    <div className="space-y-1.5">
+                                        <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                            <Mail size={12} className="text-accent" /> Email Address <span className="text-red-500">*</span>
                                         </label>
                                         <input
                                             type="email" name="email" required
                                             placeholder="john@example.com"
-                                            className="w-full px-5 py-3 bg-white border border-primary/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans"
+                                            className="w-full px-4 py-2.5 bg-white border border-primary/20 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans text-sm"
                                             onChange={handleChange}
                                         />
                                     </div>
                                 </div>
 
-                                {/* Row 3: Type of Service */}
-                                <div className="space-y-2">
-                                    <label className="text-[11px] font-bold uppercase tracking-wider text-primary ml-1 flex items-center gap-2">
-                                        <MessageSquare size={12} className="text-accent" /> Type of Service
+                                {/* Row 3: Qualification (Full Width) */}
+                                <div className="space-y-1.5">
+                                    <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                        <GraduationCap size={14} className="text-accent" /> Qualification Details <span className="text-red-500">*</span>
                                     </label>
-                                    <CustomSelect
-                                        name="service"
-                                        required
-                                        value={formData.service}
-                                        onChange={handleSelectChange}
-                                        placeholder="Select Service"
-                                        className="px-5 py-3 border-primary/20"
-                                        options={[
-                                            { value: "Skin", label: "Skin" },
-                                            { value: "Hair", label: "Hair" },
-                                            { value: "Facial Aesthetics", label: "Facial Aesthetics" },
-                                            { value: "Body", label: "Body" },
-                                            { value: "Other", label: "Other" },
-                                        ]}
+                                    <textarea
+                                        name="qualification" required
+                                        rows={2}
+                                        placeholder="E.g. MBBS, MD - Dermatology"
+                                        className="w-full px-4 py-2.5 bg-white border border-primary/20 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans resize-none text-sm"
+                                        onChange={handleChange}
                                     />
                                 </div>
 
-                                {/* Row 4: CAPTCHA */}
-                                <div className="space-y-2">
-                                    <label className="text-[11px] font-bold uppercase tracking-wider text-primary ml-1 flex items-center gap-2">
-                                        <ChevronRight size={12} className="text-accent" /> Verify You&apos;re Human
-                                    </label>
-                                    <div className="flex items-center gap-4">
-                                        <div className="flex-shrink-0 bg-primary/8 border border-primary/10 rounded-2xl px-6 py-4 flex items-center gap-3">
-                                            <span className="font-mono font-bold text-primary text-lg tracking-widest select-none">
-                                                {captcha.a} + {captcha.b} = ?
-                                            </span>
-                                        </div>
-                                        <input
-                                            type="number" name="captchaInput" required
-                                            placeholder="Answer"
-                                            className={`flex-1 px-5 py-3 bg-white border rounded-2xl focus:outline-none focus:ring-2 transition-all font-sans ${captchaError
-                                                ? "border-red-400 focus:ring-red-200"
-                                                : "border-primary/20 focus:ring-accent/20 focus:border-accent"
-                                                }`}
-                                            onChange={handleChange}
+                                {/* Row 4: Experience & Course */}
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="space-y-1.5">
+                                        <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                            <Briefcase size={12} className="text-accent" /> Years of Experience <span className="text-red-500">*</span>
+                                        </label>
+                                        <CustomSelect
+                                            name="experience"
+                                            required
+                                            value={formData.experience}
+                                            onChange={handleSelectChange}
+                                            options={[
+                                                { value: "0", label: "0" },
+                                                { value: "1", label: "1" },
+                                                { value: "2", label: "2" },
+                                                { value: "3", label: "3" },
+                                                { value: "4", label: "4" },
+                                                { value: "5+", label: "5+" },
+                                            ]}
+                                            placeholder="Select Experience"
+                                            className="px-4 py-2.5"
                                         />
                                     </div>
-                                    {captchaError && (
-                                        <p className="text-red-500 text-xs ml-1 mt-1">Incorrect answer. Please try again.</p>
-                                    )}
+                                    <div className="space-y-1.5">
+                                        <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                            <BookOpen size={12} className="text-accent" /> Select The Course <span className="text-red-500">*</span>
+                                        </label>
+                                        <CustomSelect
+                                            name="course"
+                                            required
+                                            value={formData.course}
+                                            onChange={handleSelectChange}
+                                            options={[
+                                                { value: "Basic Dermatology & Surgery", label: "Basic Dermatology & Surgery" },
+                                                { value: "Basic Cosmetology & Lasers", label: "Basic Cosmetology & Lasers" },
+                                                { value: "Botox & Fillers", label: "Botox & Fillers" },
+                                                { value: "Advanced Cosmetology", label: "Advanced Cosmetology" },
+                                                { value: "All The Courses", label: "All The Courses" },
+                                            ]}
+                                            placeholder="Select Course"
+                                            className="px-4 py-2.5"
+                                        />
+                                    </div>
                                 </div>
 
-                                {/* Submit */}
+                                {/* Row 5: Message (Full Width) */}
+                                <div className="space-y-1.5">
+                                    <label className="text-[12px] font-bold uppercase tracking-wider text-primary flex items-center gap-2 ml-1">
+                                        <MessageSquare size={12} className="text-accent" /> Additional Message
+                                    </label>
+                                    <textarea
+                                        name="message"
+                                        rows={2}
+                                        placeholder="Any specific questions or requirements?"
+                                        className="w-full px-4 py-2.5 bg-white border border-primary/20 rounded-xl focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all font-sans resize-none text-sm"
+                                        onChange={handleChange}
+                                    />
+                                </div>
+
+                                {/* reCAPTCHA */}
+                                <div className="bg-white border border-gray-200 rounded-lg p-2.5 flex items-center justify-between max-w-[280px] shadow-sm">
+                                    <div className="flex items-center gap-3">
+                                        <input
+                                            type="checkbox"
+                                            id="robot"
+                                            className="w-5 h-5 border-2 border-gray-300 rounded cursor-pointer transition-all"
+                                            onChange={(e) => setIsRobot(e.target.checked)}
+                                        />
+                                        <label htmlFor="robot" className="text-[13px] font-medium text-gray-700 cursor-pointer">I&apos;m not a robot</label>
+                                    </div>
+                                    <div className="flex flex-col items-center">
+                                        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" className="w-6 h-6" />
+                                        <span className="text-[9px] text-gray-400 mt-0.5">reCAPTCHA</span>
+                                        <div className="flex gap-2 text-[7px] text-gray-400">
+                                            <span>Privacy</span>
+                                            <span>Terms</span>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <button
                                     type="submit"
-                                    className="w-full bg-primary text-white font-bold py-5 rounded-2xl shadow-lg hover:bg-primary/90 transition-all transform hover:-translate-y-1 active:scale-[0.98] flex items-center justify-center gap-2 group"
+                                    className="w-full bg-primary text-white font-bold py-5 rounded-2xl shadow-lg hover:bg-primary/90 transition-all transform hover:-translate-y-1 active:scale-[0.98] flex items-center justify-center gap-2 group mt-4 px-8"
                                 >
-                                    Book Appointment <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                    Request a Callback <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                 </button>
-
                             </form>
                         </div>
 
-                        {/* ── Working Hours — simple clean strip ── */}
-                        <div className="flex flex-col sm:flex-row items-stretch gap-px bg-primary/5 rounded-2xl overflow-hidden border border-primary/8">
+                        {/* Working Hours */}
+                        <div className="mt-8 flex flex-col sm:flex-row items-stretch gap-px bg-primary/5 rounded-2xl overflow-hidden border border-primary/8">
                             <div className="flex items-center gap-3 bg-white px-6 py-4 flex-1">
                                 <Clock size={16} className="text-accent flex-shrink-0" />
                                 <span className="text-[11px] font-bold uppercase tracking-widest text-primary/50">Mon – Sat</span>
@@ -251,14 +285,13 @@ export default function AppointmentFormSection() {
                         </div>
                     </div>
 
-                    {/* ── RIGHT COLUMN: 3 Address Cards ── */}
+                    {/* RIGHT COLUMN: Address Cards */}
                     <div className="lg:col-span-5 space-y-6">
                         <h2 className="text-3xl font-serif text-primary mb-8 px-2">Our Clinics</h2>
                         {branches.map((branch, index) => (
                             <div key={index} className="bg-white border border-primary/5 p-6 rounded-3xl shadow-sm hover:shadow-md transition-all group border-l-4 border-l-accent">
                                 <h3 className="text-xl font-serif text-primary mb-1 group-hover:text-accent transition-colors">{branch.name}</h3>
                                 <p className="text-xs font-bold text-accent/80 uppercase tracking-widest mb-4">{branch.fullName}</p>
-
                                 <div className="space-y-4">
                                     <div className="flex gap-3">
                                         <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
@@ -287,15 +320,11 @@ export default function AppointmentFormSection() {
                         ))}
                     </div>
                 </div>
-
-
-
             </div>
-            {/* ── Maps Section ── */}
+
+            {/* Maps Section */}
             <div className="bg-[#f0f4f2] mt-16">
                 <div className="max-w-7xl mx-auto px-6 py-20">
-
-                    {/* Header */}
                     <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
                         <div>
                             <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Find Us</span>
@@ -309,16 +338,6 @@ export default function AppointmentFormSection() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {branches.map((branch, index) => (
                             <div key={index} className="relative rounded-[2rem] overflow-hidden shadow-md" style={{ height: '380px' }}>
-                                {/* <div className="absolute top-4 left-4 z-10 flex items-center gap-2">
-                                    <div className="w-9 h-9 bg-primary text-white rounded-xl flex items-center justify-center font-bold text-sm shadow-lg">
-                                        {String(index + 1).padStart(2, "0")}
-                                    </div>
-                                    <span className="bg-white text-primary text-[11px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full shadow">{branch.name}</span>
-                                </div> */}
-                                {/* <a href="#"
-                                    className="absolute top-4 right-4 z-10 bg-white text-primary text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow hover:bg-accent hover:text-white transition-all duration-300">
-                                    <MapPin size={10} /> Directions
-                                </a> */}
                                 <iframe
                                     src={branch.mapUrl}
                                     width="100%" height="100%"
