@@ -61,32 +61,32 @@ export default function TreatmentPageTemplate({ treatment, breadcrumb }: Treatme
                             {/* Left Side (65%) */}
                             <div className="lg:w-[65%] space-y-12">
                                 <div className="space-y-8">
-                                    <div className="rounded-[3rem] overflow-hidden aspect-video relative shadow-2xl border-8 border-white">
+                                    {/* <div className="rounded-[3rem] overflow-hidden aspect-video relative shadow-2xl border-8 border-white">
                                         <Image
                                             src={treatment.image}
                                             alt={treatment.title}
                                             fill
                                             className="object-cover"
                                         />
-                                    </div>
+                                    </div> */}
 
                                     <div className="space-y-6">
-                                        <h2 className="text-3xl md:text-4xl font-serif text-primary">Overview</h2>
+                                        {/* <h2 className="text-3xl md:text-4xl font-serif text-primary">Overview</h2> */}
                                         <div className="prose prose-lg max-w-none text-foreground/70 leading-relaxed font-sans space-y-6">
                                             <div dangerouslySetInnerHTML={{ __html: treatment.content }} />
-                                            <p>
+                                            {/* <p>
                                                 At Dr. Venus Institute, we believe in providing personalized care. Each treatment begins with a thorough assessment by our board-certified specialists to ensure the procedure is perfectly aligned with your goals and health profile. We utilize state-of-the-art medical technology to deliver results that are both effective and natural-looking.
                                             </p>
                                             <p>
                                                 Safety is our top priority. All procedures are performed in a sterile environment following strict medical protocols. Our team is committed to your comfort throughout the process, providing detailed aftercare instructions to ensure optimal recovery and long-lasting results.
-                                            </p>
+                                            </p> */}
                                         </div>
                                     </div>
 
                                     {/* Video Section */}
                                     <div className="space-y-6">
-                                        <h2 className="text-3xl font-serif text-primary">Procedure Highlights</h2>
-                                        <div className="rounded-[2.5rem] overflow-hidden aspect-video shadow-xl ring-1 ring-primary/5">
+                                        {/* <h2 className="text-3xl font-serif text-primary">Procedure Highlights</h2> */}
+                                        {/* <div className="rounded-[2.5rem] overflow-hidden aspect-video shadow-xl ring-1 ring-primary/5">
                                             <iframe
                                                 width="100%"
                                                 height="100%"
@@ -97,7 +97,7 @@ export default function TreatmentPageTemplate({ treatment, breadcrumb }: Treatme
                                                 allowFullScreen
                                                 className="w-full h-full"
                                             ></iframe>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@ export default function TreatmentPageTemplate({ treatment, breadcrumb }: Treatme
                     </div>
                 </section>
             </main>
-            <Footer />
+            {/* <Footer /> */}
             <StickyAppointment />
         </>
     );

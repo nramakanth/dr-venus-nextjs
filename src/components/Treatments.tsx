@@ -2,6 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 const treatments = [
+
+    {
+        title: "Skin Specialist",
+        description: "Medical-grade solutions for clear, acne-free skin.",
+        image: "https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&q=80&w=800",
+        link: "/skin-treatment"
+    },
     {
         title: "Pimple Treatment",
         description: "Medical-grade solutions for clear, acne-free skin.",
@@ -13,6 +20,12 @@ const treatments = [
         description: "Natural-looking results with DHT techniques.",
         image: "https://images.unsplash.com/photo-1519781542704-957ee19f6e9b?auto=format&fit=crop&q=80&w=800",
         link: "/hair-transplant"
+    },
+      {
+        title: "PRP Hair Treatment",
+        description: "Stimulate hair growth and improve scalp health with PRP therapy.",
+        image: "https://images.unsplash.com/photo-1519781542704-957ee19f6e9b?auto=format&fit=crop&q=80&w=800",
+        link: "/prp-hair-treatment"
     },
     {
         title: "Skin Lightening",

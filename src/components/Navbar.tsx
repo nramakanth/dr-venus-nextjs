@@ -23,6 +23,7 @@ const navItems = [
             {
                 category: "Skin Care",
                 items: [
+                    { name: "Skin Treatment", href: "/skin-treatment" },
                     { name: "Pimple Treatment", href: "/pimple-treatment" },
                     { name: "Wart Removal", href: "/wart-removal" },
                     { name: "Mole Removal", href: "/mole-removal" },
