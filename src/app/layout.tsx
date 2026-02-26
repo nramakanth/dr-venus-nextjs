@@ -1,0 +1,46 @@
+import type { Metadata } from "next";
+import { Marcellus, DM_Sans } from "next/font/google";
+import "./globals.css";
+
+const marcellus = Marcellus({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-marcellus",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.drvenus.in"),
+  title: "Dr. Venus – Institute of Skin & Hair | Committed to Dermatology",
+  description: "Dr. Venus Institute provides premium dermatology services, including expert hair loss treatments and skin care in a modern medical facility.",
+  keywords: "Dermatology, Skin Care, Hair Loss Treatment, Dr. Venus, Institute of Skin & Hair",
+  icons: {
+    icon: "/logo/favicon.svg",
+    apple: "/logo/favicon.svg",
+  },
+};
+
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import StickyAppointment from "@/components/StickyAppointment";
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${marcellus.variable} ${dmSans.variable} font-sans antialiased text-gray-900 `}>
+        <Navbar />
+        {children}
+        <StickyAppointment />
+        <Footer />
+      </body>
+    </html>
+  );
+}
