@@ -2,24 +2,25 @@ import EnquiryFormSection from "@/components/EnquiryFormSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contact Us | Dr. Venus – Institute of Skin & Hair",
-    description: "Get in touch with Dr. Venus Institute for consultations, appointments, and queries about skin and hair treatments.",
-    keywords: [
-        "contact dermatology clinic",
-        "skin treatment enquiry",
-        "hair clinic contact Hyderabad",
-        "Dr Venus enquiry form",
-        "dermatology support",
-    ],
-    alternates: {
-        canonical: "/enquiry-form",
-    },
+  title: "Enquiry Form | Dr. Venus - Institute of Skin & Hair",
+  description:
+    "Submit your enquiry to Dr. Venus Institute for skin, hair, and aesthetic treatment consultations.",
+  keywords: [
+    "enquiry form",
+    "skin clinic enquiry",
+    "hair clinic enquiry Hyderabad",
+    "dermatology contact form",
+    "Dr Venus enquiry",
+  ],
+  alternates: {
+    canonical: "/enquiry-form",
+  },
 };
 
-export default function ContactPage() {
-    return (
-        <main>
-            <EnquiryFormSection />
-        </main>
-    );
+export default function EnquiryPage() {
+  return (
+    <main>
+      <EnquiryFormSection />
+    </main>
+  );
 }
