@@ -64,7 +64,7 @@ const navItems = [
             }
         ]
     },
-    { name: "Blog", href: "/blog" },
+    { name: "Blog", href: "/blog/embed" },
     {
         name: "Courses",
         href: "/courses",
