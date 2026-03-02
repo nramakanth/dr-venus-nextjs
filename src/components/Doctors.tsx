@@ -33,7 +33,7 @@ export default function Doctors() {
             <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -mr-48 -mt-48 opacity-50"></div>
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl -ml-48 -mb-48 opacity-50"></div>
 
-            <div className="max-w-[1240px] mx-auto px-6 relative z-10">
+            <div className="max-w-310 mx-auto px-6 relative z-10">
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 md:mb-16 gap-6">
                     <div className="max-w-xl">
                         <div className="text-[11px] md:text-[12px] uppercase tracking-[0.4em] font-medium text-primary/80 mb-3 flex items-center gap-2 font-sans">

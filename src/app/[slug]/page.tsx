@@ -27,6 +27,7 @@ export default async function DynamicTreatmentPage({ params }: PageProps) {
         facial: { label: "Facial Aesthetics", href: "/facial" },
         body: { label: "Body Contouring", href: "/body" },
     };
+    
 
     const cat = categoryLabels[treatment.category] || { label: "Services", href: "/services" };
 
