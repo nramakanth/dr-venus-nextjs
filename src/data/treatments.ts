@@ -46,7 +46,7 @@ export const allTreatments: Treatment[] = [
             </p>
 
         <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-3 mt-6 list-disc pl-5 text-gray-700">
-         <li><a href="/laser-hair-removal"class="text-blue-600 underline ">
+         <li><a href="/laser-hair-removal-treatment"class="text-blue-600 underline ">
            Laser Hair Removal</a></li>
            <li>Skin Lightening / Tightening / Polishing</li>
            <li>Anti-Aging Services</li>
@@ -108,89 +108,117 @@ export const allTreatments: Treatment[] = [
         category: "skin",
         description: "Effective solutions for clear, acne-free skin.",
         content: `
-            <div class="space-y-12">
-                <section>
-                    <h3 class="text-2xl font-serif text-primary mb-4">What are Pimples?</h3>
-                    <p>Having pimples on the face is the most distressing and embarrassing experience ever. These are, in fact, quite a pain. There is absolutely nothing great about these tender bumps on the skin. One has to undergo pimple treatment in Hyderabad at early stage. The pimples are not usually restricted to women, but men and teenagers equally struggle with the problem of having them. This skin disorder affects people across the globe, in varying degrees! However, these zits are most likely to occur during puberty. The hormonal imbalance, stress and lifestyle also result in inflammation and redness on the skin. Most often, the pimples affect face, chest, shoulders and back. These breakouts are everyone’s nightmare. When the pimples leave scars on the skin, it not just hinders your natural beauty, but destroys the self-confidence too. You deserve the clear skin. As the technology advanced, thankfully, there is a lot you can do about the pimples. Today, many clinics offer clinically-supported pimples treatment but we have a pool of best doctors for pimple treatment in Hyderabad, giving you the desired effect.</p>
-                </section>
+              <div class="space-y-12">
+        <section>
+           <h3 class="text-2xl font-serif text-primary mb-4">What are Pimples?</h3>
+           <p>Having pimples on the face is the most distressing and embarrassing experience ever. These are, in fact,
+            quite a pain. There is absolutely nothing great about these tender bumps on the skin. One has to undergo
+            pimple treatment in Hyderabad at early stage. The <a href="https://en.wikipedia.org/wiki/Pimple"
+                target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">
+                pimples </a> are not usually restricted to women, but men and teenagers equally struggle with the
+            problem of having them. This skin disorder affects people across the globe, in varying degrees! However,
+            these zits are most likely to occur during puberty. The hormonal imbalance, stress and lifestyle also result
+            in inflammation and redness on the skin. Most often, the pimples affect face, chest, shoulders and back.
+            These breakouts are everyone’s nightmare. When the pimples leave scars on the skin, it not just hinders your
+            natural beauty, but destroys the self-confidence too. You deserve the clear skin. As the technology
+            advanced, thankfully, there is a lot you can do about the pimples. Today, many clinics offer
+            clinically-supported pimples treatment but we have a pool of best doctors for pimple treatment in Hyderabad,
+            giving you the desired effect.</p>
+    </section>
 
-                <section>
-                    <h3 class="text-2xl font-serif text-primary mb-4">Pimple Treatment</h3>
-                    <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
-                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=1200" alt="Pimple Treatment Clinical Care" class="w-full object-cover aspect-[21/9]" />
-                    </div>
-                </section>
+    <section>
+       
+        <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+            <img src="/images/treatments/Pimples-treatment-min.jpg" alt="Pimple Treatment Clinical Care"
+                class="w-full  object-cover" />
+        </div>
+    </section>
 
-                <section>
-                    <h3 class="text-2xl font-serif text-primary mb-4">Benefits Of Pimple Treatment</h3>
-                    <p>The most-effective strategy to do about the pimples is to get the treatment done when they first appear. If not treated at the right time, pimples leave scars on the skin. With the early treatment, you can:</p>
-                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                        <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
-                            <strong class="text-primary block mb-2">1. Get faster results :</strong>
-                            <p class="text-sm">Pimple or acne treatment generally takes time to bring the desired effect on you. However, an early treatment effectively controls further breakouts.</p>
-                        </li>
-                        <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
-                            <strong class="text-primary block mb-2">2. Get blemish-free skin:</strong>
-                            <p class="text-sm">Severe pimple breakouts bring scars on the skin. Treating them early prevents acne scars.</p>
-                        </li>
-                        <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
-                            <strong class="text-primary block mb-2">3. Prevent mild acne from spreading :</strong>
-                            <p class="text-sm">Early pimple treatment helps you prevent mild acne from progressively spreading across the body.</p>
-                        </li>
-                        <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
-                            <strong class="text-primary block mb-2">4. Control your psyche :</strong>
-                            <p class="text-sm">The self-esteem of many people is affected by acne, no matter how severe they are. Research shows treating them at an early stage can effectively alleviate these feelings.</p>
-                        </li>
-                    </ul>
-                </section>
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">Benefits Of Pimple Treatment</h3>
+        <p>The most-effective strategy to do about the pimples is to get the treatment done when they first appear. If
+            not treated at the right time, pimples leave scars on the skin. With the early treatment, you can:</p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
+                <strong class="text-primary block mb-2">1. Get faster results :</strong>
+                <p class="text-sm">Pimple or acne treatment generally takes time to bring the desired effect on you.
+                    However, an early treatment effectively controls further breakouts.</p>
+            </li>
+            <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
+                <strong class="text-primary block mb-2">2. Get blemish-free skin:</strong>
+                <p class="text-sm">Severe pimple breakouts bring scars on the skin. Treating them early <a 
+          href="/acne-scar-removal-treatment"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
+         prevents acne scars.</a>
+</p>
+            </li>
+            <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
+                <strong class="text-primary block mb-2">3. Prevent mild acne from spreading :</strong>
+                <p class="text-sm">Early pimple treatment helps you prevent mild acne from progressively spreading
+                    across the body.</p>
+            </li>
+            <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
+                <strong class="text-primary block mb-2">4. Control your psyche :</strong>
+                <p class="text-sm">The self-esteem of many people is affected by acne, no matter how severe they are.
+                    Research shows treating them at an early stage can effectively alleviate these feelings.</p>
+            </li>
+        </ul>
+    </section>
 
-                <section>
-                    <h3 class="text-2xl font-serif text-primary mb-4">Pimple Treatment Cost in Hyderabad</h3>
-                    <p>Generally cost of the laser pimple treatment depend on area of the treatment i.e. pimples which usually occur on Face, Back, Chest and Shoulders. Just fill the inquiry form we’ll get back to you.</p>
-                </section>
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">Pimple Treatment Cost in Hyderabad</h3>
+        <p>Generally cost of the laser pimple treatment depend on area of the treatment i.e. pimples which usually occur
+            on Face, Back, Chest and Shoulders. Just fill the inquiry form we’ll get back to you.</p>
+    </section>
 
-                <section>
-                    <h3 class="text-2xl font-serif text-primary mb-6">FAQ’S</h3>
-                    <div class="space-y-6">
-                        <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h4 class="font-bold text-primary mb-2">1. What causes acne?</h4>
-                            <p class="text-sm leading-relaxed">It’s not just a single factor that causes acne, but a combination of factors contribute to acne breakouts. In women, the hormonal changes before the menstrual cycle is the main cause. The hormones trigger oil glands to produce more sebum. Pimples occur when the hair follicles get blocked with the accumulation of sebum and dead skin cells.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h4 class="font-bold text-primary mb-2">2. How can I treat pimples quickly?</h4>
-                            <p class="text-sm leading-relaxed">Consult with a dermatologist for the best and fastest way to get rid of your pimples. Based on the severity, you will be given anti-inflammatory medications that can flatten out pimples within 48 hours.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h4 class="font-bold text-primary mb-2">3. How to cleanse the face when I have acne?</h4>
-                            <p class="text-sm leading-relaxed">Every morning and evening, wash the face with a cleanser exclusively designed for acne-prone skin. Removing makeup residue is crucial. Avoid vigorous scrubbing.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h4 class="font-bold text-primary mb-2">4. I wash my face every day. Why do I still get acne?</h4>
-                            <p class="text-sm leading-relaxed">Cleansing alone will not prevent acne breakouts. Biological factors causing acne are not under the control of regular face wash. For persistent acne, a dermatologist consultation is necessary.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h4 class="font-bold text-primary mb-2">5. Can I wear makeup when I have acne?</h4>
-                            <p class="text-sm leading-relaxed">Yes, but use oil-free makeup products. Mineral foundations can help avoid pore-clogging agents. Keeping skin clean and removing makeup properly is essential.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="bg-accent/5 p-8 rounded-[2rem] border border-accent/10">
-                    <h3 class="text-2xl font-serif text-primary mb-4">Why Us?</h3>
-                    <p class="mb-6"><strong>Pimple Treatment in Hyderabad:</strong> Being one of the best dermatologist-supported clinics in India, Dr. Venus is committed to deliver the best services. Dr. Venus has an integrated approach to provide the best result-oriented acne therapy.</p>
-                    
-                    <h3 class="text-2xl font-serif text-primary mb-4">Our Locations</h3>
-                    <p class="text-sm">Our clinic locations are in <strong>Chandanagar, Kondapur and Toli Chowki</strong> (15 mins from Kukatpally, Gachibowli, Miyapur, Hi-Tech City; 20 mins from Jubilee Hills, Banjara Hills). Book an appointment today!</p>
-                </section>
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-6">FAQ’S</h3>
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <h4 class="font-bold text-primary mb-2">1. What causes acne?</h4>
+                <p class="text-sm leading-relaxed">It’s not just a single factor that causes acne, but a combination of factors contribute to acne breakouts. In women, the hormonal changes before the menstrual cycle is the main cause of pimples on the face. The hormones trigger oil glands to produce more sebum. Pimples occur when the hair follicles get blocked with the accumulation of sebum and dead skin cells. The dead skin cells along with oil and hair clump together to form a plug. Gradually, this plug gets infected with bacteria. Acne breakouts happen with the swelling of the plugs. Other factors that may trigger acne breakouts include medications, stress, improper diet and genetics.</p>
             </div>
-        `,
+            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <h4 class="font-bold text-primary mb-2">2. How can I treat pimples quickly?</h4>
+                <p class="text-sm leading-relaxed">When you decide to treat your pimples, it’s important to opt for a reliable skin care regime. Consult with a dermatologist for the best and fastest way to get rid of your pimples. Based on the severity of this skin disorder, you will be given anti-inflammatory medications that can flatten out pimples within 48 hours. So, you better take the pimple treatment in Hyderabad quickly.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <h4 class="font-bold text-primary mb-2">3. How to cleanse the face when I have acne?</h4>
+                <p class="text-sm leading-relaxed">If you have pimples, a strict skin care routine must be followed for a healthy glowing skin. Every morning and evening, you need to wash the face with a cleanser which is exclusively designed for acne-prone skin. Washing with water and a mild soap is all that you need sometimes. While cleansing, ensure you remove the makeup residue from the face. Few steps to follow i.e<a 
+          href="https://www.drvenus.in/rid-of-pimples/"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
+           how to get rid of pimples naturally.</a>
+</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <h4 class="font-bold text-primary mb-2">4. I wash my face every day. Why do I still get acne?</h4>
+                <p class="text-sm leading-relaxed">Cleansing the face alone will not prevent acne breakouts, though it helps remove excess oil on from the face. Vigorous scrubbing or using alcohol-based cleansers may worsen the situation. The biological factors causing acne are not under the control of regular face wash. For those kinds of acne, you must get a timelya 
+         <a href="https://www.drvenus.in/dermatologist-in-hyderabad/"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
+          consultation with a dermatologist.</a></p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <h4 class="font-bold text-primary mb-2">5. Can I wear makeup when I have acne?</h4>
+                <p class="text-sm leading-relaxed">You can spend a couple of weeks without makeup to see the result. Greasy or oily content in the cosmetics can cause acne breakouts. However, you feel confident when the acne is hidden using a foundation or a concealer. Hence it is not necessary to stop makeup when you have pimples on the face. Make sure to use oil-free makeup products. To a great extent, mineral foundations help you get rid of <a 
+          href="https://en.wikipedia.org/wiki/Melanocyte"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
+           pore-clogging agents.</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-accent/5 p-8 rounded-[2rem] border border-accent/10">
+        <h3 class="text-2xl font-serif text-primary mb-4">Why Us?</h3>
+        <p class="mb-6"><strong>Pimple Treatment in Hyderabad:</strong> Being one of the best dermatologist-supported clinics in India, Dr. Venus is committed to deliver the best services. We, at Dr. Venus, completely understand your aspiration to be naturally beautiful. Dr. Venus has an integrated approach to provide the best result-oriented acne therapy. Prior to the treatment, the specialist doctor does an elaborate assessment and then designs the treatment plan. Our skin-friendly treatments, which are free from side effects, are administered by an expert doctor, using best in class technologies. Each step in the entire treatment process is carefully done to get the optimal result.</p>
+
+        <h3 class="text-2xl font-serif text-primary mb-4">Our Locations</h3>
+        <p class="text-sm">Our clinic locations are in <strong>Chandanagar, Kondapur and Toli Chowki</strong> Our clinic locations are in Chandanagar, Kondapur and Toli Chowki which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us.</p>
+    </section>
+</div>
+`,
         image:
             "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
         slug: "wart-removal",
-        title: "Wart Removal",
+        title: "Wart Removal TREATMENT",
         category: "skin",
         description: "Safe and painless removal of unwanted warts.",
         content: `
@@ -202,222 +230,58 @@ export const allTreatments: Treatment[] = [
         </h3>
 
         <p>
-            Warts are small, undesirable skin growths that usually do not cause pain but can be uncomfortable and cosmetically concerning.
-            These growths are caused by the <a href="https://en.wikipedia.org/wiki/Human_papillomavirus_infection" target="_blank" 
-             rel="noopener noreferrer"class="text-blue-600 underline">Human Papillomavirus</a> (HPV) family of viruses.
-        </p>
-        image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "wart-removal",
-        title: "Wart Removal",
-        category: "skin",
-        description: "Safe and painless removal of unwanted warts.",
-        content: "Warts are small, grain-like skin growths that can appear anywhere on the body. Our advanced removal techniques ensure minimal discomfort and no scarring, giving you smooth skin once again.",
-        image: "https://images.unsplash.com/photo-1596704017254-9b121068fb29?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "mole-removal",
-        title: "Mole Removal",
-        category: "skin",
-        description: "Professional mole removal for aesthetic and health reasons.",
-        content: "Whether it's for cosmetic reasons or health concerns, our specialists use precise methods to remove moles safely, ensuring the best possible aesthetic outcome.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "acne-scar-removal",
-        title: "Acne Scar Removal",
-        category: "skin",
-        description: "Smooth out your skin and regain your confidence.",
-        content: "Acne scars can be a lasting reminder of past breakouts. We offer various treatments like laser therapy and microneedling to significantly reduce the appearance of scars and improve skin texture.",
-        image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "laser-hair-removal",
-        title: "Laser Hair Removal",
-        category: "skin",
-        description: "Permanent reduction of unwanted hair for smooth skin.",
-        content: "Say goodbye to shaving and waxing. Our state-of-the-art laser technology provides a safe, effective, and long-term solution for unwanted hair on any part of the body.",
-        image: "/images/laser-removal.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "tattoo-removal",
-        title: "Tattoo Removal",
-        category: "skin",
-        description: "Advanced laser technology to fade unwanted tattoos.",
-        content: "Regretting a tattoo? Our advanced laser removal treatments can help fade or completely remove unwanted ink with minimal impact on the surrounding skin.",
-        image: "https://images.unsplash.com/photo-1504198453319-5ce911baf2ea?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "skin-lightening",
-        title: "Skin Lightening",
-        category: "skin",
-        description: "Brighten your complexion with safe and effective treatments.",
-        content: "Our skin lightening treatments focus on reducing uneven skin tone and hyperpigmentation, giving you a brighter and more radiant complexion safely.",
-        image: "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "pigmentation-treatment",
-        title: "Pigmentation Treatment",
-        category: "skin",
-        description: "Targeted solutions for dark spots and uneven skin tone.",
-        content: "Pigmentation can be caused by sun exposure, aging, or hormonal changes. We offer specialized treatments to target dark spots and restore an even, balanced skin tone.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-
-    // HAIR RESTORATION
-    {
-        slug: "hair-transplant",
-        title: "Hair Transplant",
-        category: "hair",
-        description: "Natural-looking hair restoration with DHT & FUE techniques.",
-        content: "Our hair transplant procedures use advanced Direct Hair Transplantation (DHT) and Follicular Unit Extraction (FUE) techniques to ensure the highest graft survival rate and a natural-looking hairline.",
-        image: "/images/hair-transplant.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "beard-hair-transplant",
-        title: "Beard Hair Transplant",
-        category: "hair",
-        description: "Get a fuller, more defined beard with precision grafting.",
-        content: "For men looking to achieve a thicker and more even beard, our specialized beard hair transplant uses facial hair grafting techniques to deliver natural results that match your existing facial hair density.",
-        image: "https://images.unsplash.com/photo-1599351431247-f132f82f23f9?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "moustache-hair-transplant",
-        title: "Moustache Hair Transplant",
-        category: "hair",
-        description: "Restore or enhance your moustache with precision.",
-        content: "Moustache transplants help in restoring density or filling in gaps caused by scarring or genetics. Our precision techniques ensure the transplanted hair grows in the correct direction for a natural look.",
-        image: "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "eyebrow-hair-transplant",
-        title: "Eyebrow Hair Transplant",
-        category: "hair",
-        description: "Perfectly shaped, fuller eyebrows that last a lifetime.",
-        content: "Eyebrow transplants are a permanent solution for thin or over-plucked eyebrows. We carefully select and transplant individual hair follicles to mimic the natural shape and density of beautiful brows.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-
-    // FACIAL AESTHETICS
-    {
-        slug: "anti-aging-treatment",
-        title: "Anti-Aging Treatment",
-        category: "facial",
-        description: "Turn back the clock with advanced anti-aging solutions.",
-        content: "Our anti-aging treatments combine medical-grade skincare with advanced technology to reduce fine lines, wrinkles, and age spots, leaving you with skin that looks and feels younger.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "anti-wrinkle-treatment",
-        title: "Anti-Wrinkle Treatment",
-        category: "facial",
-        description: "Smooth out fine lines and wrinkles for a refreshed look.",
-        content: "Targeting specific dynamic wrinkles, our treatments help relax the muscles that cause lines, giving you a smoother forehead, crow's feet, and frown lines.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "dermal-fillers",
-        title: "Dermal Fillers",
-        category: "facial",
-        description: "Restore volume and contour to your face.",
-        content: "Dermal fillers are used to add volume to sunken cheeks, smooth nasolabial folds, and enhance facial contours, providing an immediate lift and youthful appearance.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "lip-fillers",
-        title: "Lip Fillers",
-        category: "facial",
-        description: "Achieve fuller, perfectly shaped lips.",
-        content: "Our lip enhancement procedures focus on providing natural-looking volume and defining the lip borders, tailored to your unique facial structure.",
-        image: "https://images.unsplash.com/photo-1516394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "skin-lifting",
-        title: "Skin Lifting",
-        category: "facial",
-        description: "Non-surgical face lift for a contoured appearance.",
-        content: "Using the latest thread lift or HIFU technology, we provide non-surgical options to lift and tighten the skin, offering a more defined jawline and youthful neckline.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        slug: "facial-rejuvenation",
-        title: "Facial Rejuvenation",
-        category: "facial",
-        description: "Complete facial renewal for a glowing complexion.",
-        content: "Our facial rejuvenation treatments combine peels, lasers, and professional skincare to address multiple concerns simultaneously, resulting in a healthy, radiant glow.",
-        image: "/images/clinical-care.png",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-
-        <p class="mt-4">
+            Warts are small undesirable growth appear on the skin that normally does not cause any pain. These skin growths are caused by the virus of the <a href="https://en.wikipedia.org/wiki/Human_papillomavirus_infection" target="_blank" 
+             rel="noopener noreferrer"class="text-blue-600 underline">Human Papillomavirus</a> (HPV) family.
+      
             <a href="https://en.wikipedia.org/wiki/Wart" target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
-               Warts</a> can spread to other areas of the skin if not treated properly. 
-            Their appearance varies depending on the type, and in many cases, 
-            advanced laser wart removal treatment is recommended for effective results.
+               Warts</a> might spread on the skin and you might want them to get rid of as soon as possible. The appearance of warts differs depending on the type which has to undergo laser wart removal treatment.
         </p>
+        <p class="mt-4">Electrocautery procedure for nail & finger wart</p>
     </section>
 
 
     <section>
-        <h3 class="text-2xl font-serif text-primary mb-4">
+        <h3 class="text-2xl font-serif text-primary mb-2">
             Types of Warts
         </h3>
 
         <p>
-            There are mainly five types of warts that can be treated using laser wart removal:
+            There are mainly five types of warts that will be treated using wart removal treatment. 
         </p>
 
         <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">1. Common Warts:</strong>
                 <p class="text-sm">
-                    Usually found on hands, knees, and fingers. These are common in children and have a rough, grainy appearance.
+                    These kinds of warts usually occur on hands, knees and fingers. These warts are mostly seen in children. Usually, they have a grainy rounded appearance. 
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">2. Flat Warts:</strong>
                 <p class="text-sm">
-                    Flattened and smooth warts that commonly appear on the face, thighs, and arms.
+                    These are flattened kind of warts, appearing on the smooth surface on the skin. They are generally seen on face, thighs and arms.
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">3. Plantar Warts:</strong>
                 <p class="text-sm">
-                    Found on the soles of the feet and grow inward. Often referred to as mosaic warts due to their clustered appearance.
+                   They were predominantly seen on the soles of the feet, growing into the skin. Because of their mosaic-like appearance, they often called mosaic warts. 
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">4. Genital Warts:</strong>
                 <p class="text-sm">
-                    Affect the genital area and are considered a type of sexually transmitted infection (STD).
+                    Since they affect the genital parts, these warts are called genital warts. These are a kind of STD infection. 
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">5. Filiform Warts:</strong>
                 <p class="text-sm">
-                    Long, thread-like warts that appear around eyelids, lips, neck, or face and tend to spread quickly.
+                    These are long, thread-shaped warts that grow on its own or a cluster on the face around the eyelids, lips, or neck. These warts spread very easily.
                 </p>
             </li>
         </ul>
@@ -426,8 +290,9 @@ export const allTreatments: Treatment[] = [
 
     <section>
         <h3 class="text-2xl font-serif text-primary mb-4">
-            Laser Wart Removal Procedure
+            Laser Wart Removal Treatment in Hyderabad
         </h3>
+        <p>To know the cost of laser wart removal on the face just fill the quick inquiry form which is mentioned below.</p>
 
        <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
        <img 
@@ -435,52 +300,33 @@ export const allTreatments: Treatment[] = [
         alt="Laser Wart Removal Treatment"
         class="w-full h-auto object-contain"
        />
-      </div>
-
-        <p>
-            Skin warts are very common. While there are many home remedies available, 
-            medical removal through laser treatment is far more effective and reliable.
-        </p>
-
-        <p class="mt-4">
-            The treatment plan depends on the type, size, location, and number of warts present. 
-            In some cases, multiple sessions may be required if warts reappear after initial treatment.
-        </p>
-
-        <p class="mt-4">
-            Laser treatment precisely targets wart tissue without significantly damaging surrounding skin, 
-            ensuring faster healing and minimal scarring.
-        </p>
-    </section>
-
-
-    <section>
+        </div>
         <h3 class="text-2xl font-serif text-primary mb-4">
             Laser Wart Removal Cost in Hyderabad
         </h3>
-
-        <p>
-            The cost of laser wart removal depends on the number of warts, size, and area of treatment.
-            To know the exact cost, please fill out the quick inquiry form below and our team will assist you.
-        </p>
+       <p>Skin warts are common. Though there are a number of home remedies, removing them through medical assistance is more effective. The treatment is completely based on the type, location and count of warts. Sometimes, more than one type of treatment is required if warts appear even after the treatment.</p>
     </section>
 
 
-    <section class="bg-accent/5 p-8 rounded-[2rem] border border-accent/10">
+    <section class="bg-accent/5 rounded-[2rem] border border-accent/10">
         <h3 class="text-2xl font-serif text-primary mb-4">
             Our Locations
         </h3>
 
         <p class="text-sm">
-            Our clinic locations are at <strong>Chandanagar and Kondapur</strong>, 
-            which are just 15 minutes drive from Kukatpally, Gachibowli, Miyapur, and Hi-Tech City, 
-            and 20 minutes from Jubilee Hills and Banjara Hills.
+            Our clinic locations are at Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur, Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. Don’t waste your time book an appointment with us
         </p>
 
         <p class="mt-4 text-sm">
             Don’t delay your treatment. Book an appointment with us today for safe and effective laser wart removal.
         </p>
-    </section>
+     </section>
+      <div class="mt-8">
+     <a href="/contact" 
+     class="inline-block border-2 border-green-600 text-green-600 px-6 py-2 rounded-md hover:bg-green-600 hover:text-white transition">
+     Quick Enquiry
+         </a>
+       </div>    
 
   </div>
   `,
@@ -489,7 +335,7 @@ export const allTreatments: Treatment[] = [
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-        slug: "mole-removal",
+        slug: "mole-removal-treatment",
         title: "Mole Removal",
         category: "skin",
         description: "Professional mole removal for aesthetic and health reasons.",
@@ -502,45 +348,31 @@ export const allTreatments: Treatment[] = [
         </h3>
 
         <p>
-            <span class="text-gray-600 font-semibold">Best Mole Removal Treatment in Hyderabad :</span> Depending on its appearance, a mole can either be considered a beauty spot or a cosmetic concern.
-            However, an unsightly mole can significantly affect one's self-confidence. 
-            Even a single mole or wart may impact overall personality and appearance.
-        </p>
-
-        <p class="mt-4">
-            At our clinic, we provide safe and advanced laser mole removal treatments in Hyderabad 
-            tailored to individual skin conditions.
+            <span class="text-gray-600 font-semibold">Best Mole Removal Treatment in Hyderabad :</span>Depending on how it appears, a mole can either be a beauty spot or a blemish on the human body. But an unsightly spot is always considered to be a bane for one’s self-confidence. A single mole or a wart causes havoc for the entire personality
         </p>
     </section>
 
-
     <section>
-        <h3 class="text-2xl font-serif text-primary mb-4">
+        <h3 class="text-2xl font-serif text-primary mb-2">
             What’s a Mole?
         </h3>
 
         <p>
-            Medically known as <strong>nevi</strong>, skin moles are round or oval-shaped dark spots that vary in size.
-            They contain more pigment-producing cells than surrounding skin and can appear anywhere on the body, including the face.
-        </p>
-
-        <p class="mt-4">
-            Though most moles are harmless, many people consider them cosmetic concerns. 
-            However, any structural changes in size, color, or texture require immediate medical attention.
-            This is why mole removal treatment has become increasingly common.
+            Medically termed as ‘nevi’, skin moles are round or oven in shape and usually appears as dark spots in varying sizes. These spots have more pigment-producing cells than the other areas. They can grow randomly on any part of the body, including the face. Nowadays, people pay much attention to these moles appearing on their skin and consider them as a major beauty concern. Though moles are harmless, many people consider them as an undesired skin irregularity. The structural changes in a skin mole need an immediate medical attention. Hence, the mole removal treatment has become very common.
         </p>
     </section>
 
 
     <section>
-        <h3 class="text-2xl font-serif text-primary mb-4">
+        <h3 class="text-2xl font-serif text-primary mb-2">
             What Causes Moles?
         </h3>
 
         <p>
-            A mole is developed on the skin when a group of cells called A mole is developed on the skin when a group of cells called <a 
+            A mole is developed on the skin when a group of cells called <a 
           href="https://en.wikipedia.org/wiki/Melanocyte"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
-          Melanocyte</a> grow in a cluster and produce melanin, a naturally occurring pigment providing skin colour. The sun exposure or the pregnancy may darken the moles. grow in a cluster and produce melanin, a naturally occurring pigment providing skin colour. The sun exposure or the pregnancy may darken the moles.
+          Melanocytes</a> grow in a cluster and produce melanin, a naturally occurring pigment providing skin colour. The sun exposure or the pregnancy may darken the moles.
+
         </p>
 
         <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
@@ -568,7 +400,9 @@ export const allTreatments: Treatment[] = [
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <p class="text-sm">
-                    Atypical moles (Dysplastic nevi) are associated with melanoma and need monitoring.
+                    Atypical moles (Dysplastic nevi) is associated with melanoma. They tend to be larger than the other moles. People with multiple dysplastic nevi could be at an increased risk for <a href="https://www.skincancer.org/skin-cancer-information/melanoma/"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
+        melanoma.</a>
+.
                 </p>
             </li>
 
@@ -587,64 +421,70 @@ export const allTreatments: Treatment[] = [
         </h3>
 
         <p>
-            A typical mole usually appears brown, but color and texture may vary.
-            Key characteristics include:
+            Normally, a typical mole appears in brown color. However, the color varies from person to person. Understand the following things with regard to the appearance of the skin moles:
         </p>
+   
+
 
         <ul class="mt-6 space-y-3 list-disc pl-5 text-gray-700">
-            <li><strong>Colour:</strong> Brown, tan, red, pink, or black.</li>
-            <li><strong>Shape:</strong> Round or oval.</li>
-            <li><strong>Texture:</strong> Smooth, raised, flat, or wrinkled. Some may have hair growth.</li>
-            <li><strong>Size:</strong> Usually less than 6 millimeters (about 1/4 inch).</li>
+           
+            <li><strong>Colour:</strong> The skin moles can be brown, tan, red, pink or black. 2. Shape : The moles appear in round or oval shape.</li>
+            <li><strong>Shape:</strong> The moles appear in round or oval shape.</li>
+            <li><strong>Texture:</strong>The moles can be smooth, raised, flat or wrinkled. Some moles have hair grown from them.</li>
+            <li><strong>Size:</strong>  The moles are usually less than 6 millimeters (about 1/4 inch).</li>
         </ul>
     </section>
+
+         <h1 class="text-2xl font-serif text-primary mb-2">Laser Mole Removal cost in Hyderabad</h1>
+        <p>To know the laser mole removal cost just drop an inquiry we shall get back to you.</p>
 
 
     <section>
         <h3 class="text-2xl font-serif text-primary mb-4">
             Types of Moles
         </h3>
+        <p>Not all moles are the same. Here is a quick guide to the most common types moles:</p>
 
         <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">1. Dysplastic Nevi:</strong>
                 <p class="text-sm">
-                    Larger, irregular moles with uneven color. Should be monitored for changes.
+                     Also known as atypical moles, these are generally larger than other moles with irregular shapes and uneven colors. Normally, most dysplastic nevi are benign, but they share both cancerous and pre-cancerous signs. Any changes occurring on these moles should be checked with a dermatologist.
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">2. Congenital Nevi:</strong>
                 <p class="text-sm">
-                    Present at birth and require monitoring as they may have higher melanoma risk.
+                    These are the moles present on the body at birth or within the first year of the child’s life. These type of moles is caused by the melanocyte cells, hence more likely to develop into melanoma later in life, than the other moles. These moles need to be monitored as the child grows. Congenital moles usually appear in about one in 100 people.
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">3. Acquired Moles:</strong>
                 <p class="text-sm">
-                    Develop during childhood or adulthood and are usually benign.
+                    These types of moles appear during childhood or adulthood. Mostly, acquired moles are benign. However, there are chances that sometimes they can turn into cancerous moles as the person grows. 
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">4. Halo Nevi:</strong>
                 <p class="text-sm">
-                    Surrounded by a white ring due to pigment loss. Generally harmless.
+                   A halo nevus comes with a white ring around it, which gives the mole the name. The skin around the mole loses its pigmentation and appears as a white round patch. But once the mole eventually fades away, the skin retains its actual color. These moles are benign and do not require any treatment except for cosmetic reasons.
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">5. Junctional Melanocytic Nevi:</strong>
                 <p class="text-sm">
-                    Dark pigmented moles formed at the junction of skin layers.
+                 These moles occur from an accumulation of melanocytes at the junction of the dermis and epidermis layers. These are usually round, raised or flat with dark pigmentation. These moles are acquired between childhood and early adulthood.
                 </p>
             </li>
 
             <li class="bg-primary/5 p-6 rounded-2xl border border-primary/10">
                 <strong class="text-primary block mb-2">6. Intradermal Nevi:</strong>
                 <p class="text-sm">
-                    Skin-colored benign moles that blend with natural complexion.
+                    The skin-colored moles effectively blend in with the skin complexion. These moles are developed during the late childhood or anytime during the adulthood and are benign.
                 </p>
             </li>
         </ul>
@@ -652,91 +492,56 @@ export const allTreatments: Treatment[] = [
 
 
     <section>
-        <h3 class="text-2xl font-serif text-primary mb-4">
+        <h3 class="text-2xl font-serif text-primary mb-2">
             Laser Mole Removal Cost in Hyderabad
         </h3>
 
         <p>
-            The cost of laser mole removal depends on the size, type, and number of moles.
-            To know the exact pricing, please drop an inquiry and our team will get back to you.
+          Some moles are harmless and do not require any treatment. But some have the potential to become cancerous and hence need to take an immediate medical assistance. A mole can be removed in different ways. There are surgical and non-surgical approaches to remove the moles. As per the requirement, the dermatologist designs the treatment through radiofrequency therapy, electrocautery or laser technology. In some cases, the doctor applies a combination of treatments. At Dr. Venus, we offer effective laser mole removal treatments with instant results.
         </p>
     </section>
 
-
     <section>
-        <h3 class="text-2xl font-serif text-primary mb-6">
-            Laser Mole Removal Treatment in Hyderabad
+        <h3 class="font-serif text-primary ">
+           1. Is the mole removal treatment painful?
         </h3>
 
         <p>
-            While many moles are harmless, some may have the potential to become cancerous and require immediate medical attention.
-            Mole removal can be performed using surgical or non-surgical approaches.
+          Depending on approaches to treat the moles, the doctor gives local injectable anesthesia or applies local anesthetic gel on the affected area on the skin in order to ensure the patient doesn’t feel discomfort or pain.
         </p>
-
-        <p class="mt-4">
-            Based on your condition, dermatologists may recommend radiofrequency therapy, electrocautery, or laser treatment.
-            In some cases, a combination of treatments is used for best results.
-        </p>
-
-        <p class="mt-4">
-            At our clinic, we offer advanced laser mole removal treatments with effective and precise results.
-        </p>
-    </section>
-
-
-    <section>
-        <h3 class="text-2xl font-serif text-primary mb-6">
-            FAQ’S
+        <h3 class="font-serif text-primary ">
+           2. Will the treatment leave scars?
         </h3>
 
-        <div class="space-y-6">
+        <p class="mt-4">
+            In normal cases, there will not be any scarring after the treatment. However, the post-treatment scar depends on the growth of the moles. If the growth runs deeper, it may produce scarring. But the doctor carefully implements the treatment to remove the moles from the root.
+        </p>
+        <h3 class="font-serif text-primary "> 
+            3. What is the recovery period?
+        </h3>
 
-            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 class="font-bold text-primary mb-2">
-                    1. Is mole removal treatment painful?
-                </h4>
-                <p class="text-sm leading-relaxed">
-                    Local anesthesia or anesthetic gel is applied to ensure minimal discomfort during the procedure.
-                </p>
-            </div>
-
-            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 class="font-bold text-primary mb-2">
-                    2. Will the treatment leave scars?
-                </h4>
-                <p class="text-sm leading-relaxed">
-                    In most cases, there is minimal to no scarring. Deeper moles may leave slight marks, 
-                    but proper technique reduces this risk significantly.
-                </p>
-            </div>
-
-            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 class="font-bold text-primary mb-2">
-                    3. What is the recovery period?
-                </h4>
-                <p class="text-sm leading-relaxed">
-                    Healing typically takes about 7 to 10 days, depending on the individual and treatment method.
-                </p>
-            </div>
-
-        </div>
+        <p class="mt-4">
+           The healing time will be about one week to 10 days. It varies from patient to patient.
+        </p>
     </section>
 
 
-    <section class="bg-accent/5 p-8 rounded-[2rem] border border-accent/10">
+    <section class="bg-accent/5      rounded-[2rem] border border-accent/10">
         <h3 class="text-2xl font-serif text-primary mb-4">
             Our Locations
         </h3>
 
         <p class="text-sm">
-            Our clinic locations are in <strong>Chandanagar and Kondapur</strong>, 
-            just 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City,
-            and 20 minutes from Jubilee Hills and Banjara Hills.
+           Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us.
         </p>
 
-        <p class="mt-4 text-sm">
-            Don’t wait — book your appointment today for safe and effective mole removal treatment.
-        </p>
+       <div class="mt-8">
+     <a href="/contact" 
+     class="inline-block border-2 border-green-600 text-green-600 px-6 py-2 rounded-md hover:bg-green-600 hover:text-white transition">
+     Quick Enquiry
+     </a>
+</div>
+
     </section>
 
   </div>
@@ -746,7 +551,7 @@ export const allTreatments: Treatment[] = [
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-        slug: "acne-scar-removal",
+        slug: "acne-scar-removal-treatment",
         title: "Acne Scar Removal",
         category: "skin",
         description: "Smooth out your skin and regain your confidence.",
@@ -874,7 +679,7 @@ export const allTreatments: Treatment[] = [
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-        slug: "laser-hair-removal",
+        slug: "laser-hair-removal-treatment",
         title: "Laser Hair Removal Treatment",
         category: "skin",
         description: "Permanent reduction of unwanted hair for smooth skin.",
@@ -1047,7 +852,7 @@ export const allTreatments: Treatment[] = [
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-        slug: "skin-lightening",
+        slug: "skin-lightening-treatment",
         title: "Skin Lightening Treatment",
         category: "skin",
         description: "Brighten your complexion with safe and effective treatments.",
@@ -1329,11 +1134,11 @@ export const allTreatments: Treatment[] = [
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-  slug: "beard-hair-transplant",
-  title: "Beard Hair Transplant",
-  category: "hair",
-  description: "Get a fuller, more defined beard with precision grafting.",
-  content: `
+        slug: "beard-hair-transplant",
+        title: "Beard Hair Transplant",
+        category: "hair",
+        description: "Get a fuller, more defined beard with precision grafting.",
+        content: `
     <section class="treatment-section">
 
       <p>
@@ -1467,18 +1272,18 @@ export const allTreatments: Treatment[] = [
 
     </section>
   `,
-  image: "https://images.unsplash.com/photo-1599351431247-f132f82f23f9?auto=format&fit=crop&q=80&w=800",
-  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        image: "https://images.unsplash.com/photo-1599351431247-f132f82f23f9?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
-  slug: "moustache-hair-transplant",
-  title: "Moustache Hair Transplant",
-  category: "hair",
-  description: "Advanced FUE moustache hair transplant to restore density and natural facial aesthetics.",
-  image: "/images/moustache-transplant-banner.jpg", 
-  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        slug: "moustache-hair-transplant",
+        title: "Moustache Hair Transplant",
+        category: "hair",
+        description: "Advanced FUE moustache hair transplant to restore density and natural facial aesthetics.",
+        image: "/images/moustache-transplant-banner.jpg",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 
-  content: `
+        content: `
     <section>
       <h2 class="text-2xl text-green-900">Moustache Transplant in Hyderabad</h2>
       <p>
@@ -1617,14 +1422,14 @@ export const allTreatments: Treatment[] = [
   `
     },
     {
-  slug: "eyebrow-hair-transplant",
-  title: "Eyebrow Hair Transplant",
-  category: "hair",
-  description: "Advanced FUE eyebrow hair transplant to restore natural shape, thickness, and symmetry.",
-  image: "/images/eyebrow-hair-transplant-banner.jpg", 
-  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        slug: "eyebrow-hair-transplant",
+        title: "Eyebrow Hair Transplant",
+        category: "hair",
+        description: "Advanced FUE eyebrow hair transplant to restore natural shape, thickness, and symmetry.",
+        image: "/images/eyebrow-hair-transplant-banner.jpg",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 
-  content: `
+        content: `
     <section>
       <h2 class="text-2xl text-green-900">Eyebrow Hair Transplant in Hyderabad</h2>
       <p>
@@ -1890,7 +1695,7 @@ export const allTreatments: Treatment[] = [
     },
 
     // FACIAL AESTHETICS
-     {
+    {
         slug: "anti-aging-treatment",
         title: "Anti-Aging Treatment",
         category: "facial",
@@ -2114,7 +1919,7 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
         category: "facial",
         description: "Smooth out fine lines and wrinkles for a refreshed look.",
         content:
-           `<div class="space-y-12">
+            `<div class="space-y-12">
 
     <section>
         <h3 class="text-2xl font-serif text-primary mb-2">
@@ -2265,7 +2070,7 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
         category: "facial",
         description: "Restore volume and contour to your face.",
         content:
-           `<div class="space-y-12">
+            `<div class="space-y-12">
 
     <section>
         <h3 class="text-2xl font-serif text-primary mb-2">
@@ -2407,7 +2212,7 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
         category: "facial",
         description: "Achieve fuller, perfectly shaped lips.",
         content:
-           `
+            `
            <div class="space-y-12">
 
     <section>
@@ -2524,7 +2329,7 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
         category: "facial",
         description: "Non-surgical face lift for a contoured appearance.",
         content:
-          `<div class="space-y-12">
+            `<div class="space-y-12">
 
   <section>
     <h3 class="text-2xl font-serif text-primary mb-2">
@@ -2674,7 +2479,7 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
 
-     {
+    {
         slug: "tear-troughs-and-eye-bags",
         title: "Tear Troughs and Eye Bags",
         category: "Facial",
@@ -2930,7 +2735,7 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
 
-      {
+    {
         slug: "cheek-fillers",
         title: "Cheek Fillers",
         category: "facial",
@@ -3021,7 +2826,7 @@ Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive f
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
 
-      {
+    {
         slug: "crows-feet",
         title: "Crows Feet",
         category: "facial",
@@ -3116,7 +2921,7 @@ Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive f
             "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
- 
+
 
 
     // BODY CONTOURING
