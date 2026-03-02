@@ -2,17 +2,43 @@ import React from "react";
 import { CheckCircle2, Award, Target, Eye } from "lucide-react";
 
 export const metadata = {
-    title: "About Us | Dr. Venus – Institute of Skin & Hair",
+    title: "About Us - Dr Venus",
     description: "Learn more about Dr. Venus Institute, our mission, vision, and the expertise of Dr. Venu Kumari in dermatology and trichology.",
-    keywords: [
-        "Best Dermatologist",
-        "Skin Specialist",
-        "Best Aesthetic Dermatologist",
-        "Best Cosmetologist",
-        "Skin and hair clinic",
-        "Famous Skin and hair clinic",
-        "best skin and hair clinic"
-    ],
+keywords: [
+  "best dermatologist",
+  "skin specialist",
+  "best aesthetic dermatologist",
+  "best cosmetologist",
+  "skin and hair clinic",
+  "famous skin and hair clinic",
+  "best skin and hair clinic in hyderabad",
+  "skin and hair clinic near me",
+  "best skin and hair clinic near me",
+  "best skin care clinic in hyderabad",
+  "skin clinic near me",
+  "skin clinic hyderabad cost",
+  "hair specialist",
+  "lady skin specialist in hyderabad",
+  "skin specialist in hyderabad",
+  "best skin specialist in hyderabad",
+  "female skin specialist near me",
+  "best lady skin specialist near me",
+  "best lady skin specialist in hyderabad",
+  "lady doctor skin specialist",
+  "best skin specialist near me",
+  "skin specialist hyderabad",
+  "skin specialist near me",
+  "dermal fillers in hyderabad",
+  "dermal fillers cost in hyderabad",
+  "dermal fillers cost",
+  "dermal fillers before and after",
+  "dermal fillers side effects photos",
+  "risks of dermal fillers",
+  "types of dermal fillers",
+  "what are dermal fillers made of",
+  "dermal fillers and covid vaccine",
+  "long-term effects of dermal fillers"
+],
     alternates: {
         canonical: "/about-us",
     },
@@ -25,7 +51,7 @@ export default function AboutUsPage() {
             <div className="w-full bg-[#f0f4f2] border-b border-primary/5">
                 <div className="max-w-7xl mx-auto px-6 py-16 text-center">
                     <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Welcome to Dr. Venus</span>
-                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">About Our Institute</h1>
+                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">About Us</h1>
                     <div className="w-24 h-1 bg-accent mx-auto"></div>
                     <p className="mt-6 text-foreground/70 max-w-2xl mx-auto font-sans">
                         Pioneering excellence in dermatology and trichology with a focus on medical mastery and patient satisfaction.

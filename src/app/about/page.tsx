@@ -1,10 +1,21 @@
 import Image from "next/image";
 import AboutDoctor from "@/components/AboutDoctor";
 import Testimonials from "@/components/Testimonials";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "About Us | Dr. Venus – Institute of Skin & Hair",
-    description: "Learn about Dr. Venus, our mission, and our 15+ years of expertise in advanced dermatology and hair restoration.",
+    description: "Learn about Dr. Venus Institute, our treatment philosophy, and our patient-focused approach to skin and hair care.",
+    keywords: [
+        "about Dr Venus",
+        "skin and hair specialists",
+        "dermatology clinic Hyderabad",
+        "aesthetic dermatology team",
+        "hair and skin expertise",
+    ],
+    alternates: {
+        canonical: "/about",
+    },
 };
 
 export default function AboutPage() {
@@ -24,7 +35,7 @@ export default function AboutPage() {
                     <div className="space-y-6">
                         <h2 className="text-4xl font-serif text-[#1f4d3a]">Our Philosophy</h2>
                         <p className="text-gray-600 leading-relaxed font-sans">
-                            At Dr. Venus Institute, we believe that true dermatological care is a blend of science, technology, and art. Every patient is unique, and so is their journey to confidence. We don't just treat symptoms; we understand the individual behind the skin or hair concern.
+                            At Dr. Venus Institute, we believe that true dermatological care is a blend of science, technology, and art. Every patient is unique, and so is their journey to confidence. We don&apos;t just treat symptoms; we understand the individual behind the skin or hair concern.
                         </p>
                         <p className="text-gray-600 leading-relaxed font-sans">
                             Our commitment to safety and ethics is paramount. We use only clinically proven methods and the latest technology to ensure that every treatment is as effective as it is safe.

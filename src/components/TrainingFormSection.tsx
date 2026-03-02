@@ -99,8 +99,8 @@ export default function TrainingFormSection() {
         <section className="pt-32 bg-white overflow-hidden">
             <div className="w-full bg-[#f0f4f2] border-b border-primary/5">
                 <div className="max-w-7xl mx-auto px-6 py-16 text-center">
-                    <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Medical Training</span>
-                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">Professional Training Contact</h1>
+                    
+                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">Enquiry Form</h1>
                     <div className="w-24 h-1 bg-accent mx-auto"></div>
                     <p className="mt-6 text-foreground/70 max-w-2xl mx-auto font-sans">
                         Join our advanced dermatology and cosmetology training programs. Please share your professional details below.

@@ -18,10 +18,6 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.drvenus.in"),
   title: "Dr. Venus – Institute of Skin & Hair | Committed to Dermatology",
-  description:
-    "Dr. Venus Institute provides premium dermatology services, including expert hair loss treatments and skin care in a modern medical facility.",
-  keywords:
-    "Dermatology, Skin Care, Hair Loss Treatment, Dr. Venus, Institute of Skin & Hair",
   icons: {
     icon: "/logo/favicon.svg",
     apple: "/logo/favicon.svg",

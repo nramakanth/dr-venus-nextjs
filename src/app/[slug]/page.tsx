@@ -1,11 +1,42 @@
 import { allTreatments } from "@/data/treatments";
 import TreatmentPageTemplate from "@/components/TreatmentPageTemplate";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 export async function generateStaticParams() {
     return allTreatments.map((treatment) => ({
         slug: treatment.slug,
     }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { slug } = await params;
+    const treatment = allTreatments.find((t) => t.slug === slug);
+
+    if (!treatment) {
+        return {
+            title: "Treatment Not Found | Dr. Venus",
+            description: "The requested treatment page could not be found.",
+            alternates: {
+                canonical: "/",
+            },
+        };
+    }
+
+    return {
+        title: `${treatment.title} | Dr. Venus`,
+        description: treatment.description,
+        keywords: [
+            treatment.title,
+            `${treatment.category} treatment`,
+            "dermatology clinic Hyderabad",
+            "skin and hair treatment",
+            "Dr Venus Institute",
+        ],
+        alternates: {
+            canonical: `/${treatment.slug}`,
+        },
+    };
 }
 
 interface PageProps {
