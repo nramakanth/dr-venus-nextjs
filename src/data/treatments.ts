@@ -1890,24 +1890,371 @@ export const allTreatments: Treatment[] = [
     },
 
     // FACIAL AESTHETICS
-    {
+     {
         slug: "anti-aging-treatment",
         title: "Anti-Aging Treatment",
         category: "facial",
         description: "Turn back the clock with advanced anti-aging solutions.",
         content:
-            "Our anti-aging treatments combine medical-grade skincare with advanced technology to reduce fine lines, wrinkles, and age spots, leaving you with skin that looks and feels younger.",
+            `<div class="space-y-12">
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-2">
+Anti Aging Treatment in Hyderabad
+</h3>
+
+<p>
+All of us desire smooth, bright, and wrinkle-less skin. With time, our skin is sickened and aged by harsh toxic ingredients in many cleansers, moisturizers, and other products. As a matter of fact, the absolute, stable, and most natural way is to keep it out of the sun completely (except for the amount of time you need to get your vitamin D), which is next to impossible. Hence, the sun and other environmental factors are responsible for most aging. Now, the question arises, what is the best possible method of not getting aged. However, there are umpteen anti aging treatment 2023. You are hearing since long that can help you stay young and fight to age, but the latest one is acquainted in 2023, are just outstanding. Without wasting much time, let’s get straight into it, but before that-
+
+ <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+        <img src="/images/treatments/Anti-aging.jpg" alt="Anti-aging Treatment"class="w-full h-auto object-contain"/></div>
+</p>
+
+
+<p class="mt-4 font-semibold">
+Anti Aging Treatment
+</p>
+
+<p class="mt-4 font-semibold">
+Do you know how badly Aging could impact someone?
+</p>
+
+<p class="mt-4">
+Aging is a broad terminology. The aging process can affect skin tone, influence the skin texture, produce elasticity, cause the formation of wrinkles, and induce loss of volume in the subcutaneous fat pockets at the same time.
+</p>
+
+<p class="mt-4">
+Nevertheless, each individual may have a different extent of damage among the conditions mentioned above.
+</p>
+
+<p class="mt-4">
+Hence, Anti-aging procedures are aimed at correcting, possibly reversing, or slowing the progression of these related infirmities. Skin tone, for instance, maybe improved by peels, creams, lasers & other cosmetic products. Skin texture can be restored by exfoliating scrubs, microdermabrasion, fractional lasers, and micro or nano needles.
+</p>
+
+<p class="mt-4">
+Skin elasticity can significantly improve collagen and elastic fibers through radio frequency (Thermage CPT), USG (Ulthera), or RF Micro-Needling.
+</p>
+
+<p class="mt-4">
+In addition to these, wrinkles can be removed safely using injectables like Botulinum Toxin A & Volume loss can be corrected using filler injections.
+</p>
+
+<p class="mt-4">
+In a nutshell, when performed appropriately, all these unmatched procedures are safe and competent for lessening the aging effect. Still, the recently introduced tactics are even better in every sense.
+</p>
+
+<p class="mt-4">
+Let’s get into the roller coaster of discerning the Brand- New anti-aging treatment in Hyderabad that have changed people’s state of mind upside down.
+</p>
+</section>
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-4">
+Profhilo
+</h3>
+
+<p>
+Profhilo is a versatile and lately added technique that effectively treats a variety of skin imperfections. Also, reckoned as the most successful injectable moisturizer because of its additional anti-aging benefits.
+</p>
+
+<p class="mt-4">
+Aesthetic clinics are riding on the popularity of this treatment by offering needleless or injection-free Profhilo procedures. Right from exfoliating the skin to unclogging and tightening the pores to reducing oil production to smoothening the rough skin texture, this one-of-a-kind anti-aging fashion gives you a clear and even skin tone in all aspects. Thus, the treatment results in a smoother skin tone & crystal-clear complexion with lasting results and the pricing start from – 28000/-
+</p>
+</section>
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-4">
+Jawline Contouring
+</h3>
+
+<p>
+Who does not crave to have that perfect chiseled Jawline even if they are in their old ages? Everyone urges, though! Now, achieving that sharpened Jawline with contouring is undoubtedly everyone’s cup of tea. Since it has been contemplated as one of the most suitable and non-pricey New anti-aging treatments in today’s world. Jawline Contouring is noteworthy these days for not just exhibiting the flawless V-shape Jaw but also doing wonders when it comes to providing the anti-aging solution to the ones seeking tremendous variation in their looks. Mostly sufficed with Botox, it usually reduces and softens moderate to severe wrinkles between the brows, around the eyes, and on the forehead. Injected into specific regions of the face to relax the underlying muscles, it can often be used to create a brow lift & correct down-turned lips and cost between 9600 -192000.
+</p>
+</section>
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-4">
+PDO thread lift
+</h3>
+
+<p>
+Polydioxanone (PDO) offers thread lift treatment to help you achieve that beautiful “V” face giving you a youthful, sculpted look. It is a minimally advanced approach that employs surgical threads or sutures, traditionally employed in medical surgeries. The threads are placed beneath the skin and are used to tighten those areas of the skin that are showing signs of becoming loose or sagging. Like suspension cables, these threads are intended to hold up the skin in place and render a supportive structure that disregards the effects of gravity as well as aging and stimulates collagen synthesis. For those who want a natural yet visible improvement, without all the stress and worries of a complete surgical face-lift procedure, a thread lift treatment is recommended and costs around- 64,000 to 192,000.
+</p>
+</section>
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-4">
+Human Growth Hormone or HGH
+</h3>
+
+<p>
+Not many a people associate Human Growth Hormone with anti-aging, but it is deemed as ‘Youth Hormone’, and is the most secure anti-aging technique nowadays. It plays a massive role towards being glowing again. Our body produces HGH naturally. Unfortunately, after peaking in our adolescence, our production starts to decline as early as our late 20’s and continues to decrease over time.
+</p>
+
+<p class="mt-4">
+As our production of HGH dips, the symptoms of aging start to appear. The wrinkles, the achy joints, sagging, and the thinning hair. Well, there is such a process, which never permits to grow old; that is what we call- Human Growth Hormone, which costs around- ₹ 80,000 to 4,00 000 a month. It exfoliates the skin, tightens pores, lessens oil production, and smoothens uneven texture, giving you a bright and smooth skin tone.
+</p>
+</section>
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-4">
+Upper eyelid surgery (Upper Blepharoplasty)
+</h3>
+
+<p>
+The most significant and cost-effective surgery that unveils a change in your face’s emotion, other than age, is Upper eyelid surgery. Removing extra skin and revealing the upper eyelash line gives a more happy, awake, and engaged look forevermore.
+</p>
+
+<p class="mt-4">
+Be it dealing with dull, pigmented, and blemished skin or improvising the skin texture, this highly powerful exfoliating procedure is suitable for people who wish to witness the changes in their looks on an immediate basis. The prices of these amazeballs skin methods are somewhere near- 32,000.
+</p>
+
+<p class="mt-4">
+The pictures below are an illustration of how the eyes alone can make a massive difference in the appearance of the whole face.
+ <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+        <img src="/images/treatments/Anti-aging-1.jpg" alt="Laser Mole Removal Treatment"class="w-full h-auto object-contain"/></div>
+</p>
+
+<p class="mt-4">
+Laser Mole Removal Treatment
+</p>
+</section>
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-4">
+Juvederm Derma Fillers
+</h3>
+
+<p>
+When it comes to unsurpassed fillers, Juvederm is a brand name for one of the most refined types of dermal fillers available. Juvederm is radically a hyaluronic acid filler used to fill deep creases of wrinkles & sagging of the skin.
+</p>
+
+<p class="mt-4">
+Several sub-brands such as Volbella, Volift, Voluma, Ultra Plus, and Ultra are present in the Juvederm umbrella. Without any doubt, Juvederm is one of the best skin treatments for people who are looking for the safest non-surgical anti-aging therapy till date and charges approx-20,000 and ranges up to 1, 00,000.
+</p>
+
+<p class="mt-4">
+The FDA approved this paramount Derma Fillers technique in 2020 as the most innoxious option for maintaining a youthful appearance. Thus, this pre-eminent skin rejuvenating technique does not leave any stone unturned and renders the best-ever solutions for anti-aging.
+</p>
+
+<p class="mt-4">
+If you happen to get it from a trusted skin clinic, then you are definitely on the safer side. These subtle, trendy, and inexpensive New Anti-ageing treatments are breaking the stereotypes like never before.
+ <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+        <img src="/images/treatments/Anti-aging-3.jpg" alt=""class="w-full h-auto object-contain"/></div>
+</p>
+
+
+
+<p>
+With the guidance of a skilled and experienced consultant, these all anti-aging treatments are very safe and effective. Please seek more information from your specialists during a consult in person before choosing to have or forego such aesthetic remedies for anti-aging concerns.
+</p>
+
+<p class="mt-4">
+Also, figure out which is the most salutary for you by discussing this with your dermatologist. Look Good, Feel Good, You’re Worth It.
+</p>
+</section>
+
+<section>
+<h3 class="text-2xl font-serif text-primary mb-4">
+FAQs
+</h3>
+
+<p><strong>What is skin aging and why it happens?</strong></p>
+<p class="mt-2">
+Skin aging is the procedure when skin cells don’t produce collagen. The skin gradually loses its firm, elasticity and shine. The skin ageing can be both due to external and internal factor. External factors can be pollution, sun exposure, dust, etc. where as the internal factor can be your age or genes.
+</p>
+
+<p class="mt-4"><strong>What are the symptoms of skin aging?</strong></p>
+<p class="mt-2">
+The visible signs of skin aging are loss of skin elasticity, firmness, fine lines appearance, frown, saggy skin, losing the skin smoothness, visible dark spots and discolorations and the formation of wrinkles.
+</p>
+
+<p class="mt-4"><strong>What are the anti aging treatments options available?</strong></p>
+<p class="mt-2">
+Our Clinic offers Fillers & other advanced cosmetic clinical treatments like Pixel laser skin resurfacing to reverse the process of skin aging and get you the charming youthful face. Based on the initial skin assessment by the doctors, the actual treatment procedure is charted.
+</p>
+
+<p class="mt-4"><strong>What is the age limit to get anti aging treatments?</strong></p>
+<p class="mt-2">
+Anybody above 18 years old can undergo anti aging treatment. Lactating, pregnant women and candidate with chronic illness may not be suited for the procedure.
+</p>
+
+<p class="mt-4"><strong>What are the side effects of anti aging treatment?</strong></p>
+<p class="mt-2">
+There are very minor adverse reactions like:
+</p>
+<ul class="mt-2 list-disc pl-5">
+<li>Temporary bruising</li>
+<li>Mild redness</li>
+<li>Slight headache</li>
+<li>Few clients also get flu like symptoms .</li>
+</ul>
+
+<p class="mt-4"><strong>Are the anti aging treatments very painful?</strong></p>
+<p class="mt-2">
+Every anti aging treatment at our Clinics is administered by the specialist doctors. The pain is very comfortable and relaxing.
+</p>
+
+<p class="mt-4"><strong>What are post treatment effects?</strong></p>
+<p class="mt-2">
+One can see the skin health and firmness in a week or so. The effects of anti aging treatment last for a year and needs post maintenance session every year.
+</p>
+
+</section>
+
+</div>`,
         image:
             "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
+
     {
         slug: "anti-wrinkle-treatment",
         title: "Anti-Wrinkle Treatment",
         category: "facial",
         description: "Smooth out fine lines and wrinkles for a refreshed look.",
         content:
-            "Targeting specific dynamic wrinkles, our treatments help relax the muscles that cause lines, giving you a smoother forehead, crow's feet, and frown lines.",
+           `<div class="space-y-12">
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-2">
+            Anti-Wrinkle Treatment in Hyderabad
+        </h3>
+
+        <p>
+            Laugh more. We ensure less laugh lines and wrinkles with anti-wrinkle treatment.
+        </p>
+
+        <p class="mt-4">
+            With the advancement of technology, these have revolutionised the skin ageing treatments. This non-surgical treatment to reduce wrinkles and laugh lines on your face is more popular in India as well.
+        </p>
+
+        <p class="mt-4">
+            The injections, which is a kind of skin rejuvenation treatment, help relax face muscles that cause wrinkles. With a proven history of more than 25 years, this unparalleled skin treatment is both safe and effective for facial wrinkles including crow’s feet, laughter lines, forehead lines and frown lines.
+        </p>
+
+        <p class="mt-4">
+            At Dr. Venus, anti-wrinkle injections are administered by our highly professional practitioners using a variety of techniques and products. The treatment generally takes 15 – 20 minutes, and the result can be visible from within 15 days after the treatment. Thus, you get a fresh, young and natural-looking skin.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            How do Anti-Wrinkle Injections Work?
+        </h3>
+
+        <p>
+            This is a safe and affordable way to rejuvenate the facial skin and reduce the appearance of wrinkles. Since the inception of Dr. Venus, we are at the forefront of anti-wrinkles treatment.
+        </p>
+
+        <p class="mt-4">
+            They offer two solutions such as prevention and formation of new wrinkles. The treatment involves tiny injections into the facial muscles directly, thereby relaxing the muscles and preventing new wrinkles. The client feels a temporary discomfort for a few minutes during the treatment. But sooner, the client will be able to carry on.
+        </p>
+
+        <p class="mt-4">
+            Today, a growing number of people are combatting the wrinkles and lines through anti-wrinkles therapy.
+        </p>
+
+        <p class="mt-4 font-semibold">
+            15 Best Tips On How to Get Rid Of Wrinkles Naturally?
+
+            To know the non-surgical facelift treatment cost and the complete details of the treatment just fill the below contact form & we’ll get in touch with you.
+
+         
+        </p>
+         <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/bzXQLR_8NJk?si=V-BKMWhC6FTcdKsS"
+                title="Anti-Wrinkle Treatment Video"
+                frameborder="0" 
+                allowfullscreen
+                style="border-radius:8px;">
+            </iframe>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Anti-Wrinkle Treatment Cost in Hyderabad
+        </h3>
+
+        <p>
+            To know the cost just fill the below contact form, we’ll get back to you.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Benefits of Anti-Wrinkle Injections
+        </h3>
+
+        <ul class="list-disc pl-6 space-y-2">
+            <li>Relaxes facial muscles</li>
+            <li>Reduces wrinkles and lines</li>
+            <li>Restores facial balance</li>
+            <li>Results in natural-looking soft skin</li>
+            <li>Quick and painless treatment</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Frequently Asked Questions
+        </h3>
+
+        <p><strong>1. What causes wrinkles?</strong></p>
+        <p class="mt-2">
+            The underlying muscles in our face expand and contract as we frown or smile. Over a period of time, the skin cells stop producing collagen. Gradually, the skin loses its elasticity, leading to wrinkles and lines on the face. Hormonal changes, ageing, dieting and other environmental factors also cause the breakdown of collagen and lead to wrinkles on the face.
+        </p>
+
+        <p class="mt-4"><strong>2. What are anti-wrinkle injections?</strong></p>
+        <p class="mt-2">
+            Anti-wrinkle injections utilize a specialized formula derived from natural, purified protein. The muscles on the face are responsible for the wrinkle-inducing movements. Once injected into these targeted muscles, it begins relaxing them immediately. It, thus, reduces lines and wrinkles, and brings soft and natural-looking skin.
+        </p>
+
+        <p class="mt-4"><strong>3. How does it work?</strong></p>
+        <p class="mt-2">
+            Using fine needles, an anti-wrinkle injection is injected into the targeted muscles on the face. Then it starts relaxing the muscles and preventing the appearance of new wrinkles and lines while smoothening the existing ones. The treatment also allows the surrounding muscles to function normal.
+        </p>
+
+        <p class="mt-4"><strong>4. Is the treatment painful?</strong></p>
+        <p class="mt-2">
+            Anti-wrinkle injections are administered by expert doctors and done with tiny fine needles. The tiny pricks of the needs cause discomfort for a moment, and patients are able to tolerate it well.
+        </p>
+
+        <p class="mt-4"><strong>5. Will I get an immediate result?</strong></p>
+        <p class="mt-2">
+            It varies from patient to patient depending on the muscle strength. Normally, the results are visible within 2 – 5 days after the treatment. And you look more youthful.
+        </p>
+
+        <p class="mt-4"><strong>6. How long do they last?</strong></p>
+        <p class="mt-2">
+            Each patients respond differently. But the treatment can last between 4 and 6 months before the muscle’s relaxing effect wears off. Then the wrinkling returns to the previous state, but never becomes worse.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Anti-Wrinkle Injection Side Effects
+        </h3>
+
+        <p><strong>7. Are there any side effects?</strong></p>
+        <p class="mt-2">
+            Medically tested anti-wrinkle injections are safe and effective. The entire process is administered by a specialist doctor. Side effects of the treatment include bruising at the injected area or a slight headache. However, there are no long-term side effects.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Our Locations :
+        </h3>
+
+        <p>
+            Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur, Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, don’t waste your time book an appointment in advance.
+        </p>
+    </section>
+
+</div>`,
         image:
             "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
@@ -1918,7 +2265,138 @@ export const allTreatments: Treatment[] = [
         category: "facial",
         description: "Restore volume and contour to your face.",
         content:
-            "Dermal fillers are used to add volume to sunken cheeks, smooth nasolabial folds, and enhance facial contours, providing an immediate lift and youthful appearance.",
+           `<div class="space-y-12">
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-2">
+            Dermal Fillers in Hyderabad
+        </h3>
+
+        <p>
+            Are you looking to rejuvenate your skin without undergoing any surgery? Then, Dermal Fillers are the best thing you can opt for.
+        </p>
+
+        <p class="mt-4">
+            What are they or how do they work on you or how long does it last?
+        </p>
+
+        <p class="mt-4">
+            As we age, the face loses its subcutaneous fat and skin loses its elasticity, ultimately leading to the formation of wrinkles and lines on the face. Fillers are an excellent treatment to create volume and fullness in the face. The treatment not just helps you contour the face but diminish wrinkles and restore volume in the face.
+        </p>
+
+        <p class="mt-4">
+            They are, a kind of non-surgical aesthetic treatment, are injected into the skin to enhance your appearance. The treatment is specifically designed to shape and proportion the lips, cheeks, jaws, mouth corners, nasolabial folds and around the eyes. The early signs of aging can be thus treated effectively to get a rejuvenated skin.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            What Can they do on your Face?
+        </h3>
+
+        <ul class="list-disc pl-6 space-y-2">
+            <li>Restores plumpness to lips</li>
+            <li>Enhances shape of the face</li>
+            <li>Reduces wrinkles and lines</li>
+            <li>Helps contour the face</li>
+            <li>Helps in brow lift, facelift and eye lift</li>
+            <li>Smoothens frown lines</li>
+        </ul>
+
+
+        <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+        <img src="/images/treatments/Dermal-Fillers-in-Hyderaabd-min.jpg" alt="Dermal-Fillers Treatment"class="w-full h-auto object-contain"/></div>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            How Do They Work?
+        </h3>
+
+        <p>
+            This facial aesthetic treatment is very effective for those with early signs of aging. Designed to diminish the appearance of wrinkles and create volume, they actually rejuvenate and revitalize the skin.
+        </p>
+
+        <p class="mt-4">
+            As the name suggests, these injectables fill the affected areas under the skin. After applying the numbing cream to the treatment area, the physician injects fillers carefully into the targeted spots, using a tiny fine needle, to get the natural soft skin.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            How Long Do Dermal Fillers Last?
+        </h3>
+
+        <p>
+            While stimulating the production of collagen in the skin, the result of the treatment can last between 6 to 9 months, based on the treatment agents and biological skin factors. For the long-term result, ongoing treatment is recommended.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Dermal Fillers Cost in Hyderabad
+        </h3>
+
+        <p>
+            Most of us think how much do dermal fillers cost? Just fill the required details in the below contact form.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Types of Dermal Fillers
+        </h3>
+
+        <p>
+            Dermal fillers can be naturally-derived or synthetic. They typically fall under different categories: synthetic or natural, absorbable or non-absorbable.
+        </p>
+
+        <p class="mt-4"><strong>1. Artefill:</strong> Among different kinds of fillers, Artefill is a non-absorbable synthetic filler made of microbeads in bovine collagen. As the surrounding tissues won’t absorb the filler, it lasts longer than other injections.</p>
+
+        <p class="mt-4"><strong>2. Radiesse:</strong> This is an absorbable, synthetic filler created in the labs. The semi-permanent treatment is based on calcium microspheres and lasts up to 18 months. During the treatment, the collagen forms around the microspheres in Radiesse and firms the skin.</p>
+
+        <p class="mt-4"><strong>3. Natural Dermal fillers:</strong> These are based on a substance that naturally exists in the living organisms, called Hyaluronic acid which helps the skin keep firm. These absorbable fillers last up to 9 months.</p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Are Dermal Fillers Safe?
+        </h3>
+
+        <p>
+            The practitioner applies numbing cream or injects a local anesthesia on the targeted area. You may experience minor discomfort during the injections, but tolerable.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Benefits of Dermal Fillers
+        </h3>
+
+        <p>
+            With a single treatment, you get an instant result that may last between 6 to 24 months depending on the product used. It fixes a variety of concerns related to the signs of aging, such as:
+        </p>
+
+        <ul class="list-disc pl-6 space-y-2 mt-4">
+            <li>Smoothening nasolabial folds, laugh lines and wrinkles</li>
+            <li>Adds volume to chin, nose, jawlines, and mouth corners and restore fullness</li>
+            <li>Smoothens vertical lines at the edges of the lips and plumps thin lips</li>
+            <li>Enhances cheeks by giving them perfect shape</li>
+            <li>Effectively controls the sign of aging</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Our Locations :
+        </h3>
+
+        <p>
+            Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, don’t waste your time book an appointment with us.
+        </p>
+    </section>
+
+</div>`,
         image:
             "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
@@ -1929,33 +2407,717 @@ export const allTreatments: Treatment[] = [
         category: "facial",
         description: "Achieve fuller, perfectly shaped lips.",
         content:
-            "Our lip enhancement procedures focus on providing natural-looking volume and defining the lip borders, tailored to your unique facial structure.",
+           `
+           <div class="space-y-12">
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-2">
+            Lip Fillers in Hyderabad
+        </h3>
+
+        <p>
+            Sometimes, you look into the mirror and think if you could ever get bigger lips to enhance your smile. Yes, you’re true. These days, your lips get so much attention. By now, you must have noticed that many celebrities going under the needles to get luscious lips by undergoing lip fillers. Having fuller lips are not confined to celebrities.
+        </p>
+
+        <p class="mt-4">
+            The shape and size of your lips speak a lot about you. They simply enhance your beauty and femininity. But, how do you get a youthful plump look along with fuller lips? Beauty treatments like lip fillers are available these days for all, not just for celebrity figures.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Lip Fillers For Fuller, Plumper lips
+        </h3>
+
+        <p>
+            If your lips are lacking proper shape and elasticity, they are the best way to add plumpness and extra volume. This is one of the most popular cosmetic procedures through which your lips get extra volume and shape. They are injected into the targeted lip area using fine needles, to add volume and enhance the shape of the lips. The results of the treatment last up to one year.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            What is Injected into the Lips?
+        </h3>
+
+        <p>
+            Typically, they are made of either collagen or Hyaluronic Acid (HA). These substances can make the lips look fuller and plump. Moreover, HA retains moisture and hydrates the lips for giving them a more natural look.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Lip Fillers Cost in Hyderabad
+        </h3>
+
+        <p>
+            To know the cost just fill the below contact form & we’ll get back to you.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Benefits of Lip Fillers
+        </h3>
+
+        <p>
+            <strong>Instant result:</strong> Looking for instantly plump lips? You’re there. One of the major benefits of them are rapid result. Almost instantly – within 48 hours – after the treatment, you see your enhanced lips with natural shape and plumpness. The entire process under the treatment consumes a very short amount of time, between 30 minutes to one hour.
+        </p>
+
+        <p class="mt-4">
+            <strong>Long-lasting:</strong> When you choose this treatment at Dr. Venus, we guarantee a long-lasting remedy. They typically last between six months to one year. However, the effect of the treatment is totally dependent on each patient.
+        </p>
+
+        <p class="mt-4">
+            <strong>Natural look:</strong> You get a desired outcome through the fillers. The treatment enhances your smile and delivers a more youthful look. You can immediately add extra volume and shape. It enhances the natural beauty of the lips by preserving moisture on your lips.
+        </p>
+
+        <p class="mt-4">
+            <strong>Less bruising:</strong> The treatment is undertaken with the help of the best technologies available in the industry. Also, the fillers contain a naturally occurring substance called Hyaluronic Acid. As a result, you get an allergy-free treatment. There are chances of developing minimal swelling. But it subsides within a few hours of the treatment.
+        </p>
+
+<div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+        <img src="/images/treatments/Lip-Fillers-in-Hyderabad-min.jpg" alt="Lip-Fillers Treatment"class="w-full h-auto object-contain"/></div>
+
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            FAQ’S
+        </h3>
+
+        <p><strong>1. Are lip fillers safe?</strong><br>
+        If carried out correctly by a reputable dermatologist, lip fillers are one of the safest methods to enhance your beauty. Additionally, they use of Hyaluronic acid which is a substance occurring naturally in the body, makes it a safe process. Other factors that may trigger acne breakouts include medications, stress, improper diet and genetics.</p>
+
+        <p class="mt-4"><strong>2.How much amount do I actually need?</strong><br>
+        Sometimes, the treatment requires multiple sessions to derive the optimal result. However, you can observe visible changes after a single treatment. Our dermatologists are extremely careful to avoid any kinds of faults. Depending on the shape and size of the face, the aesthetic doctors undertake the treatment.</p>
+
+        <p class="mt-4"><strong>3. Does it cause pain?</strong><br>
+        Dermal fillers, including lip fillers, cause minimal discomfort or swelling. Sometimes, expert doctors use a numbing gel before the treatment, in order to make the entire process pain-free.</p>
+
+        <p class="mt-4"><strong>4. Can lip fillers go wrong?</strong><br>
+        They are considered to be the safest beauty treatment if administered professionally. Every treatment requires a proper consultation beforehand. If you get the right doctor, there are lesser chances of wrong results. During the treatment, anything more than minimal side effects is very rare.</p>
+
+        <p class="mt-4"><strong>5. What are the aftercare tips?</strong><br>
+        After getting the lip treatment done, it’s important to avoid the use of lipstick for a couple of days, as suggested by your expert doctor. You should also avoid sun exposure or any kinds of heated environments.</p>
+    </section>
+
+    <section>
+        <h3 class="text-2xl font-serif text-primary mb-4">
+            Our Locations:
+        </h3>
+
+        <p>
+            Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us fg.
+        </p>
+    </section>
+
+</div>
+           
+           `,
         image:
             "https://images.unsplash.com/photo-1516394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-        slug: "skin-lifting",
+        slug: "skin-lifting-treatment",
         title: "Skin Lifting",
         category: "facial",
         description: "Non-surgical face lift for a contoured appearance.",
         content:
-            "Using the latest thread lift or HIFU technology, we provide non-surgical options to lift and tighten the skin, offering a more defined jawline and youthful neckline.",
+          `<div class="space-y-12">
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-2">
+      Skin Lifting Treatment in Hyderabad
+    </h3>
+
+    <p>
+      Not everyone actually wants to undergo an extensive surgical process for a flawless, young-looking face. Nowadays, there are several cost-effective non-surgical treatments to enhance the shape of your face i.e skin lifting treatment.
+    </p>
+
+    <p class="mt-4">
+      It’s our face that first shows the signs of aging. As we grow older, the skin loses its elasticity; as a result, the facial muscles loosen. Thus, the face develops several folds, wrinkles and lines. A face-lift treatment can give you a more youthful, wrinkle-free skin. Face-lifts not only lift the entire face, works wonders on your chin, eyebrows, forehead and neck.
+    </p>
+
+    <p class="mt-4">
+      Earlier, face-lifts were performed only through surgeries. However, with the advancement of technologies, dermal fillers and anti-wrinkle injections took over the surgical methods to deliver a non-erroneous skin by adding volume and shape. Gradually, a non-surgical face-lift treatment has emerged for the people who do not want to go under the surgical blade.
+    </p>
+
+    <p class="mt-4">
+      Typically, the non-surgical face-lift treatments involve laser technology, radio frequency and ultrasound energy to correct the drooping areas like cheeks, brows, jowls, upper lip and neck.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Face lift Treatment cost in Hyderabad
+    </h3>
+
+    <p>
+      To know the non-surgical facelift treatment cost and the complete details of the treatment just fill the below contact form & we’ll get in touch with you.
+    </p>
+     <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/cCaKB8jAdzo?si=WdEQoiOvYRYYbwhM"
+                title="face lift Video"
+                frameborder="0" 
+                allowfullscreen
+                style="border-radius:8px;">
+            </iframe>
+            
+
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Types of Non-Surgical Face lift Treatment
+    </h3>
+
+    <p>
+      1.Laser face-lift treatment: The laser technology is gaining popularity for the skin treatments. Under this treatment, lasers are directed at the facial muscles for tightening.
+    </p>
+
+    <p class="mt-4">
+      2. Botox injections: Being one of the most popular non-surgical treatments, botulinum toxin is injected into the underlying skin tissues for reducing wrinkles, lines and crow’s feet.
+    </p>
+
+    <p class="mt-4">
+      3. Thermage: This method uses radio frequency energy which is directed at the dermal layers for tightening the skin. The treatment, while stimulating the collagen production naturally, ensures a natural-looking face.
+    </p>
+
+    <p class="mt-4">
+      4. Microcurrent face-lift: Often referred to as the ‘natural face-lift,’ this is a painless treatment to define minute features on your face, especially for the eyebrow lift. The microcurrent facial uses electrical stimulation technology to improve the appearance of the skin.
+    </p>
+
+    <p class="mt-4">
+      5. Thread face-lift: It’s one of the safest face-lift treatments to reduce sagging around the cheeks, jawline, and neck. During the treatment, the threads which have small cones on them, are inserted into the skin through tiny incisions. These threads grab hold of the skin tissues from the undersurface and are pulled back to lift the face.
+    </p>
+     <div class="my-2 rounded-3xl overflow-hidden shadow-lg border-4 border-white inline-block">
+             <img 
+            src="/images/treatments/Facelift-min (1).jpg" 
+            alt="  Facelift-min Treatment" 
+            class="h-auto w-auto max-w-full" 
+                   />
+           </div>
+
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Benefits of Non-Surgical Face lift Treatment
+    </h3>
+
+    <p>
+      The face is an incredibly significant part of the human body. as we age, the facial skin loses its charm, looking more tired or haggard that adversely affect our self-esteem. A non-surgical face-lift treatment can restore one’s natural beauty and give a youthful appearance.
+    </p>
+
+    <p class="mt-4">
+      There are plenty of advantages to a non-surgical face-lift:
+    </p>
+
+    <ul class="mt-4 space-y-2 list-disc pl-5 text-gray-700">
+      <li>Tightening facial muscles: The minimally invasive treatment helps you tighten your loose or sagging facial muscles, thereby reducing the appearance of wrinkles and lines on the face and neck.</li>
+      <li>Improving contours: While restoring a youthful look, the face-lift treatments can enhance the facial contours and eliminate jowls.</li>
+      <li>Cost-effective: A non-surgical face-lift is less expensive than the surgical method. Costing less amount of time and money, you get amazing results.</li>
+      <li>No pain involved: One of the major advantages of a non-surgical face-lift is that the patient feels a minimum or little discomfort during the treatment process.</li>
+      <li>Minimum recovery period: Depending on the severity, the treatment can take multiple sessions. However, after the treatment, you don’t need to worry about giving time for recovery. Within no time, you can get back to your regular activities.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Positive Results of Treatments Include :
+    </h3>
+
+    <ul class="mt-4 space-y-2 list-disc pl-5 text-gray-700">
+      <li>Reduction of wrinkles and lines on the face</li>
+      <li>Lifted firm facial muscles</li>
+      <li>Better skin elasticity</li>
+      <li>Increased volume</li>
+      <li>Improved facial contours</li>
+      <li>More moisture retention</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Non-Surgical Skin Lifting Treatments at Dr.Venus
+    </h3>
+
+    <p>
+      The non-surgical facelifts are incredibly popular among women in India and elsewhere who prefer less expensive and less painful treatments. With the help of efficient doctors, Dr. Venus delivers excellent results with no downtime or risks associated with the treatment.
+    </p>
+
+    <p class="mt-4">
+      Our specially selected treatments and procedures can effectively lift the facial muscles and rejuvenate the skin. Depending on the needs of the patients, different elements are carefully tailored to get the best results.
+    </p>
+
+    <p class="mt-4">
+      You get a completely refreshed appearance with Dr. Venus! It takes around 40 – 60 minutes to complete the treatment. Sometimes, the treatment requires several sessions. However, after the treatment, the patient can return to normal daily routines within no time.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Our Locations :
+    </h3>
+
+    <p>
+      Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us.
+    </p>
+  </section>
+
+</div>`,
         image:
             "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
+
+     {
+        slug: "tear-troughs-and-eye-bags",
+        title: "Tear Troughs and Eye Bags",
+        category: "Facial",
+        description: "Complete facial renewal for a glowing complexion.",
+        content:
+            `<div class="space-y-12">
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-2">
+      Non-Surgical Tear Troughs and Eye Bags Treatments in Hyderabad
+    </h3>
+
+    <p>
+      Tear Troughs and Eye Bags:Eyes are the most beautiful part of your face. People found their eyes the most attractive than any other body features. Dark circles under the eyes or baggy eyelids kill the beauty of the eyes. Hence, retaining its beauty has always been the prime focus of many cosmetic treatments. With the sign of ageing, the skin around the eyes drops and gradually develops lines and bags under the eyes. Tear troughs and eye bags make you look old which result in losing your youthful appearance. Getting the proper tear troughs treatment, hence, is of utmost importance for creating a naturally beautiful look. Though you can hide the tear troughs with makeup, more and more people consider undergoing a permanent treatment.
+    </p>
+     <div class="my-2 rounded-3xl overflow-hidden shadow-lg border-4 border-white inline-block">
+             <img 
+            src="/images/treatments/Tear-Troughs-min.jpg" 
+            alt="Tear-Troughs-min" 
+            class="h-auto w-auto max-w-full" 
+                   />
+           </div>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Tear Trough Treatment in Hyderabad
+    </h3>
+
+    <p>
+      Tear troughs and eye bags are the anatomical developments happening to the eyes and surrounding area as a result of the ageing of the skin, stress or hormonal imbalances. These anatomical structures are the circles, lines and bags under the eyes which make you look haggard. Tear troughs are simply the groove between the lower eyelids and the upper cheeks.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Tear Trough Treatment Cost in Hyderabad
+    </h3>
+
+    <p>
+      To know the complete treatment and cost just fill the below inquiry form & we shall get back to you.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Eye Bags Treatment in Hyderabad
+    </h3>
+
+    <p>
+      Eye bags, on the other hand, are bulges appearing on the lower lids. These are the protrusion of the fat tissues under the eyelids. In many cases, these are not at all hopeless concerns.
+    </p>
+
+    <p class="mt-4">
+      No matter skilfully you apply the makeup, tear troughs and eye bags remain visible. People with deep tear troughs usually look more aged than they really are. However, the best things to do is to get the tear troughs treatment done with skilled dermatologists.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Eye Bags Treatment Cost in Hyderabad
+    </h3>
+
+    <p>
+      To know the cost just fill the below inquiry form and we’ll get back to you as early as possible.
+    </p>
+
+    <p class="mt-4">#11 proven tips on how to get rid of eye bags naturally.</p>
+    <p class="mt-2">#11 simple tips on how to get rid of dark circles permanently.</p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Non-Surgical Tear Troughs And Eye Bags Removal Treatments
+    </h3>
+
+    <p>
+      Tear troughs and eye bags get worse as we age. One can easily reduce the appearance of these skin disorders through dermal fillers. The non-surgical tear trough fillers or eye bags removal treatment is really a ‘wow’ factor in the aesthetic medicine, and one of the most favourite treatment procedures for many people to enhance the beauty of the eyes.
+    </p>
+
+    <p class="mt-4">
+      A large number of tear troughs and eye bags are successfully corrected through an intricate application of hyaluronic acid fillers. The treatment is best performed using fine needles to get the optimal result. Normally, the non-surgical tear troughs and eye bags treatments are easy and quick with instant result.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      What We Do?
+    </h3>
+
+    <p>
+      Tear troughs and eye bags treatments at Dr. Venus are very accurate, implemented through a very careful puncture technique. Under a very sterile condition, we inject the dermal fillers under the eyes, just above the orbital bone for smoothening the transition between the lower eyelids and the cheeks. We inject several times and mold carefully through a proper massage along the target area. The treatment takes only 20-30 minutes with instant results. And it rejuvenates the aging eyes like no other way. The result may last between 12-18 months.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      FAQ’S
+    </h3>
+
+    <p><strong>1. How long does the treatment normally take?</strong></p>
+    <p class="mt-2">
+      At Dr. Venus, the tear troughs and eye bags removal treatments take just 20-30 minutes. The results of these non-surgical treatments are instantaneous, which may last up to 18 months under normal cases.
+    </p>
+
+    <p class="mt-4"><strong>2. Is the eye bags removal treatment right for me?</strong></p>
+    <p class="mt-2">
+      The suitability of the treatment for a patient is completely determined by the dermatologist who can thoroughly assess the eyes and eyelids of a patient. Upon proper assessment, the doctor designs the treatment as per the needs of the patient.
+    </p>
+
+    <p class="mt-4"><strong>3. Does it hurt?</strong></p>
+    <p class="mt-2">
+      For most patients, the pain is minimal and well tolerated. Usually, there will be little to no discomfort. We apply a numbing cream to reduce the discomfort. During and after the treatment, there is a low risk of side effects as well.
+    </p>
+
+    <p class="mt-4"><strong>4. How long will the treatment last?</strong></p>
+    <p class="mt-2">
+      Results of the treatment typically last up to 12 months, sometimes even longer, before the repeat treatment. The patients undergo repeated treatments enjoy long-lasting results.
+    </p>
+     <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/M87K-M-QwTw?si=o-QuyUq1yDEHjlQa"
+                title="Tear-Troughs-min Video"
+                frameborder="0" 
+                allowfullscreen
+                style="border-radius:8px;">
+            </iframe>
+            
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Our Locations :
+    </h3>
+
+    <p>
+      Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us.
+    </p>
+  </section>
+
+</div>`,
+        image:
+            "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    },
+
+
     {
         slug: "facial-rejuvenation",
         title: "Facial Rejuvenation",
         category: "facial",
         description: "Complete facial renewal for a glowing complexion.",
         content:
-            "Our facial rejuvenation treatments combine peels, lasers, and professional skincare to address multiple concerns simultaneously, resulting in a healthy, radiant glow.",
+            `<div class="space-y-12">
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-2">
+      Facial Rejuvenation Treatment in Hyderabad
+    </h3>
+
+    <p>
+      Facial Rejuvenation: One of the most exciting changes in the medical field is the advancement of cosmetic treatments. Nowadays, there are plenty of non-surgical treatments that can actually enhance your beauty and restore the youthful appearance. Usually, these procedures require less recovery time with instantaneous results.
+    </p>
+
+    <p class="mt-4">
+      The face is the most important features of a human body. With time, the facial skin can get damaged by external and internal elements such as ageing, the sun, hormonal imbalances, acne etc. There are various non-surgical facial rejuvenation services and treatments available today for repairing the damaged skin and making you look revitalized.
+    </p>
+
+    <p class="mt-4">
+      Like never before, numerous non-surgical facial rejuvenation treatments are offered to both men and women without any side effects.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Types of Non-Surgical Facial Rejuvenation Treatment in Hyderabad
+    </h3>
+
+    <p>
+      1. BOTOX: If used correctly, Botulinum toxin or BOTOX has a number of beauty benefits. It is one of the most popular treatments for restoring the youthful appearance by reducing fine lines, creases, and crow’s feet. The treatment is widely used to reduce the wrinkles appearing on the forehead. Using fine needles, BOTOX is injected into the targeted areas on the skin. Normally, these injections are quick and easy, without any side effects. However, it takes a few days after the treatment to see the best results.
+    </p>
+
+    <p class="mt-4">
+      2. Fillers: Another popular non-surgical facial rejuvenation procedure is injecting fillers, which are part of the regular anti-ageing process. A filler is used for the volume restoration. The injectable can fill nasolabial folds, pad the wrinkles out, and creates fuller lips. As per the needs, the specialist doctors inject fillers like Juvederm into the affected area on the face, and within no time, the patients see the results with smoother and natural looking skin. Furthermore, fillers are used to restore or add volume to various areas on the face that have been lost due to ageing. Most commonly, fillers are injected around the eyes, mouth, cheeks, jaw line, brow, and nose. While tightening the facial skin, the fillers, thus, change the entire facial profile with a more youthful appearance.
+    </p>
+
+    <p class="mt-4">
+      3. Chemical Peels: The non-surgical face rejuvenation chemical peels are used to remove the top layers of the damaged skin to reveal more youthful and flawless skin. Sun exposure, acne, hormonal imbalances and other lifestyle factors may make your skin look uneven and blotchy. The peeling treatment process can reduce the appearance of wrinkles, mild scars, freckles, pigmentation, sun damages and age spots. During the treatment, a chemical solution, such as glycolic acid, lactic acid or trichloracetic acid, is applied on the skin to exfoliate the top layer of the dead skin cells. The results of the treatment, however, completely based on the concentration level of the chemical peels.
+    </p>
+     <div class="my-2 rounded-3xl overflow-hidden shadow-lg border-4 border-white inline-block">
+             <img 
+            src="/images/treatments/FR-Treatment-min.jpg" 
+            alt="t FR-Treatment-min Treatment" 
+            class="h-auto w-auto max-w-full" 
+                   />
+           </div>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Facial Rejuvenation Cost in Hyderabad
+    </h3>
+
+    <p>
+      To know the treatment cost just fill the below inquiry form.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Advantages of Non-Surgical Facial Rejuvenation Treatment
+    </h3>
+
+    <p>
+      Why do you want to consider a facial rejuvenation treatment to achieve a more youthful appearance? The facial rejuvenation procedures not just help you get the much sought-after healthy, rejuvenated skin, but make you feel better about yourself. The non-surgical treatments are highly customizable and comparatively painless.
+    </p>
+
+    <p class="mt-4">
+      The non-surgical facial rejuvenation treatments make use of various techniques to address the needs of the patients. The suitability of any kind of treatment is determined by the specialist doctors, followed by a proper assessment.
+    </p>
+
+    <p class="mt-4">
+      The painless laser treatments, dermal fillers, anti-wrinkle injections etc. can smooth the lines, minimize the wrinkles, and reduce the skin pigmentation. In many cases, repeated sessions are required for long-lasting results. Some of the major benefits of facial rejuvenation treatments are listed below:
+    </p>
+
+    <ul class="mt-4 space-y-2 list-decimal pl-5 text-gray-700">
+      <li>Helps restore one’s youthful appearance</li>
+      <li>Stimulates the natural production of collagen</li>
+      <li>Reduces sun damages and minimizes age spots</li>
+      <li>Customizable and safe treatments</li>
+      <li>Diminishes the lines, wrinkles, redness, and pigmentation</li>
+      <li>Minimizes acne scars and other skin imperfections</li>
+      <li>Removes unwanted facial hair</li>
+      <li>Facelift treatments for sagging skin including eyebrows, eyelids, and jawline</li>
+      <li>Involves lesser recovery period</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+      Our Locations :
+    </h3>
+
+    <p>
+      Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us.
+    </p>
+  </section>
+
+</div>`,
         image:
             "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
+
+      {
+        slug: "cheek-fillers",
+        title: "Cheek Fillers",
+        category: "facial",
+        description: "Complete facial renewal for a glowing complexion.",
+        content:
+            `<div class="space-y-16">
+
+<!-- Injectable Cheek Fillers Section -->
+
+<section class="space-y-4">
+<h3 class="text-2xl font-serif text-primary mb-2">
+Injectable Cheek Fillers in Hyderabad
+</h3>
+
+<p>
+Cheek Fillers: As we grow old, it’s natural to experience a sagging facial skin while losing its volume. Wrinkles and new lines appear. The fullness of the cheeks will be lost. In total, the skin appears hollow and saggy. The non-surgical fillers promise to diminish the lines, smooth the wrinkles, lift and tighten the facial skin tissues.
+</p>
+
+<p class="mt-4">
+Having strong cheekbones is a sign of beautiful face. But, there’s often a facial volume loss as we age. If you have a sagging jawline and volume-less cheeks, these could be the best option.
+</p>
+
+<p class="mt-4">
+These Fillers are an increasingly popular cosmetic procedure across the world. They add volume to the cheeks and give symmetry to the face. The fillers are injected into the targeted cheek area to restore the lost volume and youthfulness while lifting the facial skin.
+</p>
+
+<h4 class="text-xl font-serif text-primary mt-6">How do we Lose Facial Volume?</h4>
+
+<p class="mt-2">
+As we age, our cheeks become hollow. A considerable amount of facial subcutaneous fat is lost due to which the skin loses its volume and elasticity. It causes the hollow cheekbones. The lost cheek volume can be best retained using Dermal Fillers or Cheek Fillers.
+</p>
+ <div class="my-2 rounded-3xl overflow-hidden shadow-lg border-4 border-white inline-block">
+             <img 
+            src="/images/treatments/Cheek-Fillers-in-Hyderaabd-min.jpg" 
+            alt=" cheek fillers Treatment" 
+            class="h-auto w-auto max-w-full" 
+                   />
+           </div>
+
+
+
+<h4 class="text-xl font-serif text-primary mt-6">What are Cheek Fillers?</h4>
+
+<p class="mt-2">
+They use hyaluronic acid (HA) – a naturally-occurring substance found within the body – for adding volume on the face. Due to the inevitable process of aging, the amount of HA found in the skin diminishes. As a result, the skin loses its natural glow and youthfulness. They are inject hyaluronic acid back into the skin to add volume and youthful glow. Specially formulated cheek fillers provide the best face-lifting and skin-tightening solution.
+</p>
+
+<h4 class="text-xl font-serif text-primary mt-6">What do Cheek Fillers do?</h4>
+
+<p class="mt-2">
+Before using dermal fillers to augment the cheeks, anesthetic injection or a numbing gel is used to numb the targeted area. Some dermatologists use a blunt cannula for enhancing the cheeks while reducing the potential discomfort during the treatment. A series of injections will be given to the patient. However, the depth and the number of injections are totally dependent on the result the patient wants to achieve.
+</p>
+
+<h4 class="text-xl font-serif text-primary mt-6">Do Cheek Fillers Hurt?</h4>
+
+<p class="mt-2">
+These fillers add anesthetic injections before the filler is injected into the skin. The cosmetic procedure just takes 30 minutes to one hour. With minimal patient discomfort, the treatment team ensures a much more comfortable ambiance.
+</p>
+
+<h4 class="text-xl font-serif text-primary mt-6">Cheek Fillers Cost in Hyderabad</h4>
+
+<p class="mt-2">
+To know the cost just fill the below inquiry & we shall get back to you.
+</p>
+
+<h4 class="text-xl font-serif text-primary mt-6">Are there any Side Effects?</h4>
+
+<p class="mt-2">
+Cheek Fillers Side Effects: After injecting these, the patient may face bruising, swelling or redness for a temporary period. The individuals can return to their normal activities immediately after the treatment. Furthermore, the patients need to make sure the clinics offering chick fillers use advanced cheek fillers procedures with the support of accredited dermatologists.
+</p>
+
+<h4 class="text-xl font-serif text-primary mt-6">How Long do Cheek Fillers Last?</h4>
+
+<p class="mt-2">
+The result of these fillers procedure may vary from patient to patient. They give you an instant, natural-looking face with added volume and youthfulness. In most cases, the initial results are evident within one week of the treatment, which may last up to 18 to 24 months. Depending on the severity of the skin condition, the patient may need to undergo several sessions to enjoy the long-lasting results.
+</p>
+
+<p class="mt-6 font-medium">
+Our Locations :
+Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us.
+</p>
+
+</section>
+
+</div>`,
+        image:
+            "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    },
+
+      {
+        slug: "crows-feet",
+        title: "Crows Feet",
+        category: "facial",
+        description: "Complete facial renewal for a glowing complexion.",
+        content:
+            `<section class="crows-feet-treatment">
+  <h1>Crows Feet Treatment in Hyderabad</h1>
+
+  <p>
+    They deepen as you laugh and squint as you exasperate. They are tiny in appearance but leave in you endless discomfort. People call them by different names, but most commonly known as crows feet.
+  </p>
+
+  <p>
+    Crow’s Feet are developed on the side of the eyes as the skin loses its collagen and hyaluronic acid as part of the ageing process. A number of people, irrespective of the gender, begin to show the signs of ageing in the mid-to-late thirties. Crow’s feet are nothing but those small lines radiating from the corners of your eyes. And, they speak volumes about your age.
+  </p>
+
+  <p>There are mainly two different types of facial lines: Dynamic and Static.</p>
+
+  <h3>1. Dynamic Lines:</h3>
+  <p>
+    Dynamic lines on the face are those appearing at the time of muscle contraction. These lines are visible when the individual frowns, squints or smiles.
+  </p>
+
+  <h3>2. Static Lines:</h3>
+  <p>
+    Static lines are visible all the time, regardless of facial expressions, even when the muscles on the face are resting.
+  </p>
+
+  <p>
+    Generally, people have both these kinds of lines, but more of one category. The lines become more visible with the animation of facial expressions. Nevertheless, there are several treatment options available to treat crow’s feet and lines.
+  </p>
+  <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/WVA1KkDWNgs?si=dudNq-y3wht3Ff1O"
+                title="crown feet Video"
+                frameborder="0" 
+                allowfullscreen
+                style="border-radius:8px;">
+            </iframe>
+  
+
+  <h2>Causes of Crows Feet</h2>
+  <p>
+    There are many factors that contribute to the development of crow’s feet. Aging is the primary cause as the skin loses its collagen and elasticity. Other factors like sun exposure, squinting, frowning, smoking, nutritional deficiencies, dehydration and menopause are some of the biggest contributors to crow’s feet. Once these lines begin to show up on the face, you need to undergo a proper skin care regimen to get rid of them.
+  </p>
+
+  <h2>Treatments for Crows Feet</h2>
+  <p>
+    The nonsurgical treatments depend on the severity of the crow’s feet on the face. In some rare cases, the dermatologist applies a combination of treatments to get the best result. In most cases, the doctors prefer to treat crow’s feet with Botox, Dermal Fillers or anti-wrinkle injections.
+
+     <div class="my-8 rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+        <img src="/images/treatments/Crows-Feet-Treatment-1-min.jpg" alt="Laser Mole Removal Treatment"class="w-full h-auto object-contain"/></div>
+  </p>
+
+  <h3>Crow’s Feet Treatment with Botox</h3>
+  <p>
+    Botulinum Toxin, or Botox, relaxes the facial muscles on the targeted area. It works on the skin by paralyzing the muscles beneath the facial skin, as a result minimizing the appearance of dynamic lines. This is an effective method to prevent wrinkles and lines, and restore smooth skin around the eyes. In order to achieve greater results through customized treatment, the doctors at Dr. Venus maps the patient’s face and designs the treatment procedure. The process is quick, safe and effective. The small amount of Botox produces great results. The facial improvement after the treatment lasts for three to six months.
+  </p>
+
+  <h3>Crow’s Feet Treatment with Dermal Fillers</h3>
+  <p>
+    The non-surgical injectable products or Dermal Fillers or soft tissue fillers are used as a perfect approach to treat crow’s feet around the eyes. Fillers such as Juvederm, Belotero, Sculptra, Radiesse etc can be used for reducing the appearance of lines and wrinkles. These liquid face-lifts agents provide instant results immediately after the treatment.
+  </p>
+
+  <h3>Crow’s Feet Treatment with Chemical Peels</h3>
+  <p>
+    These are one of the most easy-to-perform methods to prevent the appearance of crow’s feet. This non-surgical approach helps enhance the facial skin while promoting younger and healthier look. During the treatment, the dermatologist applies a chemical solution on the face to exfoliate the outer layer of the damaged skin. When peeled off, the individual gets new, fresh-looking error-free skin.
+  </p>
+
+  <h3>Crow’s Feet Laser Treatment</h3>
+  <p>
+    Ablative skin resurfacing or laser resurfacing is a method to remove the upper layers of skin, resulting in smooth and young-looking facial skin. The laser resurfacing works well on crow’s feet as the procedure heats up several layers of the facial skin, thereby promoting the production of collagen. The laser treatment effectively works on sun damages, scars, lines and wrinkles by providing brighter, tighter, and more youthful skin while stimulating collagen production.
+  </p>
+    <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/M87K-M-QwTw?si=voGkJYjnVGOvfBqh"
+                title="crown feets Video"
+                frameborder="0" 
+                allowfullscreen
+                style="border-radius:8px;">
+            </iframe>
+
+  <h2>Our Locations :</h2>
+  <p>
+    Our clinic locations are in Chandanagar and Kondapur which is 15 minutes drive from Kukatpally, Gachibowli, Miyapur and Hi-Tech City; 20 minutes drive from Jubilee Hills and Banjara Hills. So, what are you thinking of…! Don’t waste your time book an appointment with us.
+  </p>
+
+</section>`,
+        image:
+            "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
+        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    },
+ 
+
 
     // BODY CONTOURING
     {
@@ -1964,29 +3126,102 @@ export const allTreatments: Treatment[] = [
         category: "body",
         description: "Medical-guided weight loss programs for lasting results.",
         content:
-            "Our weight loss programs are medically supervised to ensure safety and effectiveness, combining diet plans, lifestyle advice, and clinical treatments to help you reach your goals.",
-        image:
-            "https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    },
-    {
-        slug: "liposuction",
-        title: "Liposuction",
-        category: "body",
-        description: "Reshape and contour your body with precision surgery.",
-        content:
-            "Liposuction helps remove stubborn fat deposits that don't respond to diet and exercise. Our surgeons use advanced techniques to sculpt the body with minimal downtime.",
-        image:
-            "https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    },
-    {
-        slug: "body-sculpting",
-        title: "Body Sculpting",
-        category: "body",
-        description: "Define your physique with non-invasive sculpting.",
-        content:
-            "Body sculpting treatments like CoolSculpting or EMSculpt help in defining muscles and reducing localized fat, giving you the physique you've always wanted without surgery.",
+            `
+            <section>
+    <h3 class="text-2xl font-serif text-primary mb-2">
+        Weight Loss Treatments in Hyderabad
+    </h3>
+
+    <p>
+        We excel in providing a reliable solution for weight loss treatment and inch loss through the body contouring program. It is a non-invasive technique that helps in weight and fat reduction. This is done in combination with physical activity, the use of certain appliances and changes in the eating pattern. The appliances comprise of advanced technology which focuses on a specific body part and performs the procedure. All these appliances are US FDA approved and the treatment is done under the supervision of certified slimming therapist in congruence with a physiotherapist and diet counselor.
+    </p>
+</section>
+
+<section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+        Weight loss Treatment Cost in Hyderabad
+    </h3>
+
+    <p>
+        To know the cost of the Weight loss treatment in hyderabad just drop an inquiry to us mentioning your age, our team will get back to you,
+    </p>
+</section>
+
+<section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+        Weight Loss and Inch Loss Treatment in Hyderabad
+    </h3>
+
+    <p>
+        The need for being in good physical shape is not just about the appeal but it is also a matter of health in today’s times. Not all cases of weight issues can be treated with regular exercise or diet. Certain cases also require medical intervention and it is here that We have become the extremely popular choice for all. We specialize in designing a comprehensive weight management program based on our standard procedures of assessment of the body composition analysis. It would require an initial phase of counseling.
+    </p>
+</section>
+
+<section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+        Why Choose Us?
+    </h3>
+
+    <p>
+        The success rate for body contouring has been high due to a set of stringent protocols and non compromising standards used & we are the best doctors for weight loss in Hyderabad.
+    </p>
+
+    <p class="mt-4">
+        We follow this system without any deviations and the vast experience of high skilled specialists ensures that each case is examined closely with the right assessment procedure and the appropriate methodology to treat it is derived.
+    </p>
+
+    <p class="mt-4">
+        The infrastructure and equipment is of the highest standard which adds to the value based treatment.
+    </p>
+</section>
+
+<section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+        FAQ’S
+    </h3>
+
+    <div class="space-y-4 text-gray-700">
+
+        <p><strong>1. What is cryolipolysis?</strong> A technology designed to reduce the unwanted stubborn fat that does not leave you despite religious diet and exercise. It is a non-surgical procedure and does not involve any needles or cuts.</p>
+
+        <p><strong>2. How does cryolipolysis work?</strong> Fat cells are selectively destroyed through controlled cooling provided by the machine without causing any damage to the skin and surrounding structures. The targeted area is sucked in through vacuum by the machine handle and then it is cooled down to sub zero temperatures which precisely crystallizes the fat cells leading to their death. This selective destruction is possible as the fat cells are more sensitive to cold temperatures than the surrounding tissues and cells. The dead fat cells are gradually metabolized by the body and eliminated over the next 2-4 months.</p>
+
+        <p><strong>3. What happens to the fat cells after cryolipolysis?</strong> The fat cells are digested and eliminated from the body through the lymphatic system. Your body has a go its number of fat cells and the once that are dead are dead forever. New fat cells are not produced.</p>
+
+        <p><strong>4. How much does cryolipolysis cost?</strong> The areas to be treated differ from person to person, hence the cost of the procedure varies. We would suggest you visit us for free counseling, which would enable us to assess your needs and give a suitable cocktail of treatments.</p>
+
+        <p><strong>5. Will I gain weight again after cryolipolysis?</strong> Weight gain depends on your dietary habits, exercise routine and your lifestyle. If your calorie intake is more than what is recommended or if you have a sedentary lifestyle with no exercise then you will be prone for weight gain. It can be avoided by following a healthy lifestyle routine.</p>
+
+        <p><strong>6. What will happen if I gain weight after cryolipolysis?</strong> The fat cells that are gone with cryolipolysis do not return as they cannot reproduce. But the remaining fat cells will increase in size to compensate as you gain weight. You will also observe the deposition of fat in certain areas of your body.</p>
+
+        <p><strong>7. Is cryolipolysis safe?</strong> Cryolipolysis is FDA cleared procedure for the reduction of unwanted fat. It only targets the fat cells and does not damage any of the organs or surrounding tissues and skin. It is a non-invasive procedure and is safe.</p>
+
+        <p><strong>8. What are the side effects of cryolipolysis?</strong> There are no side effects after cryolipolysis. The procedure is specific to the fat cells and results in their destruction only. Skin cells and fat cells are affected at different temperatures, which is clinically peoven, hence we can freeze the fat cells but not damage skin cells. Bruising and numbness may be present for a few days post-procedure.</p>
+
+        <p><strong>9. How long will be the recovery period?</strong> Cryolipolysis is non-invasive and does not require any anesthesia or sedation, thus, it does not need any recovery period. Daily routines can be immediately resumed.</p>
+
+        <p><strong>10. How many sessions will be needed?</strong> The number of sessions and duration depends on the targeted area. On an average each session gives approximately 20-22% fat reduction. You may need 1-3 sessions according to The thickness of fat.</p>
+
+        <p><strong>11. Will cryolipolysis work on loose skin?</strong> Cryolipolysis does not work on loose or saggy skin. It is designed to reduce stubborn fat. To treat loose skin, skin tightening treatments like Radiofrequency or HIFU would be needed.</p>
+
+        <p><strong>12. Is it a cure for obesity?</strong> Cryolipolysis is not a replacement for invasive body contouring methods. It is useful in targeting stubborn fat in certain areas for a skin and toned look.</p>
+
+        <p><strong>13. Is there an age limit?</strong> Anyone older than 18 can get it done.</p>
+
+        <p><strong>14. What happens during the treatment?</strong> After a complete examination, the targeted areas are identified. Measurements are taken from the areas to be treated. A cool gel pad is applied to protect the skin. The probe is then attached to the area, which creates a vacuum and sucks the treatment area. Later you will experience, cold sensation which gradually increases as the temperature drops, freezing the fat cells. The total duration of the procedure would be 70-80 minutes. Later the probe Is removed and massaged to bring the skin to normal temperature.</p>
+
+        <p><strong>15. When can I appreciate the results of cryolipolysis?</strong> The initial result can be seen after 2-4 weeks, but the full result can be appreciated after 8-12 weeks.</p>
+
+    </div>
+</section>
+
+<section>
+    <h3 class="text-2xl font-serif text-primary mb-4">
+        Quick Enquiry
+    </h3>
+</section>
+
+            `,
         image:
             "https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=800",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
