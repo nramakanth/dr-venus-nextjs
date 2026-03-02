@@ -1,10 +1,21 @@
 import Image from "next/image";
 import Results from "@/components/Results";
 import Testimonials from "@/components/Testimonials";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Hair Restoration | Dr. Venus – Institute of Skin & Hair",
     description: "Advanced hair transplant and regrowth treatments with DHT and FUE techniques at Dr. Venus Institute.",
+    keywords: [
+        "hair transplant Hyderabad",
+        "FUE hair transplant",
+        "DHT hair restoration",
+        "PRP hair treatment",
+        "hair regrowth clinic",
+    ],
+    alternates: {
+        canonical: "/hair",
+    },
 };
 
 export default function HairPage() {

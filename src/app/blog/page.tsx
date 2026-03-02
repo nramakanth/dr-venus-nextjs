@@ -1,7 +1,19 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Blog | Dr. Venus – Institute of Skin & Hair",
   description:
     "Expert tips, news, and insights on skin care, hair restoration, and holistic beauty from Dr. Venus.",
+  keywords: [
+    "skin care blog",
+    "hair care tips",
+    "dermatology blog Hyderabad",
+    "aesthetic treatment insights",
+    "Dr Venus articles",
+  ],
+  alternates: {
+    canonical: "/blog",
+  },
 };
 
 export default function BlogPage() {

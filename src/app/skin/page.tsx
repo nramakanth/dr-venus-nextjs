@@ -1,10 +1,21 @@
 import Image from "next/image";
 import Treatments from "@/components/Treatments";
 import Results from "@/components/Results";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Skin Care Treatments | Dr. Venus – Institute of Skin & Hair",
     description: "Advanced skin care treatments including rejuvenation, laser therapy, and anti-aging at Dr. Venus Institute.",
+    keywords: [
+        "skin treatment Hyderabad",
+        "laser skin therapy",
+        "anti aging treatment",
+        "skin rejuvenation clinic",
+        "aesthetic dermatology",
+    ],
+    alternates: {
+        canonical: "/skin",
+    },
 };
 
 export default function SkinPage() {
