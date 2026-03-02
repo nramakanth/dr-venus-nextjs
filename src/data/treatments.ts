@@ -1170,7 +1170,7 @@ export const allTreatments: Treatment[] = [
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
 
-    // HAIR RESTORATION
+
     {
         slug: "hair-transplant",
         title: "What is Hair Transplantation?",
@@ -1243,7 +1243,7 @@ export const allTreatments: Treatment[] = [
      <p>Contact best hair fall treatment clinic in Hyderabad or just fill the below contact form & we’ll get back to you as soon as possible.</p>
        image: "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&q=80&w=800",
 
-     <!-- ================= GALLERY SECTION ================= -->
+    
 <h2 class="text-3xl text-green-900 mt-10">Hair Transplant Results</h2>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
@@ -1295,47 +1295,24 @@ export const allTreatments: Treatment[] = [
       What are the side effects of Hair Transplant?
     </h3>
     <p class="mt-2 text-gray-700">
-      Mild and temporary side effects may include swelling, redness, itching, scabbing, minor bleeding, or numbness. 
-      These usually subside within a few days. Serious complications are rare when performed by experienced surgeons.
+      A common side effect is a hemorrhage which is noticed during or after the procedure.
+       But this occurs when the surgeon is inexperienced. We don’t have this issue thanks to the presence of highly experienced cosmetic surgeons. 
+       There could also be other effects of Hair Transplantation is thinning of hair, itching, scarring, cysts, swelling, bleeding, pain and numbness but all these are temporary.
     </p>
   </div>
-
-  <div>
-    <h3 class="font-semibold text-lg">
-      How long does it take to see results?
-    </h3>
-    <p class="mt-2 text-gray-700">
-      New hair growth typically begins within 3–4 months. Noticeable density improvement occurs by 6 months, 
-      and full results are visible within 9–12 months.
-    </p>
+   
   </div>
 
-  <div>
-    <h3 class="font-semibold text-lg">
-      Is Hair Transplant a permanent solution?
-    </h3>
-    <p class="mt-2 text-gray-700">
-      Yes. Since the transplanted hair follicles are resistant to hair loss, 
-      they continue to grow for a lifetime.
-    </p>
-  </div>
-
-</div>
-
-
-<!-- ================= RELATED LINKS ================= -->
-
-<div class="mt-10">
+  <div class="mt-10">
   <p class="font-semibold">Also, you’ll get interesting stuff on :</p>
   <ol class="list-decimal list-inside text-blue-600 mt-3 space-y-2">
-    <li><a href="/reasons-for-hair-loss">7 reasons for hair loss in men & women</a></li>
-    <li><a href="/control-hair-fall">12 ways to control your hair fall (home remedies)</a></li>
-    <li><a href="/hair-regrowth-tips">11 tips to regrow your hair (home remedies)</a></li>
+  <li><a href="https://www.drvenus.in/hair-loss-causes/">7 reasons for hair loss in men & women</a></li>
+  <li><a href="https://www.drvenus.in/how-to-control-hair-fall/">12 ways to control your hair fall (home remedies)</a></li>
+<li><a href="https://www.drvenus.in/hair-regrowth-tips/">11 tips to regrow your hair (home remedies)</a></li>
   </ol>
-</div>
+  </div>
 
 
-<!-- ================= CTA BUTTON ================= -->
 
 <div class="mt-8">
   <a href="/contact" 
@@ -1343,7 +1320,7 @@ export const allTreatments: Treatment[] = [
      Quick Enquiry
   </a>
 </div>
-  ],
+
     
 
     `,
@@ -1352,37 +1329,406 @@ export const allTreatments: Treatment[] = [
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-        slug: "beard-hair-transplant",
-        title: "Beard Hair Transplant",
-        category: "hair",
-        description: "Get a fuller, more defined beard with precision grafting.",
-        content:
-            "For men looking to achieve a thicker and more even beard, our specialized beard hair transplant uses facial hair grafting techniques to deliver natural results that match your existing facial hair density.",
-        image:
-            "https://images.unsplash.com/photo-1599351431247-f132f82f23f9?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+  slug: "beard-hair-transplant",
+  title: "Beard Hair Transplant",
+  category: "hair",
+  description: "Get a fuller, more defined beard with precision grafting.",
+  content: `
+    <section class="treatment-section">
+
+      <p>
+        <span class="font-bold">Beard Transplantation in Hyderabad:</span>
+        Can you imagine people without beards all around the world? Some will be happy with this kind of a different world while most people may not, as their beard is more important to them than anything else. It may be as dear to them as their own life.
+        <a href="https://en.wikipedia.org/wiki/Melanocyte" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">
+          EPICTETUS
+        </a>
+        – a renowned philosopher once quoted, “I would embrace death before shaving”.
+        Now we come to know that for some men, a beard is sacred. Growing a beard is considered a cultural and religious tradition not only in India but also across the globe. In Islam and Sikhism, it is mandatory to grow a full beard.
+        In early Rome, a beard was considered a philosopher’s attire. It was believed that a philosopher must have a beard.
+      </p>
+
+      <p>
+        We never know when the fashion of beards runs in and out of trend. For some men, it is a hot topic of discussion to look good with their beard style.
+      </p>
+
+      <h1 class="text-3xl text-green-900">The Growth of Beard in Men</h1>
+
+      <p>
+        The distribution of beard hair varies from one individual to another due to genetics.
+        Generally, hair is found all over the body in every human. The soft body hair normally seen over a child’s body since birth in both males and females is called
+        <a href="https://en.wikipedia.org/wiki/Vellus_hair" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">
+          VELLUS
+        </a>.
+        Vellus hairs are short, thin, light-colored hairs that are barely visible. During puberty, there is an increase in androgen hormone levels in males. As a result, vellus hair is replaced by terminal hair in certain parts of the body such as the chest, legs, arms, feet, and pubic area.
+        A young man’s vellus hair on the cheek and chin changes into beard hair due to male androgens.
+        Terminal hair is darker, longer, and stronger when compared to vellus hair. Terminal hairs are also found on the scalp.
+        Removing vellus hair does not make a huge impact; the skin becomes smooth after removal.
+      </p>
+
+      <img 
+        src="https://www.drvenus.in/wp-content/uploads/2022/11/Beard-Hair-Transplant-min-1.jpg"
+        alt="Beard Hair Transplant Result"
+        class="treatment-image mt-6"
+      />
+
+      <h2 class="text-3xl text-green-900 mt-6">Beard Transplant Cost in Hyderabad</h2>
+      <p>
+        To know the cost of a beard transplant, just fill out the form below and we shall get back to you.
+      </p>
+
+      <h2 class="text-3xl text-green-900">Physiology of Beard</h2>
+      <p>
+        The beard grows during puberty and increases in density until the mid-thirties.
+        Beard growth is usually maximum during summer due to increased circulating androgens.
+        Heavy beard growth or decrease/loss of hair mainly depends on family history.
+        The diameter of scalp hair is usually smaller than beard hair.
+        Hair follicles are responsible for the growth of individual strands and are found throughout the beard area.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-4">
+        The growing phase of beard hair is different from that of scalp hair
+      </h2>
+
+      <ul class="list-decimal list-inside">
+        <li>Anagen phase of beard follicle is 4 to 14 weeks.</li>
+        <li>Telogen phase is 10 to 18 weeks.</li>
+      </ul>
+
+      <div class="treatment-video mt-6">
+        <iframe
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/Y5m4R7F_xK4?si=Jpg1G7cOIkEhsHYD"
+          title="Beard Hair Transplant Video"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <h2 class="mt-6">Causes of Decrease in Density of Beard Include</h2>
+
+      <ul class="list-decimal list-inside">
+        <li>Trauma scars or burns</li>
+        <li>Hereditary absence of hair</li>
+        <li>Scarring alopecia (partial or complete absence of hair)</li>
+        <li>Folliculitis (inflammation of hair follicles due to bacteria or fungi)</li>
+        <li>Aging</li>
+        <li>Auto-immune diseases</li>
+        <li>Hormonal imbalance</li>
+      </ul>
+
+      <h1 class="mt-6">Beard Hair Transplantation</h1>
+
+      <p>
+        Hair transplantation is a permanent solution for baldness of the scalp as well as for the beard because the transplanted hair does not become thin nor is there a threat of falling after transplantation.
+        If you are upset with your beard after trying various medications and suggestions without success, we are here to help you.
+        Hair transplantation has become popular worldwide.
+        Hair restoration procedures performed on non-scalp areas of the body have increased significantly.
+        Research shows that the demand for beard transplantation is higher in Middle Eastern countries where facial hair has important social and religious relevance.
+        The safest and most effective method of transplantation is the FOLLICULAR UNIT EXTRACTION (FUE) METHOD.
+      </p>
+
+      <h1 class="mt-6">Procedure of Follicular Unit Extraction (FUE) Method for Beard</h1>
+
+      <ul class="list-decimal list-inside">
+        <li>Our surgeon evaluates the area of alopecia or patchy beard where hair growth is poor.</li>
+        <li>The number of grafts required for cosmetic enhancement is determined.</li>
+        <li>The beard line is designed according to the patient’s face structure.</li>
+        <li>If hair exists in certain areas, only the required patch will be transplanted.</li>
+        <li>In patchy beard cases, approximately 500 grafts may be advisable.</li>
+        <li>In some men, 2000 or more grafts may be required for a dense beard.</li>
+        <li>The number of grafts is finalized based on the density desired.</li>
+        <li>Local anesthesia is administered to numb the area and ensure a painless procedure.</li>
+        <li>Each follicular unit is individually extracted.</li>
+        <li>Grafts are harvested using advanced punch technology.</li>
+        <li>Implanters are used to precisely place grafts in the required area.</li>
+        <li>Visible results begin to appear within a few months.</li>
+        <li>This method involves no stitches, sutures, or linear scars and is less painful compared to FOLLICULAR UNIT TRANSPLANTATION (FUT).</li>
+      </ul>
+
+      <h1 class="text-xl text-green-900 mt-6">
+        Why Dr. Venus Institute of Skin And Hair is the Best Place for Beard Transplantation in Hyderabad?
+      </h1>
+
+      <p>
+        At Dr. Venus Clinic, we focus on healthy lifestyle practices and advanced treatment methods.
+        We diagnose patients individually and provide customized solutions.
+        We use leading technology and aim to understand your concerns deeply to deliver positive treatment outcomes.
+        <br><br>
+        NOTE: All procedures mentioned above should be performed under the advice and consultation of qualified dermatologists and practitioners.
+      </p>
+
+      <div class="mt-8">
+        <a href="/contact"
+           class="inline-block border-2 border-green-600 text-green-600 px-6 py-2 rounded-md hover:bg-green-600 hover:text-white transition">
+          Quick Enquiry
+        </a>
+      </div>
+
+    </section>
+  `,
+  image: "https://images.unsplash.com/photo-1599351431247-f132f82f23f9?auto=format&fit=crop&q=80&w=800",
+  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
-        slug: "moustache-hair-transplant",
-        title: "Moustache Hair Transplant",
-        category: "hair",
-        description: "Restore or enhance your moustache with precision.",
-        content:
-            " <p>Moustache transplants help in restoring density or filling in gaps caused by scarring or genetics. Our precision techniques ensure the transplanted hair grows in the correct direction for a natural look.</p>",
-        image:
-            "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+  slug: "moustache-hair-transplant",
+  title: "Moustache Hair Transplant",
+  category: "hair",
+  description: "Advanced FUE moustache hair transplant to restore density and natural facial aesthetics.",
+  image: "/images/moustache-transplant-banner.jpg", 
+  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+
+  content: `
+    <section>
+      <h2 class="text-2xl text-green-900">Moustache Transplant in Hyderabad</h2>
+      <p>
+        <span class="font-bold">Moustache Transplantation in Hyderabad:</span> LET US GET TO KNOW FURTHER AND BETTER ABOUT <a 
+          href="https://en.wikipedia.org/wiki/Moustache"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
+          MUSTACHE:</a> Around 300 B.C.,
+         the first mustache was recorded. You will be surprised to know that a man touches his beard and mustache almost 700 times a day without his knowledge.
+          That’s too, much isn’t it? Are you stroking it right now or did you notice anyone doing it today?
+           This proves how important mustaches are! You know why men stroke their mustache? It is because it increases concentration
+            as well as learning and problem-solving ability. The rise, curl and fall of a mustache have never been fixed. No one can 
+            force you neither to have a mustache nor to remove it. Some men prefer thin mustaches which are hardly visible, while others
+             prefer thick and full mustaches.
+         Today, the mustache has become a decent symbol of a modern man. Having a mustache is one’s own personal preference or choice.
+      </p>
+      <p>
+       We never know when the fashion of moustache runs in and out of trend. For some men, it is a hot topic of discussion to look good with their moustache style.
+      </p>
+      <p>The ability to grow a full mustache is a blessing only male possess. In general, men grow mustache due to testosterone hormone and this hormone is found very less in women. Another benefit of mustache which male enjoys while the female cannot is THE DOULE FILTRATION. The air we breathe is generally filtered by the hair present in our nose to stop any foreign or dust particles. In men who have mustaches, air is filtered by the mustache hair first before entering the nose.</p>
+    </section>
+   <img 
+        src="https://www.drvenus.in/wp-content/uploads/2022/11/Moustache-Hair-Tranpslant-in-hyderabad-min.jpg"
+        alt="Beard Hair Transplant Result"
+        class="treatment-image mt-6"
+    />
+    <h1 class="text-xl text-green-900">Moustache Hair Transplant Cost in Hyderabad</h1>
+    <p>To know the cost of a moustache transplant just fill the below form and we shall get back to you.</p>
+    
+    <section>
+      <h2 class="text-xl text-green-900">Physiology of Moustache Hair</h2>
+      <p>
+      The hair which grows on the upper lip area in men is called a mustache. There will be Vellus hair (soft body hair) in the upper lip region in
+       a young boy before puberty. After puberty, this Vellus hair changes into Terminal hair (strong, thick and dark hair) due to androgens.
+        The mustache hair takes a longer period of time to grow as their growth is completely different compared to scalp hair. On an average,
+         a mustache has 600 hairs. The function of a mustache is to give protection against foreign elements. It also provides warmth. Mustache not
+          only makes men look attractive but it also helps them to protect against certain skin diseases. 
+      A recent study in an Australian University found that the facial hair protects men against skin cancer.
+      </p>
+    </section>
+    <img 
+        src="https://www.drvenus.in/wp-content/uploads/2022/11/MOUSTACHE-transpalantation-min.jpg"
+        alt="Beard Hair Transplant Result"
+        class="treatment-image mt-6"
+      />
+
+    <section>
+      <h2 class="text-xl text-green-900">Types of Moustache</h2>
+      <ul class="list-decimal list-inside">
+        <li> A chin beard with no mustache is called a GOATEE</li>
+        <li> A chin beard with mustache is known as VAN DYKE.</li>
+        <li> FU MANCHU- The full mustache which grows downwards below the chin. It was originated in China.</li>
+        <li> CHEVRON- These are wide and thick mustaches.</li>
+        <li>HANDLE BAR MUSTACHE- Mustaches which are bushy with small points at the end looking like a bicycle’s handle is termed as a handlebar mustache.</li>
+        <li> DALI MUSTACHE- This is narrow, long mustaches with pointy ends.</li>
+        
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-xl text-green-900">The List Goes on Some Other Types of Moustaches Like</h2>
+      <ul class="list-decimal list-inside">
+        <li>HORSESHOE Mustache</li>
+        <li>IMPERIAL Mustache</li>
+        <li>LAMPSHADE Mustache</li>
+        <li> LION Mustache</li>
+        <li>PAINTER’S BRUSH Mustache</li>
+        <li> PENCIL Mustache</li>
+        <li>  PYRAMID Mustache</li>
+        <li>TOTHBRUSH Mustache</li>
+        <li> WALRUS Mustache</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-xl text-green-900">Few Fascinating Facts About Moustache</h2>
+      <ol class="list-decimal list-inside">
+        <li>Have you ever seen this dramatic scene in a movie where a person having a healthy mustache is proud of it and frequently pushes it up? It is used to indicate manly appearance in a male.</li>
+        <li>In The Guinness World Records, the longest mustache which measures 4.29 m (14 ft) is recorded by an Indian named Ram Singh Chauhan.</li>
+        <li>Even in a deck of cards, the KING OF HEARTS is the only king without a mustache, all the other three kings have fine mustache.</li>
+        <li> The government of Madhya Pradesh in India pays the cops/ police officers to grow their mustache and beard as this makes them look strong, confident and virile.</li>
+       
+        <li>Walruses also have some hair in their upper lip and some people refer this as a mustache.</li>
+      </ol>
+
+      <h1 class="text-xl text-green-900">What are the Main Causes of Moustache Hair loss?</h1>
+      <p>
+        Some of the major reasons for the loss of mustache hair are listed below
+      </p>
+      <ol class="list-decimal list-inside"> 
+      <li> Illness</li>
+      <li> Injury</li>
+      <li> Hormonal Variations</li>
+      <li>  Ageing</li>
+      <li>Genetics </li>
+      <li> Scarring Alopecia (partial or complete absence of hair)</li>
+      <li> Heredity</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Procedure of Follicular Unit Extraction (FUE) Method for Moustache</h2>
+      <p>
+       We use FOLLICULAR UNIT EXTRACTION (FUE) METHOD for transplantation. 
+       The main advantage of this type of transplantation is that there are neither stitches, 
+       Sutures nor any scars in the donor area and it is less painful compared to FOLLICUAR UNIT TRANSPLANTATION (FUT) METHOD.
+      </p>
+      <ol class="list-decimal list-inside">
+      <li>Transplantation is a technique used to regain and re-grow the lost hair, patchy hair and scattered mustache without much pain. The special surgeon will first decide the mustache line for transplantation.</li>
+      <li> The number of grafts to be planted will be advised by our surgeon depending upon the density essential for a fine mustache.</li>
+      <li>The number of grafts needed to implant for cosmetic purpose will be planned.</li>
+      <li> The mustache hair contains fewer implants when compared to a beard or a scalp.</li>
+      <li> Local anesthesia will be given to the person undergoing the treatment so as to make the area numb.</li>
+      <li>Each follicular Unit is individually taken out directly in this method and implanted one at a time.</li>
+      <li>The grafts are harvested using latest technology punch.</li>
+      <li> Using the implanters the specialist appropriately places the grafts in the mustache line.</li>
+      <li> After the procedure, results can be seen within 14 weeks in some individuals whereas it may occasionally take up to 32 weeks in some person.</li>
+      <li>It takes a period of three to four months to develop an appealing moustache.</li>
+      <li>The moustache hair looks quite irregular during the first year of transplantation but during the second, third and the consecutive years the hair looks more natural and organized.</li>
+      <li>There will be no restriction after the transplantation with respect to chewing or eating habits.</li>
+      <li>The skin gets cured by itself and some common antibiotics will be prescribed for the healing process.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2 class="text-xl text-green-900">Why Dr.Venus Institute of Skin And Hair Would Be tha Best Place for Moustache Transplantation in Hyderabad?</h2>
+      <p>We at Dr. Venus Clinic focus and believe in healthy lifestyle and healthy treatment. If you are troubled with your moustache we diagnose you depending upon your case and provide you with best treatments.</p>
+      <p>We do have treatments depending upon the category of the patient particularly for cosmetic reasons. We use leading technology for treatments. We try to understand your problems much better and make sure to provide treatment with a positive approach.<p>
+      <p>NOTE : All the procedure mentioned above should be done under the advice and consultation of the dermatologists and practitioners.</p>
+      </section>
+
+      <div class="mt-8">
+        <a href="/contact"
+           class="inline-block border-2 border-green-600 text-green-600 px-6 py-2 rounded-md hover:bg-green-600 hover:text-white transition">
+          Quick Enquiry
+        </a>
+      </div>
+  `
     },
     {
-        slug: "eyebrow-hair-transplant",
-        title: "Eyebrow Hair Transplant",
-        category: "hair",
-        description: "Perfectly shaped, fuller eyebrows that last a lifetime.",
-        content:
-            "Eyebrow transplants are a permanent solution for thin or over-plucked eyebrows. We carefully select and transplant individual hair follicles to mimic the natural shape and density of beautiful brows.",
-        image:
-            "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+  slug: "eyebrow-hair-transplant",
+  title: "Eyebrow Hair Transplant",
+  category: "hair",
+  description: "Advanced FUE eyebrow hair transplant to restore natural shape, thickness, and symmetry.",
+  image: "/images/eyebrow-hair-transplant-banner.jpg", 
+  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+
+  content: `
+    <section>
+      <h2 class="text-2xl text-green-900">Eyebrow Hair Transplant in Hyderabad</h2>
+      <p>
+        Eyebrow Hair Transplant : Eyebrows are the unique feature which adds beauty to our face and make us look ravishing. The thick and delicate hairs found on the forehead region above our eyes are eyebrows. Some have thin eyebrows while others have thick ones. Everyone is bestowed with different sort of charming eyebrows. People will look extremely odd and ugly without brows. If you have known the character of Voldemort in Harry Potter books and movies you will know how strange and bizarre it is without brows. Did you ever notice what’s strange in Mona Lisa’s painting? Well, it’s astonishing to know that in the Mona Lisa’s painting, Mona Lisa doesn’t have eyebrows.
+      </p>
+      
+    </section>
+
+    <section>
+      <h2 class="text-xl text-green-900">Physiology of Eyebrows</h2>
+      <p>
+       Each eyebrow hair grows at a very slow pace. The hair on our head grows twice as fast as our eyebrows. On an average, eyebrows have 250 hairs per eyebrow. Each eyebrow ranges in length from 4 to 5.5 cm. The hair on our eyebrow last for about four months and then they fall out. Brows grow actively in summer. Eyebrows keep away dirt, sweat and pollutant from our eyes making our vision crystal clear. Without brows the raindrops, sweat, dust and other foreign particles will directly enter our eyes. They are also important for expressing our facial expression and in communication.
+      </p>
+    </section>
+
+    <img 
+      src="https://www.drvenus.in/wp-content/uploads/2022/11/Eyebrow-hair-transplant-in-hyderabad-min.jpg"
+      alt="Eyebrow Hair Transplant"
+      class="treatment-image mt-6"
+    />
+
+    <section>
+      <h2 class="text-xl text-green-900">Eyebrow Transplant Cost in Hyderabad</h2>
+      <p>
+        The cost of eyebrow transplantation depends on the number of grafts required,
+        brow design, and density expectations. Please fill the enquiry form for a personalized quote.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl text-green-900">Design of Eyebrow</h2>
+      <p>
+        Have you ever noticed the shape of your brows and how well they are designed? Ever wondered why it is designed the way it looks like? It is because brows grow based on the bone. The bony ridge located above the eye socket is responsible for the shape of the brow. One person’s brow does not match with the other one’s brow. They are the key features of one’s face providing facial recognition. The most common brow shape found in men is completely flat and less arched. The type of eyebrows with curvy arch is chiefly found in women. Brows are slightly arched and curvy in females when compared to males. Eyebrows are divided into head, body and tail.
+      </p>
+      <ul class="list-decimal list-inside">
+        <li><strong>Head of the Brow:</strong>  The head is in the middle of the forehead. The part of the brow which is somewhat rounded and circular in shape is the head. The length of the head ranges from 5 to 10 mm. </li>
+        <li><strong>Body of the Brow:</strong>The body of the brow is approximately 25 to 30 mm long. It is the densest, widest, and most prominent portion of the eyebrows. If you notice in some men, the narrowing of the lateral half of the body does not occur. But in some men this area can be the widest portion to create the most masculine and thickest appearance making it look captivating. </li>
+        <li><strong>Tail of the Brow:</strong> The tail of the brow is approximately 10 mm long and it is the narrowest. The density of hair in the tail region is the least.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-xl text-green-900">Causes of Eyebrow Hair Loss</h2>
+      <p> </p>
+      <li><strong>Alopecia areata–</strong>  The circular patches in one or more areas on the skin due to sudden hair loss</li>
+      <li><strong> Trichotillomania –</strong>  an Obsessive-Compulsive disorder of plucking eyebrow hairs leads to temporary or permanent brow hair loss.</li> 
+      <p>Hypopigmentation (patches found on the skin lighter than the normal skin tone) along with trauma can make the traumatic hair loss even more noticeable. </p>
+      <ol class="list-decimal list-inside">
+      
+    
+        <li>Genetics</li>
+        <li>Trauma</li>
+        <li>Hypothyroidism</li>
+        
+      </ol>
+    </section>
+
+    <section>
+      <h2 class="text-xl text-green-900">Procedure of Eyebrow Hair Transplant in Hyderabad</h2>
+      <p>
+        We use Follicular Unit Extraction (FUE) technique for eyebrow transplantation.
+        This method ensures minimal scarring and natural results.
+      </p>
+      <ol class="list-decimal list-inside">
+        <li>Eyebrow design consultation</li>
+        <li>Graft calculation and planning</li>
+        <li>Local anesthesia</li>
+        <li>Extraction of individual follicular units</li>
+        <li>Precise implantation at correct angle and direction</li>
+        <li>Post-procedure care guidance</li>
+      </ol>
+      <p>
+        Initial growth begins within 3–4 months, and final results are visible after 8–12 months.
+      </p>
+    </section>
+
+    <img 
+      src="https://www.drvenus.in/wp-content/uploads/2022/11/Eye-Brow-hair-transplant-min-1-150x150-1.jpg"
+      alt="Eyebrow Hair Transplant Before and After"
+      class="treatment-image mt-6"
+    />
+
+    <section>
+      <h2 class="text-xl text-green-900">
+        Why Dr. Venus Institute of Skin and Hair is the Best Place for Eyebrow Transplantation?
+      </h2>
+      <p>
+      We at Dr. Venus Clinic focus and believe in healthy lifestyle and healthy treatment. If you are troubled with your eyebrow we diagnose you depending upon your case and provide you with best treatments. We do have treatments depending upon the category of the patient particularly for cosmetic reasons. We use leading technology for <a 
+          href="https://www.drvenus.in/hair-specialist-in-hyderabad/"  target="_blank" rel="noopener noreferrer"class="text-blue-600 underline">
+          treatments</a>. We try to understand your problems much better and make sure to provide treatment with a positive approach.
+      </p>
+     
+      <p>
+        <strong>NOTE:</strong>All the procedure mentioned above should be done under the advice and consultation of the dermatologists and practitioners.
+      </p>
+    </section>
+
+    <div class="mt-8">
+      <a href="/contact"
+        class="inline-block border-2 border-green-600 text-green-600 px-6 py-2 rounded-md hover:bg-green-600 hover:text-white transition">
+        Quick Enquiry
+      </a>
+    </div>
+  `
     },
     {
         slug: "prp-hair-treatment",
