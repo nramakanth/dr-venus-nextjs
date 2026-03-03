@@ -54,7 +54,7 @@ export default function Footer() {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10">
                             {branches.map((branch, index) => (
                                 <div key={index} className="bg-[#143d2c] border border-white/5 p-5 md:p-6 rounded-[1.5rem] shadow-[0_20px_40px_-12px_rgba(0,0,0,0.5)] transition-all duration-500  group flex flex-col h-full">
-                                    <div className="space-y-4 flex-grow">
+                                    <div className="flex flex-col flex-grow space-y-4">
                                         <div className="flex justify-between items-start gap-3">
                                             <h3 className="font-sans text-base md:text-lg font-extrabold text-white leading-tight">
                                                 {branch.title}
@@ -107,13 +107,13 @@ export default function Footer() {
                         <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8 md:gap-16">
                             {/* Column 1: Brand & About */}
                             <div className="col-span-2 lg:col-span-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-6">
-                                <div className="bg-white p-3.5 rounded-2xl shadow-xl inline-block">
+                                <div className="bg-white p-3.5 rounded-2xl shadow-xl inline-block w-auto">
                                     <Image
                                         src="/logo/Dr-Venus-Logo-v1.svg"
                                         alt="Dr. Venus Institute"
                                         width={130}
                                         height={36}
-                                        className="h-7 w-auto object-contain"
+                                        className=" w-auto h-16 object-contain"
                                     />
                                 </div>
                                 <p className="text-white/50 text-[13px] leading-relaxed font-sans max-w-sm lg:max-w-xs">
@@ -121,8 +121,8 @@ export default function Footer() {
                                 </p>
                                 <div className="flex gap-4 pt-2">
                                     {[Facebook, Instagram, Youtube, Linkedin].map((Icon, i) => (
-                                        <a key={i} href="#" className="w-9 h-9 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center hover:bg-accent hover:text-primary transition-all duration-300">
-                                            <Icon size={16} />
+                                        <a key={i} href="#" className="w-12 h-12 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center hover:bg-accent hover:text-primary transition-all duration-300">
+                                            <Icon size={18} />
                                         </a>
                                     ))}
                                 </div>
@@ -130,14 +130,14 @@ export default function Footer() {
 
                             {/* Column 2, 3, 4: Treatment Categories */}
                             {treatmentCategories.map((cat, i) => (
-                                <div key={i} className="col-span-1 flex flex-col items-start text-left">
+                                <div key={i} className={`${i === 2 ? "col-span-2 lg:col-span-1" : "col-span-1"} flex flex-col items-start text-left`}>
                                     <h4 className="font-serif text-lg md:text-xl mb-6 text-white relative inline-block after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-6 after:h-0.5 after:bg-accent">
                                         {cat.title}
                                     </h4>
-                                    <ul className="space-y-3">
+                                    <ul className={`${i === 2 ? "grid grid-cols-2 lg:grid-cols-1 gap-x-8 gap-y-3 lg:gap-y-0 lg:space-y-3" : "space-y-3"} w-full`}>
                                         {cat.links.map(link => (
                                             <li key={link}>
-                                                <Link href="#" className="text-white/50 hover:text-accent text-[12px] md:text-[13px] transition-all duration-300 hover:pl-1 font-sans">
+                                                <Link href="#" className="text-white/50 hover:text-accent text-[13px] md:text-[13px] transition-all duration-300 hover:pl-1 font-sans">
                                                     {link}
                                                 </Link>
                                             </li>

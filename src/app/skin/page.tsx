@@ -33,7 +33,7 @@ export default function SkinPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center flex-row-reverse">
                         <div className="order-2 lg:order-1 rounded-[3rem] overflow-hidden aspect-[4/5] shadow-2xl">
                             <Image
-                                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800"
+                                src="/images/skin-care-hero.png"
                                 alt="Skin Care"
                                 width={600}
                                 height={750}

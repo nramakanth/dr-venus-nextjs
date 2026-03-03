@@ -23,7 +23,7 @@ export default function StickyAppointment() {
 
     return (
         <div
-            className={`fixed right-0 top-1/2 -translate-y-1/2 z-[60] transition-all duration-700 transform ${isVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+            className={`hidden lg:block fixed right-0 top-1/2 -translate-y-1/2 z-[60] transition-all duration-700 transform ${isVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
                 }`}
         >
             <Link href="/appointment-form" className="block">

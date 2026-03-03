@@ -57,7 +57,7 @@ export default function HairPage() {
                     <div className="relative">
                         <div className="rounded-[3rem] overflow-hidden aspect-square shadow-2xl">
                             <Image
-                                src="https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&q=80&w=800"
+                                src="/images/hair-restoration-hero.png"
                                 alt="Hair Treatment"
                                 width={800}
                                 height={800}
