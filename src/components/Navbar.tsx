@@ -6,73 +6,73 @@ import { Mail, Phone, ChevronDown, Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const navItems = [
-  { name: "Home", href: "/" },
-  {
-    name: "About",
-    href: "/about-us",
-    dropdown: [
-      { name: "About Dr. Venus", href: "/about-us" },
-      { name: "Doctors Profile", href: "/doctors-profile" },
-      { name: "Gallery", href: "/gallery" },
-    ],
-  },
-  {
-    name: "Treatments & Services",
-    href: "/services",
-    megaMenu: [
-      {
-        category: "Skin Care",
-        items: [
-          { name: "Skin Treatment", href: "/skin-treatment" },
-          { name: "Pimple Treatment", href: "/pimple-treatment" },
-          { name: "Wart Removal", href: "/wart-removal" },
-          { name: "Mole Removal", href: "/mole-removal-treatment" },
-          { name: "Acne Scar Removal", href: "/acne-scar-removal-treatment" },
-          { name: "Laser Hair Removal", href: "/laser-hair-removal-treatment" },
-          { name: "Tattoo Removal", href: "/tattoo-removal" },
-          { name: "Skin Lightening", href: "/skin-lightening-treatment" },
-          { name: "Pigmentation Treatment", href: "/pigmentation-treatment" },
+    { name: "Home", href: "/" },
+    {
+        name: "About",
+        href: "/about-us",
+        dropdown: [
+            { name: "About Dr. Venus", href: "/about-us" },
+            { name: "Doctors Profile", href: "/doctors-profile" },
+            { name: "Gallery", href: "/gallery" },
         ],
-      },
-      {
-        category: "Hair Restoration",
-        items: [
-          { name: "Hair Transplant", href: "/hair-transplant" },
-          { name: "Beard Hair Transplant", href: "/beard-hair-transplant" },
-          {
-            name: "Moustache Hair Transplant",
-            href: "/moustache-hair-transplant",
-          },
-          { name: "Eyebrow Hair Transplant", href: "/eyebrow-hair-transplant" },
+    },
+    {
+        name: "Treatments & Services",
+        href: "/services",
+        megaMenu: [
+            {
+                category: "Skin Care",
+                items: [
+                    { name: "Skin Treatment", href: "/skin-treatment" },
+                    { name: "Pimple Treatment", href: "/pimple-treatment" },
+                    { name: "Wart Removal", href: "/wart-removal" },
+                    { name: "Mole Removal", href: "/mole-removal-treatment" },
+                    { name: "Acne Scar Removal", href: "/acne-scar-removal-treatment" },
+                    { name: "Laser Hair Removal", href: "/laser-hair-removal-treatment" },
+                    { name: "Tattoo Removal", href: "/tattoo-removal" },
+                    { name: "Skin Lightening", href: "/skin-lightening-treatment" },
+                    { name: "Pigmentation Treatment", href: "/pigmentation-treatment" },
+                ],
+            },
+            {
+                category: "Hair Restoration",
+                items: [
+                    { name: "Hair Transplant", href: "/hair-transplant" },
+                    { name: "Beard Hair Transplant", href: "/beard-hair-transplant" },
+                    {
+                        name: "Moustache Hair Transplant",
+                        href: "/moustache-hair-transplant",
+                    },
+                    { name: "Eyebrow Hair Transplant", href: "/eyebrow-hair-transplant" },
+                ],
+            },
+            {
+                category: "Facial Aesthetics",
+                items: [
+                    { name: "Anti Aging Treatment", href: "/anti-aging-treatment" },
+                    { name: "Anti-Wrinkle Treatment", href: "/anti-wrinkle-treatment" },
+                    { name: "Dermal Fillers", href: "/dermal-fillers" },
+                    { name: "Lip Fillers", href: "/lip-fillers" },
+                    { name: "Skin Lifting Treatment ", href: "/skin-lifting-treatment" },
+                    {
+                        name: "Tear Troughs And Eye Bags",
+                        href: "/tear-troughs-and-eye-bags",
+                    },
+                    { name: "Facial Rejuvenation", href: "/facial-rejuvenation" },
+                    { name: "Cheek Fillers", href: "/cheek-fillers" },
+                    { name: "Crows Feet", href: "/crows-feet" },
+                ],
+            },
+            {
+                category: "Body Contouring",
+                items: [
+                    { name: "Weight Loss Treatment", href: "/weight-loss-treatment" },
+                ],
+            },
         ],
-      },
-      {
-        category: "Facial Aesthetics",
-        items: [
-          { name: "Anti Aging Treatment", href: "/anti-aging-treatment" },
-          { name: "Anti-Wrinkle Treatment", href: "/anti-wrinkle-treatment" },
-          { name: "Dermal Fillers", href: "/dermal-fillers" },
-          { name: "Lip Fillers", href: "/lip-fillers" },
-          { name: "Skin Lifting Treatment ", href: "/skin-lifting-treatment" },
-          {
-            name: "Tear Troughs And Eye Bags",
-            href: "/tear-troughs-and-eye-bags",
-          },
-          { name: "Facial Rejuvenation", href: "/facial-rejuvenation" },
-          { name: "Cheek Fillers", href: "/cheek-fillers" },
-          { name: "Crows Feet", href: "/crows-feet" },
-        ],
-      },
-      {
-        category: "Body Contouring",
-        items: [
-          { name: "Weight Loss Treatment", href: "/weight-loss-treatment" },
-        ],
-      },
-    ],
-  },
-  { name: "Blog", href: "/blog/embed" },
-   {
+    },
+    { name: "Blog", href: "/blog/embed" },
+    {
         name: "Courses",
         href: "/courses",
         dropdown: [
@@ -107,7 +107,7 @@ export default function Navbar() {
     return (
         <header className="w-full fixed top-0 z-50 pointer-events-none">
             {/* 1) Top Header (Info Bar) - Hidden on scroll */}
-            <div className={`w-full bg-[#eaf3ef] border-b border-[#1f4d3a]/5 transition-all duration-500 overflow-hidden pointer-events-auto ${isScrolled ? "max-h-0 opacity-0 transform -translate-y-full" : "max-h-20 opacity-100 transform translate-y-0"}`}>
+            <div className={`w-full bg-[#eaf3ef] hidden lg:block border-b border-[#1f4d3a]/5 transition-all duration-500 overflow-hidden pointer-events-auto ${isScrolled ? "max-h-0 opacity-0 transform -translate-y-full" : "max-h-20 opacity-100 transform translate-y-0"}`}>
                 <div className="py-2.5 px-6">
                     <div className="max-w-7xl mx-auto flex justify-between items-center text-[11px] md:text-sm font-sans text-primary/80">
                         <div className="uppercase tracking-[0.15em] font-bold text-[11px] hidden lg:block">
@@ -129,7 +129,7 @@ export default function Navbar() {
 
             {/* 2) Main Navbar - Floating on Scroll */}
             <div className="w-full px-4 md:px-6 pointer-events-none flex justify-center">
-                <nav className={`transition-all duration-500 pointer-events-auto ${isScrolled ? "max-w-6xl w-full mx-auto mt-4 rounded-3xl md:rounded-full bg-white/90 backdrop-blur-lg shadow-2xl py-3 px-8 md:px-12" : "w-full bg-white py-5 px-6"}`}>
+                <nav className={`transition-all duration-500 pointer-events-auto ${isScrolled ? "max-w-6xl w-full mx-auto mt-4 rounded-xl md:rounded-full bg-white/90 backdrop-blur-lg shadow-2xl py-3 px-8 md:px-12" : "w-full bg-white py-5 px-6"}`}>
                     <div className={`mx-auto flex justify-between items-center ${isScrolled ? "w-full" : "max-w-7xl"}`}>
                         <div className="flex items-center">
                             <Link href="/" className="relative">

@@ -130,14 +130,14 @@ export default function Footer() {
 
                             {/* Column 2, 3, 4: Treatment Categories */}
                             {treatmentCategories.map((cat, i) => (
-                                <div key={i} className="col-span-1 flex flex-col items-start text-left">
+                                <div key={i} className={`${i === 2 ? "col-span-2 lg:col-span-1" : "col-span-1"} flex flex-col items-start text-left`}>
                                     <h4 className="font-serif text-lg md:text-xl mb-6 text-white relative inline-block after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-6 after:h-0.5 after:bg-accent">
                                         {cat.title}
                                     </h4>
-                                    <ul className="space-y-3">
+                                    <ul className={`${i === 2 ? "grid grid-cols-2 lg:grid-cols-1 gap-x-8 gap-y-3 lg:gap-y-0 lg:space-y-3" : "space-y-3"} w-full`}>
                                         {cat.links.map(link => (
                                             <li key={link}>
-                                                <Link href="#" className="text-white/50 hover:text-accent text-[12px] md:text-[13px] transition-all duration-300 hover:pl-1 font-sans">
+                                                <Link href="#" className="text-white/50 hover:text-accent text-[13px] md:text-[13px] transition-all duration-300 hover:pl-1 font-sans">
                                                     {link}
                                                 </Link>
                                             </li>

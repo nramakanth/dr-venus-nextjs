@@ -29,7 +29,7 @@ export default function QuickInquiry() {
 
                             {/* Left Label - Prominent on all screens */}
                             <div className="lg:w-[15%] bg-primary rounded-xl md:rounded-[1.25rem] py-3.5 px-6 flex items-center justify-center lg:justify-start gap-3 shrink-0">
-                                <Sparkles size={16} className="text-secondary" />
+                                {/* <Sparkles sisze={16} className="text-secondary" /> */}
                                 <span className="text-white font-serif font-bold text-sm md:text-base tracking-wide whitespace-nowrap">
                                     Quick Inquiry
                                 </span>

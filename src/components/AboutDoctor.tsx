@@ -44,7 +44,7 @@ export default function AboutDoctor() {
                         </div>
 
                         {/* 3) Info Grid (Clean Split) */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-2 items-start">
                             <div className="space-y-4">
                                 <div>
                                     <h4 className="text-xl font-bold font-serif text-primary">Dr. Venu Kumari</h4>
@@ -55,7 +55,7 @@ export default function AboutDoctor() {
                                         MBBS, MD – <span className="text-gray-800">Dermatology, Venereology & Leprosy</span>
                                     </p>
                                     <div className="flex flex-wrap gap-2 md:gap-2.5">
-                                        {["Trichologist", "Aesthetic Expert", "Dermatosurgeon", "Immunodermatologist", "Cosmetologist"].map(s => (
+                                        {["Dermatologist", "Trichologist", "Aesthetic Expert", "Dermatosurgeon", "Immunodermatologist", "Cosmetologist"].map(s => (
                                             <span key={s} className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-primary bg-primary/[0.07] px-3 py-1.5 rounded-lg border border-primary/5 shadow-sm shadow-primary/[0.02]">
                                                 {s}
                                             </span>
@@ -66,12 +66,20 @@ export default function AboutDoctor() {
 
                             <div className="grid grid-cols-2 gap-x-8 gap-y-6 md:border-l md:border-primary/10 md:pl-10">
                                 <div>
-                                    <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">17<span className="text-base text-primary/30 ml-0.5">+</span></div>
+                                    <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">19<span className="text-base text-primary/30 ml-0.5">+</span></div>
                                     <p className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-gray-600">Total Years Exp.</p>
                                 </div>
                                 <div>
-                                    <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">11<span className="text-base text-primary/30 ml-0.5">+</span></div>
+                                    <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">13<span className="text-base text-primary/30 ml-0.5">+</span></div>
                                     <p className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-gray-600">As Specialist</p>
+                                </div>
+                                <div>
+                                    <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">25K<span className="text-base text-primary/30 ml-0.5">+</span></div>
+                                    <p className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-gray-600">Happy Patients</p>
+                                </div>
+                                <div>
+                                    <div className="text-2xl md:text-3xl font-serif text-primary font-bold tracking-tight">4.9<span className="text-base text-primary/30 ml-0.5">★</span></div>
+                                    <p className="text-[10px] md:text-[11px] uppercase tracking-widest font-bold text-gray-600">Google Rating</p>
                                 </div>
                                 <div className="col-span-2">
                                     <a href="tel:+917777977027" className="inline-flex items-center gap-3 text-primary group/phone">
