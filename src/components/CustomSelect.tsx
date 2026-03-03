@@ -83,7 +83,7 @@ export default function CustomSelect({
                 aria-expanded={open}
                 className={`
                     w-full bg-white border rounded-2xl text-left font-sans text-sm
-                    flex items-center justify-between gap-2
+                    flex items-center justify-between gap-2 px-4 py-3
                     transition-all duration-200 outline-none
                     ${open
                         ? "border-accent ring-2 ring-accent/20 shadow-sm"
