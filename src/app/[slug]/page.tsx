@@ -24,15 +24,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     return {
-        title: `${treatment.title} | Dr. Venus`,
-        description: treatment.description,
-        keywords: [
-            treatment.title,
-            `${treatment.category} treatment`,
-            "dermatology clinic Hyderabad",
-            "skin and hair treatment",
-            "Dr Venus Institute",
-        ],
+        title: treatment.seoTitle || `${treatment.title} | Dr. Venus`,
+        description: treatment.seoDescription || treatment.description,
+        keywords: treatment.seoKeywords
+            ? treatment.seoKeywords.split(",").map((keyword) => keyword.trim()).filter(Boolean)
+            : [
+                  treatment.title,
+                  `${treatment.category} treatment`,
+                  "dermatology clinic Hyderabad",
+                  "skin and hair treatment",
+                  "Dr Venus Institute",
+              ],
         alternates: {
             canonical: `/${treatment.slug}`,
         },

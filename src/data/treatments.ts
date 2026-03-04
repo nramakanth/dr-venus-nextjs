@@ -2,6 +2,9 @@ export interface Treatment {
   slug: string;
   title: string;
   description: string;
+  seoTitle: string;
+  seoDescription: string;
+  seoKeywords: string;
   content: string;
   image: string;
   videoUrl: string; // YouTube embed ID or URL
@@ -15,7 +18,11 @@ export const allTreatments: Treatment[] = [
     title: "Skin Specialist in Hyderabad",
     category: "skin",
     description: "Expert care for all skin concerns.",
+    seoTitle: "Lady Skin Specialist in Hyderabad [ With 10+ Years Of Experience]",
+    seoDescription: "Skin specialist in Hyderabad (lady), ChandaNagar. Our doctors have lot of experience. We produce the best results to our customers.",
+    seoKeywords: "skin specialist in hyderabad,best dermatologist in hyderabad",
     content: `
+
     <div class="space-y-12">
 
         <section>
@@ -107,7 +114,11 @@ export const allTreatments: Treatment[] = [
     title: "Pimple Treatment",
     category: "skin",
     description: "Effective solutions for clear, acne-free skin.",
+    seoTitle: "Best Pimple Treatment in Hyderabad | Dr Venus Skin Clinic",
+    seoDescription: "Say goodbye to pimples and hello to radiant, blemish-free skin. Experience flawless skin at Dr. Venus, the best pimple treatment clinic in Hyderabad. Book an appointment now!",
+    seoKeywords: "pimple treatment for oily skin,pimple treatment cost in hyderabad,best acne treatment in hyderabad,acne treatment cost in hyderabad,pimples specialist doctor near me,best dermatologist in hyderabad,acne treatment cost in india,laser treatment for pimples cost in india,pimple treatment,pimple marks removal,pimple treatment clinic,pimple clinic near me,pimple treatment clinic near me,best skin specialist in hyderabad for pimples,pimple marks removal clinic,clinic for pimples,skin clinic for pimples,skin care for pimples,best skin care for pimples,best pimple treatment in hyderabad,best pimple treatment near me,top-rated pimple treatment center in hyderabad",
     content: `
+
               <div class="space-y-12">
         <section>
            <h3 class="text-2xl font-serif text-primary mb-4">What are Pimples?</h3>
@@ -221,7 +232,11 @@ export const allTreatments: Treatment[] = [
     title: "Wart Removal TREATMENT",
     category: "skin",
     description: "Safe and painless removal of unwanted warts.",
+    seoTitle: "Wart Removal Treatment in Hyderabad - Dr Venus Skin",
+    seoDescription: "Discover the best wart removal treatment in Hyderabad at Dr. Venus. Expert care, advanced techniques, and lasting results. Book your appointment today!",
+    seoKeywords: "wart removal in hyderabad,wart removal treatment in hyderabad,wart removal clinic in hyderabad,wart removal treatment clinic in hyderabad,warts removal treatment cost in hyderabad,warts removal cost in hyderabad,warts removal doctor in hyderabad,laser wart removal cost in hyderabad,wart removal,wart treatment,plantar wart removal,plantar wart treatment,wart removal near me,best wart remover,laser wart removal,cost of wart removal in hyderabad,best doctor for wart removal in hyderabad,wart removal treatment,wart removal surgery,skin warts treatment",
     content: `
+
   <div class="space-y-12">
 
     <section>
@@ -339,7 +354,11 @@ export const allTreatments: Treatment[] = [
     title: "Mole Removal",
     category: "skin",
     description: "Professional mole removal for aesthetic and health reasons.",
+    seoTitle: "Best Laser Mole Removal Treatment in Hyderabad | Dr Venus",
+    seoDescription: "Experience the flawless skin with the best mole removal treatment in Hyderabad at Dr. Venus. Our expert dermatologists use advanced techniques for safe and precise.",
+    seoKeywords: "mole removal treatment in hyderabad,best mole removal treatment in hyderabad,mole removal treatment cost,mole removal cream,laser mole removal,how to remove moles naturally,mole removal near me,how to remove mole from face,best laser mole removal treatment in hyderabad,laser mole removal treatment in hyderabad,laser mole removal treatment,laser mole removal cost in hyderabad,laser remove moles permanently,mole removals doctors in hyderabad,best clinic for mole removal treatment in hyderabad,best clinic for mole removal treatment,mole removal treatment clinic,mole removal clinic,laser mole removal clinic,best mole removal clinic,top laser mole removal treatment,mole removal surgery,mole removal in hyderabad,mole removal treatment near me,best mole removal treatment hyderabad",
     content: `
+
   <div class="space-y-12">
 
     <section>
@@ -554,6 +573,9 @@ export const allTreatments: Treatment[] = [
     title: "Acne Scar Removal TREATMENT",
     category: "skin",
     description: "Smooth out your skin and regain your confidence.",
+    seoTitle: "Acne Scar Removal Treatment in Hyderabad | Dr Venus",
+    seoDescription: "Regain smooth, scar-free skin with Dr. Venus' acne scar removal treatment in Hyderabad. Our advanced procedures effectively diminish scars, restoring your skin's texture.",
+    seoKeywords: "acne scar treatment in hyderabad,acne scar removal treatment in hyderabad,laser treatment for acne scars cost in hyderabad,best dermatologist in hyderabad for acne scars,scar treatment cost in hyderabad,best laser treatment for acne scars in hyderabad,laser treatment for face cost in hyderabad,acne treatment cost in hyderabad,best doctors for acne scars treatment in hyderabad,best scar removal treatment for acne,laser treatment for acne scars in hyderabad,acne scar reduction in hyderabad,acne scar reduction surgery,acne treatment in hyderabad,best acne scar removal,laser treatment for scar in hyderabad,best acne scar surgery treatment in hyderabad,laser treatment for acne scars,acne scar treatment,acne scars treatment near me,specialized acne clinic in hyderabad",
     content:
       `
       
@@ -680,7 +702,11 @@ export const allTreatments: Treatment[] = [
     title: "Laser Hair Removal Treatment",
     category: "skin",
     description: "Permanent reduction of unwanted hair for smooth skin.",
+    seoTitle: "Best Laser Hair Removal Treatment in Hyderabad | Dr Venus",
+    seoDescription: "Experience silky-smooth skin with laser hair removal treatment in Hyderabad at Dr. Venus. Our advanced technology precisely targets hair follicles, ensuring long-lasting results.",
+    seoKeywords: "laser hair removal treatment in hyderabad,laser hair removal cost hyderabad,laser hair removal in hyderabad,best laser hair removal clinic in hyderabad,full body laser hair removal cost in hyderabad,best laser hair removal in hyderabad,best laser hair removal treatment in hyderabad,laser hair removal treatment,laser hair removal,laser hair removal near me,permanent hair removal,laser hair removal cost,laser hair removal at home,laser clinic,best laser hair removal,laser hair removal prices,bikini laser hair removal,laser removal,full body laser hair removal cost,full body laser hair removal,face laser hair removal,laser hair removal for men,laser hair removal permanent,permanent facial hair removal,best laser hair removal near me",
     content: `
+
           <h2 class="text-2xl text-green-900"> Permanent Laser Hair Removal Treatment in Hyderabad</h2>
            <p class="mt-2">
            <span class="font-bold">Hair Removal Treatment in Hyderabad a painless, long-lasting method :</span> Hair-free, smooth skin is something that every women dream of. But excessive hair on different parts of the body is a biggest nightmare. Most annoying, isn’t it? Unwanted hair growth on visible areas of the body such as face, hands, legs, neck and back is a biggest embarrassment for women. Finally you end up in shaving, waxing, tweezing, threading, plucking etc. But, at Dr.Venus clinic there is a permanent solution for it i.e advanced laser hair removal treatment.
@@ -783,7 +809,11 @@ export const allTreatments: Treatment[] = [
     title: "TATTOO REMOVAL TREATMENT",
     category: "skin",
     description: "Advanced laser technology to fade unwanted tattoos.",
+    seoTitle: "Tattoo Removal Treatment In Hyderabad [Using Advanced Laser Tech]",
+    seoDescription: "Tattoo Removal Treatment in Hyderabad by using advanced laser technology at an affordable price and get rid of it permanently.",
+    seoKeywords: "tattoo removal in hyderabad,tattoo removal cost in hyderabad,best tattoo removal clinic in hyderabad,tattoo removal clinic in hyderabad,tattoo removal price in hyderabad,tattoo removal near me,permanent tattoo removal cost,tattoo removal price near me,tattoo removal cream,tattoo removal treatment in hyderabad,top laser treatment for tattoo removal in hyderabad,laser treatment for tattoo removal in hyderabad,laser tattoo removal in hyderabad,tattoo removals doctors in hyderabad,laser tattoo removal cost in hyderabad,tattoo removal treatment,laser tattoo removal,permanent tattoo removal in hyderabad,permanent tattoo removal clinic,",
     content: `
+
     <h2 class="text-2xl text-green-900">Tattoo Removal in Hyderabad</h2>
     <p class="mt-2">
       Are you feeling upset about your tattoo and regret having it done? Let me help you to know more about tattoos and how to fix this problem of yours. The tattoo removal is done for various reasons. Some are removed for their Jobs, some for their personal reasons while others want to withdraw from it due to social stigma. Well, you are not alone here in this tattoo trouble. Read further and get to know better about tattoos.
@@ -863,7 +893,11 @@ export const allTreatments: Treatment[] = [
     title: "Skin Lightening Treatment",
     category: "skin",
     description: "Brighten your complexion with safe and effective treatments.",
+    seoTitle: "Lady Skin Specialist in Hyderabad [ With 10+ Years Of Experience]| Dr Venus",
+    seoDescription: "Skin specialist in Hyderabad (lady), ChandaNagar. Our doctors have lot of experience. We produce the best results to our customers.",
+    seoKeywords: "skin specialist in hyderabad,best dermatologist in hyderabad",
     content: `
+
         <h2 class="text-2xl text-green-900 mt-4">Skin Lightening Treatment in Hyderabad</h2>
         <p class="mt-2">
         A bright complexion of the skin is always like a shot in the arm for one’s self-confidence and self-esteem. It boosts your positive vibes and gives a very healthy feel. We have a special procedure called the advanced skin lightening treatment and this is done through something called fractional Q Switched YAG laser. If your skin has lost its shine due to tan or damage caused by sun exposure or pimples then stop worrying at once because we have a one-stop solution for it i.e. skin Lightening(whitening) treatment which is one of the most advanced among its types for any pigmentation concerns.
@@ -948,7 +982,11 @@ export const allTreatments: Treatment[] = [
     title: "Pigmentation Treatment",
     category: "skin",
     description: "Targeted solutions for dark spots, melasma, and uneven skin tone using advanced laser and dermatological treatments.",
+    seoTitle: "Best Pigmentation Treatment in Hyderabad | Dr Venus",
+    seoDescription: "Unveil flawless skin at Dr. Venus with the best pigmentation treatment in Hyderabad. Our specialized approach targets and reduces pigmentation, ensuring even-toned, radiant skin.",
+    seoKeywords: "pigmentation treatment in hyderabad,laser treatment for pigmentation cost in hyderabad,pigmentation removal cream,best treatment for pigmentation on face,how to remove pigmentation from face permanently,hyperpigmentation treatment dermatologist,hyperpigmentation treatment products,reason for pigmentation on face,hyperpigmentation treatment dermatologist near me,brown pigmentation on face,best pigmentation treatment in hyderabad,pigmentation treatment cost in hyderabad,lip pigmentation treatment in hyderabad,pigmentation treatment,melasma treatment,hyperpigmentation treatment,hyperpigmentation treatment in hyderabad,melasma on face,best treatment for melasma on face,skin pigmentation treatment,skin pigmentation treatment in hyderabad,hyperpigmentation treatment for face,chemical peel for hyperpigmentation,best hyperpigmentation treatment,hypopigmentation treatment,laser treatment for pigmentation,laser pigmentation removal,hyperpigmentation treatment for dark skin,hyperpigmentation treatment for black skin,best melasma treatment,hyperpigmentation around mouth treatment,face pigmentation treatment,best pigmentation treatment hyderabad",
     content: `
+
         <h2 class="text-2xl text-green-900">Laser Pigmentation Treatment in Hyderabad</h2>
         <p class="font-bold mt-2">Pigmentation Treatment in Hyderabad :</p> 
         <p> Who doesn’t love a flawless, glowing skin which gives you a ‘feel-good’ effect? Having an even complexion is one of the most sought-after beauty tips to retain one’s aesthetic appeal.
@@ -1019,7 +1057,11 @@ export const allTreatments: Treatment[] = [
     title: "What is Hair Transplantation?",
     category: "hair",
     description: "Natural-looking hair restoration with advanced FUE & FUT techniques in Hyderabad.",
+    seoTitle: "Hair Transplantation in Hyderabad | Hair Transplant | Dr Venus",
+    seoDescription: "For Best Hair Transplantation in Hyderabad Dr Venus Skin and Hair Clinic is the best hair transplantation clinic in hyderabad. Industry Expert doctors and procedure make us best Hair Transplant clinic In Hyderabad",
+    seoKeywords: "hair transplant in hyderabad,hair transplant cost in hyderabad,best hair transplant in hyderabad,male hair transplant in hyderabad,female hair transplant in hyderabad,cheap and best hair transplant in hyderabad,best hair transplant in hyderabad india,hyderabad hair transplant cost,best hair transplant hospital in hyderabad,hair transplantation in hyderabad,best hair transplantation clinic in hyderabad,hair transplantation clinic in hyderabad,hair transplant cost hyderabad,best hair clinic in hyderabad,hair free hair grow hyderabad,hair replacement in hyderabad,hair plantation cost in hyderabad,gfc hair treatment cost in hyderabad,best hair transplant in hyderabad cost,best skin and hair clinic in hyderabad,best hair transplant surgeon in hyderabad,hair transplant clinic in hyderabad,top hair transplant in hyderabad,best hair plantation in hyderabad,hair weaving in hyderabad,fue hair transplant in hyderabad,hair plantation in hyderabad,hair transplant surgeon in hyderabad,hyderabad best hair transplant clinic,best hair transplant doctor in hyderabad,fue hair transplant cost hyderabad",
     content: `
+
     <p class="font-bold">Hair Transplant in Hyderabad:</p>
     <p>
     Hair loss causing thinning of hair or baldness is a common problem for men and women alike. While in some,  the 
@@ -1205,7 +1247,11 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
     title: "Beard Transplantation in Hyderabad",
     category: "hair",
     description: "Get a fuller, more defined beard with precision grafting.",
+    seoTitle: "Beard Transplantation in Hyderabad | Dr Venus",
+    seoDescription: "Dr Venus offers Best Beard Transplant in Hyderabad at an affordable cost. We have Best Beard Transplant Doctors in Hyderabad. Advanced procedures with 100% Success.",
+    seoKeywords: "beard transplantation in hyderabad,best beard transplant in hyderabad,beard hair transplant,beard transplant,beard transplant cost,beard transplant before and after,beard transplant near me,facial hair transplant,beard transplant cost in hyderabad,beard implants before and after,beard hair growth,beard hair transplantation in hyderabad,beard hair transplant in hyderabad,beard transplantation clinic in hyderabad,beard transplantation doctor in hyderabad,beard transplant doctor in hyderabad",
     content: `
+
     <section class="treatment-section">
 
       <p>
@@ -1348,6 +1394,9 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
     title: "Moustache Hair Transplant",
     category: "hair",
     description: "Advanced FUE moustache hair transplant to restore density and natural facial aesthetics.",
+    seoTitle: "Moustache Hair Transplant in Hyderabad [Regrowth Within Weeks]",
+    seoDescription: "Advanced FUE moustache hair transplant to restore density and natural facial aesthetics. Book a consultation at Dr Venus Skin & Hair Clinic in Hyderabad.",
+    seoKeywords: "moustache hair transplant cost, moustache transplant cost in India, mustache transplant side effects, hair transplant mustache, mustache transplant cost in Hyderabad, mustache transplant near me, mustache transplant in Hyderabad, moustache care products, mustache transplant cost in india, moustache care kit, beard and moustache growth treatment, how to grow a mustache thicker, moustache grooming tips, growing a mustache stages",
     image: "/images/moustache-transplant-banner.jpg",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 
@@ -1494,6 +1543,9 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
     title: "Eyebrow Hair Transplant",
     category: "hair",
     description: "Advanced FUE eyebrow hair transplant to restore natural shape, thickness, and symmetry.",
+    seoTitle: "Eyebrow Hair Transplant in Hyderabad | Dr Venus Skin & Hair",
+    seoDescription: "Achieve impeccable eyebrows at Dr. Venus, the top Eyebrow Hair Transplant clinic in Hyderabad. Our skilled experts sculpt and enhance your brows to frame your eyes beautifully.",
+    seoKeywords: "eyebrow transplant cost india,eyebrow hair transplant before and after,eyebrow transplant problems,eyebrow transplant,best eyebrow transplant surgeon,eyebrow hair transplant clinic in hyderabad,eyebrow hair transplant,eyebrow transplant cost,eyebrow implants,eyebrow surgery,eyebrow transplant near me,eyebrow hair transplant cost,eyebrow hair transplant near me,eyebrow transplant price,eyebrow restoration near me,eyebrow transplant men,eyebrow plantation,eyebrow thickening surgery,eyebrow shaping clinic in hyderabad,eyebrow shaping",
     image: "/images/eyebrow-hair-transplant-banner.jpg",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 
@@ -1618,10 +1670,14 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
     title: "PRP Hair Treatment",
     category: "hair",
     description: "Stimulate hair growth and improve scalp health with PRP therapy.",
+    seoTitle: "PRP Hair Treatment in Hyderabad | Dr Venus",
+    seoDescription: "Stimulate hair growth and improve scalp health with PRP therapy. Book a consultation at Dr Venus Skin & Hair Clinic in Hyderabad.",
+    seoKeywords: "PRP Hair Treatment, prp hair treatment, hair treatment Hyderabad, Dr Venus clinic",
     content: `
-  <div class="space-y-12">
 
-    <section>
+      <div class="space-y-12">
+
+      <section>
         <h3 class="text-2xl font-serif text-primary mb-2">
             PRP Hair Treatment in Hyderabad
         </h3>
@@ -1657,10 +1713,10 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
         <p class="mt-4">
             Keep reading to understand everything in detail.
         </p>
-    </section>
+      </section>
 
 
-    <section>
+       <section>
         <h3 class="text-2xl font-serif text-primary mb-4">
             What is PRP Treatment?
         </h3>
@@ -1688,10 +1744,10 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
                 class="h-auto w-auto max-w-full"
             />
         </div>
-    </section>
+        </section>
 
 
-    <section>
+       <section>
         <h3 class="text-2xl font-serif text-primary mb-4">
             How Effective is PRP Hair Treatment?
         </h3>
@@ -1736,10 +1792,10 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
             <li>11 Tips to Regrow Hair Naturally</li>
             <li>10 Types of Hair Loss You Should Know</li>
         </ul>
-    </section>
+       </section>
 
 
-    <section>
+       <section>
         <h3 class="text-2xl font-serif text-primary mb-4">
             How Does PRP Treatment Work?
         </h3>
@@ -1763,9 +1819,9 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
             Though it involves injections, PRP is minimally invasive, safe, and requires little to no downtime, 
             making it one of the most preferred hair restoration treatments today.
         </p>
-    </section>
+       </section>
 
-  </div>
+       </div>
     `,
     image:
       "https://images.unsplash.com/photo-1512290923902-8a9f81dc206e?auto=format&fit=crop&q=80&w=800",
@@ -1778,6 +1834,9 @@ FUE Hair Transplant in Hyderabad : This is more suitable for small requirement o
     title: "Anti-Aging Treatment",
     category: "facial",
     description: "Turn back the clock with advanced anti-aging solutions.",
+    seoTitle: "New Anti Aging Treatment in Hyderabad | Dr Venus Skin and Hair Clinic",
+    seoDescription: "Anti aging treatment in Hyderabad with new procedures for different types of wrinkles on face, forehead, lips, neck, and lines under eyes",
+    seoKeywords: "new anti aging treatment,best anti aging treatments,anti aging treatment for face,best facial treatment,best non surgical facelift,liquid botox,anti aging trends,best wrinkle treatment,beauty treatments,laser skin tightening,anti wrinkle treatment,anti aging clinics in hyderabad,anti aging treatment,anti aging treatment in hyderabad,non-surgical anti-aging treatments,top anti-aging treatments,anti-ageing skin care treatments,best treatments to stop skin aging,skin anti-aging strategies,cosmetic procedures for aging skin,new anti aging treatment in hyderabad,long-lasting anti-aging treatments,best anti-aging dermatology treatments,best treatments for anti-ageing,wrinkle treatments,anti-skin-aging effect of a treatment,anti-aging facials,",
     content:
       `<div class="space-y-12">
 
@@ -2018,6 +2077,9 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
     title: "Anti-Wrinkle Treatment",
     category: "facial",
     description: "Smooth out fine lines and wrinkles for a refreshed look.",
+    seoTitle: "Anti Wrinkle Treatment in Hyderabad | Dr Venus Skin and Hair",
+    seoDescription: "Best Anti Wrinkle Treatment in Hyderabad by using botox injections. Also know cost, side effects which is mostly done on the face.",
+    seoKeywords: "anti wrinkle treatment in Hyderabad, anti wrinkle treatment cost in Hyderabad, anti wrinkle treatment near me, best anti wrinkle cream in India, laser treatment for face cost in Hyderabad, permanent skin whitening treatment cost in Hyderabad, best anti-aging cream, anti aging facial kit, anti wrinkle treatment at home, how to remove wrinkles from face quickly, best treatment for deep wrinkles on face, anti wrinkle cream, remove wrinkles overnight, how to get rid of wrinkles permanently, best treatment for wrinkles on face, best treatment for deep wrinkles around mouth",
     content:
       `<div class="space-y-12">
 
@@ -2179,6 +2241,9 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
     title: "Dermal Fillers",
     category: "facial",
     description: "Restore volume and contour to your face.",
+    seoTitle: "Dermal Fillers Treatment in Hyderabad | Dr Venus Skin and Hair",
+    seoDescription: "Dermal Fillers in Hyderbad for acne scar or under eyes. They are different types of dermal fillers: Artefill, Radiesse and Natural at low cost",
+    seoKeywords: "dermal fillers in hyderabad,dermal fillers treatment in hyderabad,dermal fillers cost in hyderabad,dermal fillers cost,dermal fillers before and after,dermal fillers side effects photos,risks of dermal fillers,types of dermal fillers,what are dermal fillers made of,dermal fillers,long-term effects of dermal fillers,dermal fillers clinics,best dermal filler treatment hyderabad,botox and dermal fillers in hyderabad,dermal fillers treatment cost in hyderabad,dermal filler treatment for wrinkles,best doctors for injectable fillers in hyderabad,cosmetic fillers in hyderabad,fillers treatment in hyderabad,fillers in hyderabad,filler injections cost in hyderabad,best clinic for dermal fillers treatment,best dermatologist for dermal fillers treatment,best fillers doctors in hyderabad,fillers,dermal treatment,fillers treatment,dermal filter undereye in hyderabad",
     content:
       `<div class="space-y-12">
 
@@ -2327,6 +2392,9 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
     title: "Lip Fillers",
     category: "facial",
     description: "Achieve fuller, perfectly shaped lips.",
+    seoTitle: "Lip Fillers in Hyderabad | Dr Venus Skin and Hair Clinic",
+    seoDescription: "Lip Fillers in Hyderabad by using laser. Know the complete treatment for upper & lower lip with cost, benefits and how does they long.",
+    seoKeywords: "Lip Fillers in Hyderabad, Lip Fillers treatment in Hyderabad, Lip Fillers cost in Hyderabad, Lip fillers cost, Lip fillers before and after, Lip fillers side effects photos, risks of lip fillers, types of lip fillers, what are lip fillers made of, lip fillers, long-term effects of lip fillers, lip fillers clinics, Lip Fillers treatments, Lip Fillers treatment clinics, Lip Fillers clinic in hyderabad",
     content:
       `
            <div class="space-y-12">
@@ -2444,6 +2512,9 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
     title: "Skin Lifting",
     category: "facial",
     description: "Non-surgical face lift for a contoured appearance.",
+    seoTitle: "Skin Lifting Treatment in Hyderabad | Dr Venus Skin and Hair",
+    seoDescription: "Skin Lifting Treatment in Hyderabad using advanced laser technology we cover complete face, jaw and eye positions.",
+    seoKeywords: "skin lift treatment in hyderabad, skin lift treatment cost in hyderabad, skin lift without surgery at home, facelift pictures after 5 days, face lifting treatment cost, facelift before and after, facelift recovery, facelift complications photos, non surgical facelift near me, non invasive face lift before and after, skin lifting treatment in Hyderabad",
     content:
       `<div class="space-y-12">
 
@@ -2611,6 +2682,9 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
     title: "Tear Troughs and Eye Bags",
     category: "Facial",
     description: "Complete facial renewal for a glowing complexion.",
+    seoTitle: "Tear Troughs And Eye Bags - Dr Venus",
+    seoDescription: "Tear Troughs And Eye Bags Treatment in Hyderabad. The type of treatment in non-surgical i.e in the form of fillers at low cost.",
+    seoKeywords: "Tear Troughs and Eye Bags, tear troughs and eye bags, Facial treatment Hyderabad, Dr Venus clinic",
     content:
       `<div class="space-y-12">
 
@@ -2774,6 +2848,9 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
     title: "Facial Rejuvenation",
     category: "facial",
     description: "Complete facial renewal for a glowing complexion.",
+    seoTitle: "Facial Rejuvenation Treatment in Hyderabad | Dr Venus",
+    seoDescription: "Experience Best Non Surgical Facial Rejuvenation Treatment in Hyderabad at Dr. Venus. Our innovative treatments, including dermal fillers and Botox, revitalize.",
+    seoKeywords: "non surgical facial rejuvenation treatment in hyderabad,facial rejuvenation treatment in hyderabad,non surgical facial rejuvenation,facial rejuvenation,fractional laser resurfacing,laser resurfacing near me,skin laser resurfacing,rejuvenation treatment,skin rejuvenation,facial rejuvenation doctor,facial rejuvenation treatment,rejuvenation clinic,skin rejuvenation treatment,skin rejuvenation clinic,laser skin rejuvenation,hand rejuvenation,laser resurfacing treatment,facial rejuvenation near me,eye rejuvenation,laser rejuvenation clinic,facial-rejuvenation in hyderabad,facial-rejuvenation",
     content:
       `<div class="space-y-12">
 
@@ -2899,6 +2976,9 @@ One can see the skin health and firmness in a week or so. The effects of anti ag
     title: "Cheek Fillers",
     category: "facial",
     description: "Complete facial renewal for a glowing complexion.",
+    seoTitle: "Cheek Fillers- Glow Your Face [Get Perfect Shape To Your Cheeks]",
+    seoDescription: "Injectable Cheek Fillers in Hyderabad. Also know how long do they last, hurt, side effects, cost and what actually do with HA",
+    seoKeywords: "cheek fillers in hyderabad,cheek fillers cost in hyderabad,cheek filler before and after,dermal fillers side effects,bad cheek fillers,cheek filler injection points,how long does cheek filler last,dermal fillers treatment cost in hyderabad,dermal fillers treatment in hyderabad,dermal filler treatment for wrinkles,injectable cheek fillers in hyderabad,dermal fillers cost in hyderabad,best dermal fillers in hyderabad,best dermatologist for dermal fillers treatment,dermal fillers in hyderabad,cheek implants clinics,cheek enlargement in hyderabad,lip fillers cost in hyderabad,cheek-fillers treatment in hyderabad",
     content:
       `<div class="space-y-16">
 
@@ -3012,6 +3092,9 @@ The result of these fillers procedure may vary from patient to patient. They giv
     title: "Crows Feet",
     category: "facial",
     description: "Complete facial renewal for a glowing complexion.",
+    seoTitle: "Crows Feet - Dr Venus",
+    seoDescription: "Crows Feet Treatment in Hyderabad for botox, dermal fillers and chemical peels using laser technology. Also know the causes.",
+    seoKeywords: "crows feet treatment in Hyderabad, best crow's feet treatment, how to get rid of crow's feet without botox, crows feet before and after, how to get rid of crow's feet home remedies, crow's feet when smiling, crow's feet treatment near me, crows feet wrinkles on face, crows feet surgery",
     content:
       `<section class="crows-feet-treatment">
   <h1 class="text-2xl text-green-900">Crows Feet Treatment in Hyderabad</h1>
@@ -3125,6 +3208,9 @@ The result of these fillers procedure may vary from patient to patient. They giv
     title: "Weight Loss Treatment",
     category: "body",
     description: "Medical-guided weight loss programs for lasting results.",
+    seoTitle: "Weight Loss Treatment in Hyderabad | Dr Venus Skin and Hair",
+    seoDescription: "Experience remarkable results with premier weight loss treatment in Hyderabad at Dr. Venus in Hyderabad. Our personalized treatments and expert guidance helps",
+    seoKeywords: "weight loss treatment in hyderabad,weight loss treatment,non-surgical weight loss clinic in hyderabad,weight loss clinic in hyderabad,weight loss programs in hyderabad,weight loss treatment clinic,weight loss specialist,obesity treatment in hyderabad,weight loss surgery cost in hyderabad,weight loss surgery in hyderabad,slimming clinic in hyderabad,weight loss clinics in hyderabad,inch loss treatment in hyderabad,weight loss surgery,weight loss injection  ",
     content:
       `
             <section class="space-y-6">
@@ -3135,9 +3221,9 @@ The result of these fillers procedure may vary from patient to patient. They giv
     <p>
         We excel in providing a reliable solution for weight loss treatment and inch loss through the body contouring program. It is a non-invasive technique that helps in weight and fat reduction. This is done in combination with physical activity, the use of certain appliances and changes in the eating pattern. The appliances comprise of advanced technology which focuses on a specific body part and performs the procedure. All these appliances are US FDA approved and the treatment is done under the supervision of certified slimming therapist in congruence with a physiotherapist and diet counselor.
     </p>
-</section>
+    </section>
 
-<section>
+    <section>
     <h3 class="text-2xl font-serif text-primary mt-4 mb-2">
         Weight loss Treatment Cost in Hyderabad
     </h3>
@@ -3145,9 +3231,9 @@ The result of these fillers procedure may vary from patient to patient. They giv
     <p>
         To know the cost of the Weight loss treatment in hyderabad just drop an inquiry to us mentioning your age, our team will get back to you,
     </p>
-</section>
+    </section>
 
-<section>
+    <section>
     <h3 class="text-2xl font-serif text-primary mt-4 mb-2">
         Weight Loss and Inch Loss Treatment in Hyderabad
     </h3>
@@ -3155,9 +3241,9 @@ The result of these fillers procedure may vary from patient to patient. They giv
     <p>
         The need for being in good physical shape is not just about the appeal but it is also a matter of health in today’s times. Not all cases of weight issues can be treated with regular exercise or diet. Certain cases also require medical intervention and it is here that We have become the extremely popular choice for all. We specialize in designing a comprehensive weight management program based on our standard procedures of assessment of the body composition analysis. It would require an initial phase of counseling.
     </p>
-</section>
+    </section>
 
-<section>
+    <section>
     <h3 class="text-2xl font-serif text-primary mt-4 mb-2">
         Why Choose Us?
     </h3>
@@ -3173,9 +3259,9 @@ The result of these fillers procedure may vary from patient to patient. They giv
     <p class="mt-4">
         The infrastructure and equipment is of the highest standard which adds to the value based treatment.
     </p>
-</section>
+   </section>
 
-<section>
+     <section>
     <h3 class="text-2xl font-serif text-primary mt-8 mt-4 mb-2">
         FAQ’S
     </h3>
@@ -3213,9 +3299,9 @@ The result of these fillers procedure may vary from patient to patient. They giv
         <p><strong>15. When can I appreciate the results of cryolipolysis?</strong> The initial result can be seen after 2-4 weeks, but the full result can be appreciated after 8-12 weeks.</p>
 
     </div>
-</section>
+    </section>
 
-<section>
+     <section>
           <div class="mt-8">
         <a href="/contact" 
         class="inline-block border-2 border-green-600 text-green-600 px-6 py-2 rounded-md hover:bg-green-600 hover:text-white transition">
@@ -3244,3 +3330,11 @@ export const facialTreatments = allTreatments.filter(
 export const bodyTreatments = allTreatments.filter(
   (t) => t.category === "body",
 );
+
+
+
+
+
+
+
+
