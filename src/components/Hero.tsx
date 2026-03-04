@@ -174,7 +174,7 @@ export default function Hero() {
                         <div className="relative z-10 w-full max-w-[720px]">
                             <div className=" overflow-hidden  ">
                                 <img
-                                    src="/logo/hero5.png"
+                                    src="/logo/hex_reveal2.gif"
                                     alt="Dr. Venus Institute – Best Hair and Skin Dermatology Clinic in Hyderabad"
                                     className="w-full object-cover"
                                     loading="eager"
