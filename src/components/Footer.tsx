@@ -2,17 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import {
-  Mail,
-  Phone,
-  Instagram,
-  Facebook,
-  Youtube,
-  Linkedin,
-  ArrowRight,
-  MapPin,
-  Map,
-} from "lucide-react";
+import { Phone, Instagram, Facebook, Youtube, Linkedin, Map } from "lucide-react";
 
 const branches = [
   {
@@ -46,56 +36,55 @@ const branches = [
 ];
 
 const treatmentCategories = [
-    {
-        title: "Skin Care",
-        links: [
-            { name: "Pimple Treatment", href: "/pimple-treatment" },
-            { name: "Wart Removal", href: "/wart-removal" },
-            { name: "Mole Removal", href: "/mole-removal-treatment" },
-            { name: "Acne Scar Removal", href: "/acne-scar-removal-treatment" },
-            { name: "Laser Hair Removal", href: "/laser-hair-removal-treatment" },
-            { name: "Tattoo Removal", href: "/tattoo-removal" },
-            { name: "Skin Lightening", href: "/skin-lightening-treatment" },
-            { name: "Pigmentation Treatment", href: "/pigmentation-treatment" },
-        ]
-    },
-    {
-        title: "Hair & Body",
-        links: [
-            { name: "Hair Transplant", href: "/hair-transplant" },
-            { name: "Beard Hair Transplant", href: "/beard-hair-transplant" },
-            { name: "Moustache Hair Transplant", href: "/moustache-hair-transplant" },
-            { name: "Eyebrow Hair Transplant", href: "/eyebrow-hair-transplant" },
-            { name: "Weight Loss Treatment", href: "/weight-loss-treatment" },
-        ]
-    },
-    {
-        title: "Facial Aesthetics",
-        links: [
-            { name: "Anti Aging Treatment", href: "/anti-aging-treatment" },
-            { name: "Anti-Wrinkle Treatment", href: "/anti-wrinkle-treatment" },
-            { name: "Dermal Fillers", href: "/dermal-fillers" },
-            { name: "Lip Fillers", href: "/lip-fillers" },
-            { name: "Skin Lifting", href: "/skin-lifting-treatment" },
-            { name: "Facial Rejuvenation", href: "/facial-rejuvenation" },
-            { name: "Cheek Fillers", href: "/cheek-fillers" },
-            { name: "Crows Feet", href: "/crows-feet" },
-        ]
-    }
+  {
+    title: "Skin Care",
+    links: [
+      { name: "Pimple Treatment", href: "/pimple-treatment" },
+      { name: "Wart Removal", href: "/wart-removal" },
+      { name: "Mole Removal", href: "/mole-removal-treatment" },
+      { name: "Acne Scar Removal", href: "/acne-scar-removal-treatment" },
+      { name: "Laser Hair Removal", href: "/laser-hair-removal-treatment" },
+      { name: "Tattoo Removal", href: "/tattoo-removal" },
+      { name: "Skin Lightening", href: "/skin-lightening-treatment" },
+      { name: "Pigmentation Treatment", href: "/pigmentation-treatment" },
+    ],
+  },
+  {
+    title: "Hair & Body",
+    links: [
+      { name: "Hair Transplant", href: "/hair-transplant" },
+      { name: "Beard Hair Transplant", href: "/beard-hair-transplant" },
+      { name: "Moustache Hair Transplant", href: "/moustache-hair-transplant" },
+      { name: "Eyebrow Hair Transplant", href: "/eyebrow-hair-transplant" },
+      { name: "Weight Loss Treatment", href: "/weight-loss-treatment" },
+    ],
+  },
+  {
+    title: "Facial Aesthetics",
+    links: [
+      { name: "Anti Aging Treatment", href: "/anti-aging-treatment" },
+      { name: "Anti-Wrinkle Treatment", href: "/anti-wrinkle-treatment" },
+      { name: "Dermal Fillers", href: "/dermal-fillers" },
+      { name: "Lip Fillers", href: "/lip-fillers" },
+      { name: "Skin Lifting", href: "/skin-lifting-treatment" },
+      { name: "Facial Rejuvenation", href: "/facial-rejuvenation" },
+      { name: "Cheek Fillers", href: "/cheek-fillers" },
+      { name: "Crows Feet", href: "/crows-feet" },
+    ],
+  },
 ];
 
 export default function Footer() {
   return (
     <footer className="relative pt-16 md:pt-32 overflow-visible">
       <div className="relative bg-[#0a2e1f] text-white">
-        {/* 1. Floating Overlapping Cards */}
         <div className="relative md:absolute md:top-0 left-0 w-full md:-translate-y-1/2 z-20 pt-16 md:pt-0">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10">
               {branches.map((branch, index) => (
                 <div
                   key={index}
-                  className="bg-[#143d2c] border border-white/5 p-5 md:p-6 rounded-[1.5rem] shadow-[0_20px_40px_-12px_rgba(0,0,0,0.5)] transition-all duration-500  group flex flex-col h-full"
+                  className="bg-[#143d2c] border border-white/5 p-5 md:p-6 rounded-[1.5rem] shadow-[0_20px_40px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 group flex flex-col h-full"
                 >
                   <div className="flex flex-col flex-grow space-y-4">
                     <div className="flex justify-between items-start gap-3">
@@ -134,9 +123,7 @@ export default function Footer() {
                         className="flex items-center gap-2 text-[12px] md:text-[13px] font-bold text-[#64c194] group/link hover:brightness-110 transition-all"
                       >
                         <Map size={14} className="opacity-70" />
-                        <span className="group-hover/link:underline">
-                          View Map
-                        </span>
+                        <span className="group-hover/link:underline">View Map</span>
                       </a>
                     </div>
                   </div>
@@ -146,11 +133,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* 2. Main Navigation Section */}
         <div className="pt-16 md:pt-44 pb-12 px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8 md:gap-16">
-              {/* Column 1: Brand & About */}
               <div className="col-span-2 lg:col-span-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-6">
                 <div className="bg-white p-3.5 rounded-2xl shadow-xl inline-block w-auto">
                   <Image
@@ -158,14 +143,13 @@ export default function Footer() {
                     alt="Dr. Venus Institute"
                     width={130}
                     height={36}
-                    className=" w-auto h-16 object-contain"
+                    className="w-auto h-16 object-contain"
                   />
                 </div>
                 <p className="text-white/50 text-[13px] leading-relaxed font-sans max-w-sm lg:max-w-xs">
-                  Dr. Venus – Institute of Skin & Hair. We are committed to
-                  providing world-class dermatological treatments and advanced
-                  hair restoration with a focus on precision and personalized
-                  care.
+                  Dr. Venus - Institute of Skin & Hair. We are committed to providing
+                  world-class dermatological treatments and advanced hair restoration
+                  with a focus on precision and personalized care.
                 </p>
                 <div className="flex gap-4 pt-2">
                   {[Facebook, Instagram, Youtube, Linkedin].map((Icon, i) => (
@@ -180,7 +164,6 @@ export default function Footer() {
                 </div>
               </div>
 
-              {/* Column 2, 3, 4: Treatment Categories */}
               {treatmentCategories.map((cat, i) => (
                 <div
                   key={i}
@@ -193,12 +176,12 @@ export default function Footer() {
                     className={`${i === 2 ? "grid grid-cols-2 lg:grid-cols-1 gap-x-8 gap-y-3 lg:gap-y-0 lg:space-y-3" : "space-y-3"} w-full`}
                   >
                     {cat.links.map((link) => (
-                      <li key={link}>
+                      <li key={link.name}>
                         <Link
-                          href="#"
+                          href={link.href}
                           className="text-white/50 hover:text-accent text-[13px] md:text-[13px] transition-all duration-300 hover:pl-1 font-sans"
                         >
-                          {link}
+                          {link.name}
                         </Link>
                       </li>
                     ))}
@@ -209,12 +192,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* 4. Bottom Legal Credits */}
         <div className="bg-[#082418] py-8 px-6">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12">
               <p className="text-white/70 text-[10px] uppercase font-bold tracking-[0.2em]">
-                © 2026 Dr. Venus Institute. All Rights Reserved.
+                (c) 2026 Dr. Venus Institute. All Rights Reserved.
               </p>
               <div className="flex gap-8">
                 <Link
@@ -232,15 +214,12 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center gap-2 text-white text-[12px] uppercase font-bold tracking-[0.2em]">
-              <span className="opacity-60 lowercase font-normal italic">
-                Powered by
-              </span>
+              <span className="opacity-60 lowercase font-normal italic">Powered by</span>
               <span className="text-accent/60 cursor-pointer">Conquerors</span>
             </div>
           </div>
         </div>
 
-        {/* Subtle Gradient Glow */}
         <div className="absolute bottom-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_100%,rgba(197,160,89,0.05),transparent_50%)] pointer-events-none"></div>
       </div>
     </footer>
