@@ -78,14 +78,14 @@ const doctors = [
 
 export default function DoctorsProfilePage() {
     return (
-        <main className="pt-32 pb-24 bg-[#f8faf9]">
+        <main className="pt-22 pb-24 bg-[#f8faf9]">
             {/* ── Header Band ── */}
             <div className="w-full bg-[#f0f4f2] border-b border-primary/5 mb-10">
-                <div className="max-w-7xl mx-auto px-6 py-10 text-center">
+                <div className="max-w-7xl mx-auto px-6 lg:py-10 py-4 text-center">
                     <span className="text-accent font-bold uppercase tracking-[0.3em] text-[10px] mb-2 block">Medical Team</span>
                     <h1 className="text-3xl md:text-4xl font-serif text-primary mb-4">Expert Specialists</h1>
                     <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
-                    <p className="max-w-2xl mx-auto text-foreground/70 text-base font-sans leading-relaxed">
+                    <p className="max-w-2xl mx-auto text-foreground/70 lg:text-base text-sm font-sans leading-relaxed">
                         Our clinic is led by highly qualified and experienced medical professionals dedicated to bringing you the best in aesthetic and clinical dermatology.
                     </p>
                 </div>

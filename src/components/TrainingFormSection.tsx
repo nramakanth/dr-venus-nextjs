@@ -96,11 +96,11 @@ export default function TrainingFormSection() {
     };
 
     return (
-        <section className="pt-32 bg-white overflow-hidden">
+        <section className="pt-22 bg-white overflow-hidden">
             <div className="w-full bg-[#f0f4f2] border-b border-primary/5">
-                <div className="max-w-7xl mx-auto px-6 py-16 text-center">
+                <div className="max-w-7xl mx-auto px-6 py-10 text-center">
                     
-                    <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">Enquiry Form</h1>
+                    <h1 className="text-4xl md:text-5xl font-serif text-primary mt-4 mb-4">Enquiry Form</h1>
                     <div className="w-24 h-1 bg-accent mx-auto"></div>
                     <p className="mt-6 text-foreground/70 max-w-2xl mx-auto font-sans">
                         Join our advanced dermatology and cosmetology training programs. Please share your professional details below.
@@ -323,8 +323,8 @@ export default function TrainingFormSection() {
             </div>
 
             {/* Maps Section */}
-            <div className="bg-[#f0f4f2] mt-16">
-                <div className="max-w-7xl mx-auto px-6 py-20">
+            <div className="bg-[#f0f4f2] mt-8">
+                <div className="max-w-7xl mx-auto px-6 py-10">
                     <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
                         <div>
                             <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Find Us</span>

@@ -99,12 +99,12 @@ export default function AppointmentFormSection() {
     };
 
     return (
-        <section className="pt-32 bg-white overflow-hidden">
+        <section className="pt-22 bg-white overflow-hidden">
 
             {/* ── Full-Width Header Band ── */}
             <div className="w-full bg-[#f0f4f2] border-b border-primary/5">
-                <div className="max-w-7xl mx-auto px-6 py-16 text-center">
-                    <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Reservation</span>
+                <div className="max-w-7xl mx-auto px-6 py-10 text-center">
+                    <span className="text-accent font-bold uppercase tracking-[0.3em] text-xs mb-3 mt-4 block">Reservation</span>
                     <h1 className="text-4xl md:text-5xl font-serif text-primary mb-4">Book Your Appointment</h1>
                     <div className="w-24 h-1 bg-accent mx-auto"></div>
                     <p className="mt-6 text-foreground/70 max-w-2xl mx-auto font-sans">
@@ -199,32 +199,48 @@ export default function AppointmentFormSection() {
                                 </div>
 
                                 {/* Row 4: CAPTCHA */}
-                                <div className="space-y-2">
+                                <div className="space-y-3">
                                     <label className="text-[11px] font-bold uppercase tracking-wider text-primary ml-1 flex items-center gap-2">
-                                        <ChevronRight size={12} className="text-accent" /> Verify You&apos;re Human
+                                        <ChevronRight size={12} className="text-accent" />
+                                        Verify You&apos;re Human
                                     </label>
-                                    <div className="flex items-center gap-4">
-                                        <div className="flex-shrink-0 bg-primary/8 border border-primary/10 rounded-2xl px-6 py-4 flex items-center gap-3">
-                                            <span className="font-mono font-bold text-primary text-lg tracking-widest select-none">
+
+                                    <div className="flex gap-4">
+
+                                      
+                                        <div className="w-1/2 h-14 flex items-center justify-center
+                                        bg-white border border-primary/20
+                                         rounded-2xl">
+                                            <span className="font-mono font-semibold text-primary text-base tracking-normal">
                                                 {captcha.a} + {captcha.b} = ?
                                             </span>
                                         </div>
+
+                                     
                                         <input
-                                            type="number" name="captchaInput" required
+                                            type="number"
+                                            name="captchaInput"
+                                            required
                                             placeholder="Answer"
-                                            className={`flex-1 px-5 py-3 bg-white border rounded-2xl focus:outline-none focus:ring-2 transition-all font-sans ${captchaError
-                                                ? "border-red-400 focus:ring-red-200"
-                                                : "border-primary/20 focus:ring-accent/20 focus:border-accent"
+                                            className={`w-1/2 h-14 text-center
+                                                  bg-white border rounded-2xl
+                                                  focus:outline-none focus:ring-2 transition-all
+                                                  ${captchaError
+                                                    ? "border-red-400 focus:ring-red-200"
+                                                    : "border-primary/20 focus:ring-accent/20 focus:border-accent"
                                                 }`}
                                             onChange={handleChange}
                                         />
+
                                     </div>
+
                                     {captchaError && (
-                                        <p className="text-red-500 text-xs ml-1 mt-1">Incorrect answer. Please try again.</p>
+                                        <p className="text-red-500 text-xs ml-1">
+                                            Incorrect answer. Please try again.
+                                        </p>
                                     )}
                                 </div>
-
-                                {/* Submit */}
+                                
                                 <button
                                     type="submit"
                                     className="w-full bg-primary text-white font-bold py-5 rounded-2xl shadow-lg hover:bg-primary/90 transition-all transform hover:-translate-y-1 active:scale-[0.98] flex items-center justify-center gap-2 group"
@@ -292,8 +308,8 @@ export default function AppointmentFormSection() {
 
             </div>
             {/* ── Maps Section ── */}
-            <div className="bg-[#f0f4f2] mt-16">
-                <div className="max-w-7xl mx-auto px-6 py-20">
+            <div className="bg-[#f0f4f2] mt-8">
+                <div className="max-w-7xl mx-auto px-6 py-10">
 
                     {/* Header */}
                     <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">

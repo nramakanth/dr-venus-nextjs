@@ -46,42 +46,42 @@ const branches = [
 ];
 
 const treatmentCategories = [
-  {
-    title: "Skin Care",
-    links: [
-      "Pimple Treatment",
-      "Wart Removal",
-      "Mole Removal",
-      "Acne Scar Removal",
-      "Laser Hair Removal",
-      "Tattoo Removal",
-      "Skin Lightening",
-      "Pigmentation Treatment",
-    ],
-  },
-  {
-    title: "Hair & Body",
-    links: [
-      "Hair Transplant",
-      "Beard Hair Transplant",
-      "Moustache Hair Transplant",
-      "Eyebrow Hair Transplant",
-      "Weight Loss Treatment",
-    ],
-  },
-  {
-    title: "Facial Aesthetics",
-    links: [
-      "Anti Aging Treatment",
-      "Anti-Wrinkle Treatment",
-      "Dermal Fillers",
-      "Lip Fillers",
-      "Skin Lifting",
-      "Facial Rejuvenation",
-      "Cheek Fillers",
-      "Crows Feet",
-    ],
-  },
+    {
+        title: "Skin Care",
+        links: [
+            { name: "Pimple Treatment", href: "/pimple-treatment" },
+            { name: "Wart Removal", href: "/wart-removal" },
+            { name: "Mole Removal", href: "/mole-removal-treatment" },
+            { name: "Acne Scar Removal", href: "/acne-scar-removal-treatment" },
+            { name: "Laser Hair Removal", href: "/laser-hair-removal-treatment" },
+            { name: "Tattoo Removal", href: "/tattoo-removal" },
+            { name: "Skin Lightening", href: "/skin-lightening-treatment" },
+            { name: "Pigmentation Treatment", href: "/pigmentation-treatment" },
+        ]
+    },
+    {
+        title: "Hair & Body",
+        links: [
+            { name: "Hair Transplant", href: "/hair-transplant" },
+            { name: "Beard Hair Transplant", href: "/beard-hair-transplant" },
+            { name: "Moustache Hair Transplant", href: "/moustache-hair-transplant" },
+            { name: "Eyebrow Hair Transplant", href: "/eyebrow-hair-transplant" },
+            { name: "Weight Loss Treatment", href: "/weight-loss-treatment" },
+        ]
+    },
+    {
+        title: "Facial Aesthetics",
+        links: [
+            { name: "Anti Aging Treatment", href: "/anti-aging-treatment" },
+            { name: "Anti-Wrinkle Treatment", href: "/anti-wrinkle-treatment" },
+            { name: "Dermal Fillers", href: "/dermal-fillers" },
+            { name: "Lip Fillers", href: "/lip-fillers" },
+            { name: "Skin Lifting", href: "/skin-lifting-treatment" },
+            { name: "Facial Rejuvenation", href: "/facial-rejuvenation" },
+            { name: "Cheek Fillers", href: "/cheek-fillers" },
+            { name: "Crows Feet", href: "/crows-feet" },
+        ]
+    }
 ];
 
 export default function Footer() {
